@@ -143,7 +143,7 @@
                     this.logs += data;
                     let splt = this.logs.split('\n');
                     // remove empty
-                    for (let i = splt.length-1; i >= 0; i--) {
+                    for (let i = splt.length-2; i >= 0; i--) {
                         if (!splt[i]){
                             splt.splice(i, 1);
                         }
