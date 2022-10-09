@@ -18,6 +18,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
     {
+      "vendor": "Aoycocr",
+      "name": "Aoycocr U3 UK Smart Plug",
+      "board": "WB3",
+      "pins": {
+        "7": "Relay;1",
+        "1": "LED_n;1",
+        "8": "Button;1"
+      }      
+      "image": "https://obrazki.elektroda.pl/2852136700_1665152530.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3924817.html"
+    },
+    {
       "vendor": "Magic Home",
       "name": "LED RGB IR Strip",
       "chip": "BL602",
