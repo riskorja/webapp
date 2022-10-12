@@ -125,6 +125,7 @@
   </div>
 </form>
 <p id="demo"></p>
+<h6 id="g_state">Table is loading.</h6>
 <table class="table table-image">
   <thead>
     <tr>
@@ -178,7 +179,9 @@ function refreshJSON(json) {
   var filter_XR809 = document.getElementById("filter_XR809").checked;
   var filter_BL602 = document.getElementById("filter_BL602").checked;
   var filter_detailed = document.getElementById("filter_detailed").checked;
+  var g_state = document.getElementById("g_state");
   
+  var cnt = 0;
   var tableBody = document.getElementById("tableBody");
   tableBody.innerHTML = '';
 	var arrayLength = json.devices.length;
@@ -223,9 +226,9 @@ function refreshJSON(json) {
 			// only show detailed articles
 			if(wiki == null)
 				continue;
-			if(wiki.lenght == null)
+			if(wiki.length == null)
 				continue;
-			if(bDetailed != 0 && bDetailed == "0")
+			if(bDetailed != null && bDetailed == "0")
 				continue;
 		}
 		if(filter_BL602 == false)
@@ -280,7 +283,7 @@ function refreshJSON(json) {
 		a.innerHTML = name;
 		td1.appendChild(img);
 		
-		th.innerHTML = i;
+		th.innerHTML = cnt;
 		td1.class = "w-25";
 		img.class = "img-fluid img-thumbnail";
 		img.width = 200;
@@ -296,7 +299,9 @@ function refreshJSON(json) {
 		tr.appendChild(td5);
 
 		tableBody.appendChild(tr);
+		cnt++;
 	}
+	g_state.innerHTML = "Showing " + cnt + " out of " +arrayLength +" devices.";
   //document.getElementById("demo").innerHTML = s;
 
 }
