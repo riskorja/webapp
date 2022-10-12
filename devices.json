@@ -144,6 +144,16 @@
     },
 
     {
+      "vendor": "Hama",
+      "name": "Hama light bulb, Item No.: 00176583.",
+      "chip": "BK7231T",
+      "board": "WBLC5",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/2114413500_1644162876_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19868255#19868255"
+    },
+    {
       "vendor": "Nous",
       "name": "Bulb P3-A60-RGB-CCT (CB2L + BP5758)",
       "chip": "BK7231N",
@@ -200,7 +210,7 @@
         "6": "PWM;4",
         "24": "PWM;5"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/2040976900_1665557370.png",
       "wiki": "",
       "product": "https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695"
     },
@@ -210,6 +220,7 @@
       "name": "CCT LED Downlight",
       "model": "SMART-AL2017-TGTS",
       "chip": "BK7231T",
+      "board": "WB2L",
       "pins": {
         "7": "PWM;0",
         "8": "PWM;1"
@@ -221,7 +232,7 @@
 
     {
       "vendor": "Nedis",
-      "name": "SmartPlug 16A",
+      "name": "WIFIPO120FWT SmartPlug 16A",
       "model": "WIFIPO120FWT",
       "chip": "BK7231T",
       "pins": {
@@ -229,13 +240,13 @@
         "10": "Button;1",
         "26": "Relay_n;1"
       },
-      "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
+      "image": "https://obrazki.elektroda.pl/7110486000_1665557486.png",
+      "wiki": ""
     },
 
     {
       "vendor": "Nedis",
-      "name": "SmartPlug 10A",
+      "name": "WIFIP130FWT SmartPlug 10A",
       "model": "WIFIP130FWT",
       "chip": "BK7231T",
       "pins": {
@@ -243,13 +254,13 @@
         "10": "Button;1",
         "26": "Relay;1"
       },
-      "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
+      "image": "https://obrazki.elektroda.pl/8986134700_1665557531.png",
+      "wiki": ""
     },
 
     {
       "vendor": "Emax",
-      "name": "Home SmartPlug 16A",
+      "name": "EDU8774 Home SmartPlug 16A",
       "model": "EDU8774",
       "chip": "BK7231T",
       "pins": {
@@ -257,13 +268,13 @@
         "24": "LED_n;1",
         "26": "Relay;1"
       },
-      "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
+      "image": "https://obrazki.elektroda.pl/2645420200_1665557641.png",
+      "wiki": ""
     },
 
     {
       "vendor": "ELIVCO",
-      "name": "Power metering plug BL0942 version",
+      "name": "LSPA9 Power metering plug BL0942 version",
       "model": "LSPA9",
       "chip": "BK7231N",
       "board": "CB2S",
@@ -310,9 +321,22 @@
     },
     {
       "vendor": "QiaChip",
-      "name": "Smart Switch",
-      "chip": "BK7231N",
+      "name": "QiaChip Smart Switch (N version)",
+      "chip": "BK7231T",
       "board": "CB2S",
+      "pins": {
+        "7": "Button;1",
+        "6": "Relay_n;1",
+        "10": "LED;1"
+      },
+      "image": "https://obrazki.elektroda.pl/1094134100_1644544710.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3874289"
+    },
+    {
+      "vendor": "QiaChip",
+      "name": "QiaChip Smart Switch (T version)",
+      "chip": "BK7231T",
+      "board": "WB2S",
       "pins": {
         "7": "Button;1",
         "8": "Relay;1"
@@ -331,27 +355,14 @@
         "26": "Button;1"
       },
       "flag": 6,
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/1654490200_1665557728.png",
       "wiki": ""
     },
 
-    {
-      "vendor": "QiaChip",
-      "name": "Smart Switch",
-      "chip": "BK7231T",
-      "board": "WB2S",
-      "pins": {
-        "7": "Button;1",
-        "6": "Relay_n;1",
-        "10": "LED;1"
-      },
-      "image": "https://obrazki.elektroda.pl/1094134100_1644544710.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3874289"
-    },
 
     {
       "vendor": "Prime",
-      "name": "SmartOutlet Outdoor 2x Costco",
+      "name": "CCWFIO232PK SmartOutlet Outdoor 2x Costco",
       "model": "CCWFIO232PK",
       "chip": "BK7231T",
       "pins": {
@@ -367,7 +378,7 @@
 
     {
       "vendor": "Tuya",
-      "name": "Smart",
+      "name": "Smart PFW02-G",
       "model": "PFW02-G",
       "chip": "BK7231T",
       "pins": {
@@ -375,7 +386,7 @@
         "26": "Button;1",
         "7": "LED;1"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/3561611400_1665557913.png",
       "wiki": "",
       "product": "https://www.tokmanni.fi/alypistorasia-home-connect-ip20-6419860720456"
     },
@@ -393,7 +404,7 @@
         "9": "Button;2",
         "14": "Button;3"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/9155260200_1665557976.png",
       "wiki": ""
     },
 
@@ -432,7 +443,7 @@
     },
 
     {
-      "vendor": "DS-102",
+      "vendor": "DS-101",
       "name": "1 Gang Switch",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -480,7 +491,7 @@
     },
 
     {
-      "vendor": "DS-102",
+      "vendor": "DS-103",
       "name": "3 Gang Switch",
       "chip": "BK7231T",
       "board": "WB3S",
