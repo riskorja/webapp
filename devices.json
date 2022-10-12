@@ -8,7 +8,7 @@
       "model": "ZN268131",
       "chip": "BK7231T",
       "board": "WB2S",
-      "keywords": ["switch","relay"],
+      "keywords": ["switch","relay","AP8506"],
       "pins": {
         "6": "Relay;1",
         "7": "WifiLED_n;1",
@@ -43,7 +43,7 @@
         "3": "PWM;1",
         "21": "PWM;2"
       },
-      "keywords": ["RGB", "strip"],
+      "keywords": ["RGB", "strip","IR"],
       "image": "https://obrazki.elektroda.pl/3591447000_1647901952.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3881416.html"
     },
@@ -85,7 +85,7 @@
         "9": "PWM;4",
         "6": "PWM;5"
       },
-      "keywords": ["RGBCW"],
+      "keywords": ["RGBCW","BP2516","BP2525"],
       "image": "https://obrazki.elektroda.pl/3677969500_1656658303_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3903356.html"
     },
@@ -129,7 +129,7 @@
         "7": "Relay;1",
         "26": "Button;1"
       },
-      "keywords": ["switch","relay"],
+      "keywords": ["switch","relay","SM7033P","SM-S-112DM1"],
       "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
     },
@@ -150,7 +150,7 @@
         "24": "Relay;3",
         "26": "Relay;4"
       },
-      "keywords": ["switch","relay"],
+      "keywords": ["switch","relay","DIN rail","SHS-32F","MB10S","HX5923"],
       "image": "https://obrazki.elektroda.pl/6864388200_1628112812.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3822484.html"
     },
@@ -165,7 +165,7 @@
         "24": "SM2135_DAT;1",
         "26": "SM2135_CLK;2"
       },
-      "keywords": ["RGBCW","SPECTRUM", "GU10", "5W"],
+      "keywords": ["RGBCW","SPECTRUM", "GU10", "5W","SM2135"],
       "image": "https://obrazki.elektroda.pl/9055969600_1657790488_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3906898.html"
     },
