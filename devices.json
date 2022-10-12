@@ -160,6 +160,19 @@
     },
 	
     {
+      "vendor": "SHOP",
+      "name": "SHOP/4/HO/CCT/AG",
+      "chip": "BK7231T",
+	  "board": "WB2L",
+      "pins": {
+        "7": "PWM;1",
+        "8": "PWM;2"
+      },
+      "keywords": ["NEMA 5-15P","Light", "CCT ", "Costco", "BP5929", "BP5012", "JW1606", "BP2525", "SVF4N65F", "CRJF380N65G2"],
+      "image": "https://obrazki.elektroda.pl/2334003400_1661285012_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3914634.html"
+    },
+    {
       "vendor": "LSC",
       "name": "LSC Smart Ceiling Light RGBCW - CB2S (BK7231N)",
       "chip": "BK7231N",
@@ -708,8 +721,36 @@
     },
 
     {
+      "vendor": "Globe",
+      "name": "Globe Electric Smart Ambient Light Wifi rgbcw 50239",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "26": "PWM;3",
+        "24": "PWM;2",
+        "6": "PWM;5",
+        "8": "PWM;4",
+        "9": "PWM;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4688188200_1662842701_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3918605.html"
+    },
+    {
+      "vendor": "Feit",
+      "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: PLUG/WIFI/WP",
+      "chip": "BK7231T",
+      "board": "on PCB",
+      "pins": {
+        "7": "LED_n;1",
+        "26": "Button;1",
+        "24": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/1236161800_1662332912_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3917330.html"
+    },
+    {
       "vendor": "Aubess",
-      "name": "Mini Smart Switch 16A",
+      "name": "Aubess Mini Smart Switch 16A",
       "chip": "BK7231N",
       "pins": {
         "6": "LED_n;1",
