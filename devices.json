@@ -20,6 +20,7 @@
     {
       "vendor": "Aoycocr",
       "name": "Aoycocr U3 UK Smart Plug",
+      "chip": "BK7231T",
       "board": "WB3",
       "pins": {
         "7": "Relay;1",
@@ -57,6 +58,7 @@
       "vendor": "Tuya",
       "name": "SmartSwitch SW01 16A",
       "chip": "BK7231T",
+      "board": "WB2S",
       "pins": {
         "7": "Relay;1",
         "26": "Button;1"
@@ -68,6 +70,7 @@
     {
       "vendor": "Tuya",
       "name": "SmartLife 4CH 10A",
+      "board": "WB3S",
       "chip": "BK7231T",
       "pins": {
         "7": "Button;1",
@@ -87,6 +90,7 @@
       "vendor": "Tuya",
       "name": "E27 LED RGBCW 5PWMs",
       "chip": "BK7231N",
+	  "board": "XH-0068A",
       "pins": {
         "26": "PWM;1",
         "8": "PWM;2",
@@ -101,6 +105,7 @@
     {
       "vendor": "Intelligent Life",
       "name": "NF101A",
+	  "board": "WB2S",
       "chip": "BK7231T",
       "pins": {
         "24": "Relay;1",
@@ -142,6 +147,7 @@
       "vendor": "Nous",
       "name": "Bulb P3-A60-RGB-CCT (CB2L + BP5758)",
       "chip": "BK7231N",
+      "board": "CB2L",
       "pins": {
         "7": "BP5758D_CLK;0",
         "8": "BP5758D_DAT;0"
@@ -153,6 +159,7 @@
       "vendor": "Calex",
       "name": "UK power strip 900018.1 v1.0 UK",
       "chip": "BK7231T",
+      "board": "WB3S",
       "pins": {
         "6": "Relay;5",
         "7": "Relay;2",
