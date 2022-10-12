@@ -623,6 +623,18 @@
     },
 
     {
+      "vendor": "Tuya",
+      "name": "TH06 themometer calendar SKUH77374",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/5199588700_1626964930_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3819498.html",
+      "command": ""
+    },
+    {
       "vendor": "AVATTO",
       "name": "Tuya W06 Water Sensor",
       "chip": "BK7231N",
@@ -632,6 +644,28 @@
       "image": "https://obrazki.elektroda.pl/9412782200_1660417605.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3914412.html",
       "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 ReadOnly; linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
+    },
+    {
+      "vendor": "Aqara",
+      "name": "Zigbee Door/Window Sensor MCCGQ11LM",
+      "model": "MCCGQ11LM",
+      "chip": "JN5169",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/8432159400_1613311324_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3805186.html",
+      "product": ""
+    },
+    {
+      "vendor": "Aqara",
+      "name": "Zigbee Temperature/Pressure/Humidity Sensor WSDCGQ11LM",
+      "model": "WSDCGQ11LM",
+      "chip": "JN5169",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/3872534700_1613399524_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3791330.html",
+      "product": ""
     },
     {
       "vendor": "Aubess",
