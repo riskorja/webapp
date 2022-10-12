@@ -648,7 +648,7 @@
         "24": "BL0937SEL;0",
         "26": "Relay;1"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/1064078600_1665558139.png",
       "wiki": "",
       "product": "https://www.aubess.net/products/aubess-tuya-wifi-smart-socket-16a-work-with-alexa-google-home-yandex"
     },
@@ -670,7 +670,7 @@
         "24": "WifiLED;1",
         "26": "Relay;4"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/6472286600_1665558182.png",
       "wiki": "",
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
     },
@@ -731,6 +731,19 @@
       },
       "image": "https://obrazki.elektroda.pl/3865240000_1655212016.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3900145&highlight="
+    },
+    {
+      "vendor": "C37",
+      "name": "RGB+CW C37 Lamp Tuya WBLC9 (BK7231T) + BP1658 ",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WBLC9",
+      "pins": {
+        "24": "BP1658CJ_DAT;1",
+        "26": "BP1658CJ_CLK;1"
+      },
+      "image": "https://static.elektroda.pl/attach/msg1652874704-36669_1801977.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3925796.html"
     },
     {
       "vendor": "Taloya",
