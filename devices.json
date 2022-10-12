@@ -7,7 +7,7 @@
       "model": "ZN268131",
       "chip": "BK7231T",
       "board": "WB2S",
-      "keywords": ["switch"],
+      "keywords": ["switch","relay"],
       "pins": {
         "6": "Relay;1",
         "7": "WifiLED_n;1",
@@ -27,6 +27,7 @@
         "1": "LED_n;1",
         "8": "Button;1"
       },      
+      "keywords": ["switch","relay"],
       "image": "https://obrazki.elektroda.pl/2852136700_1665152530.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3924817.html"
     },
@@ -39,10 +40,65 @@
         "3": "PWM;1",
         "21": "PWM;2"
       },
+      "keywords": ["RGB", "strip"],
       "image": "https://obrazki.elektroda.pl/3591447000_1647901952.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3881416.html"
     },
     
+    {
+      "vendor": "HomeMate",
+      "name": "HomeMate Wi-Fi + Bluetooth Smart 4 Gang Touch Switch",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["ULN2003A","HLK-PM01L","ATTINY1616","TuyaMCU"],
+      "image": "https://obrazki.elektroda.pl/3724601400_1657910301_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3903356.html"
+    },
+    {
+      "vendor": "TEQOOZ",
+      "name": "Tuya 5 Speed Fan Controller by TEQOOZ",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["ULN2003A","TuyaMCU"],
+      "image": "https://obrazki.elektroda.pl/1756842900_1658635521_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3908093.html"
+    },
+    {
+      "vendor": "Tuya",
+      "name": "Tuya LED RGBCW E27 18W WB2L_M1",
+      "chip": "BK7231N",
+      "board": "WB2L_M1",
+      "pins": {
+        "26": "PWM;1",
+        "8": "PWM;2",
+        "7": "PWM;3",
+        "9": "PWM;4",
+        "6": "PWM;5"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/3677969500_1656658303_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3903356.html"
+    },
+    {
+      "vendor": "Tuya",
+      "name": "Tuya LED RGBCW E14 9W WB2L_M1",
+      "chip": "BK7231N",
+      "board": "WB2L_M1",
+      "pins": {
+        "26": "PWM;1",
+        "8": "PWM;2",
+        "7": "PWM;3",
+        "9": "PWM;4",
+        "6": "PWM;5"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/8919575700_1656658273_thumb.jpgg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3903356.html"
+    },
     {
       "vendor": "Magic Home",
       "name": "LED CCT Strip",
@@ -50,6 +106,7 @@
       "pins": {
         "20": "PWM;1"
       },
+      "keywords": ["CCT", "strip"],
       "image": "https://obrazki.elektroda.pl/3786509100_1650998928.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3889041.html#19999397"
     },
@@ -63,6 +120,7 @@
         "7": "Relay;1",
         "26": "Button;1"
       },
+      "keywords": ["switch","relay"],
       "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
     },
@@ -82,10 +140,41 @@
         "24": "Relay;3",
         "26": "Relay;4"
       },
+      "keywords": ["switch","relay"],
       "image": "https://obrazki.elektroda.pl/6864388200_1628112812.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3822484.html"
     },
 
+    {
+      "vendor": "SPECTRUM",
+      "name": "WiFi LED RGBCW WOJ14415 with SM2135 GU10 5W",
+      "chip": "BK7231T",
+	  "board": "WBLC5",
+      "pins": {
+        "24": "SM2135_DAT;1",
+        "26": "SM2135_CLK;2"
+      },
+      "keywords": ["RGBCW","SPECTRUM", "GU10", "5W"],
+      "image": "https://obrazki.elektroda.pl/9055969600_1657790488_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3906898.html"
+    },
+	
+    {
+      "vendor": "LSC",
+      "name": "LSC Smart Ceiling Light RGBCW - CB2S (BK7231N)",
+      "chip": "BK7231N",
+	  "board": "CB2S",
+      "pins": {
+        "6": "PWM;1",
+        "7": "PWM;2",
+        "8": "PWM;3",
+        "24": "PWM;4",
+        "26": "PWM;5"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/2495987200_1659094487_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3909154.html"
+    },
     {
       "vendor": "Tuya",
       "name": "E27 LED RGBCW 5PWMs",
@@ -98,6 +187,7 @@
         "9": "PWM;4",
         "6": "PWM;5"
       },
+      "keywords": ["RGBCW"],
       "image": "https://obrazki.elektroda.pl/1632162600_1647560633.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3880540.html"
     },
@@ -111,6 +201,7 @@
         "24": "Relay;1",
         "6": "Button;1"
       },
+      "keywords": ["switch","relay"],
       "image": "https://obrazki.elektroda.pl/8055479400_1637246842.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3851807.html#19743751"
     },
@@ -124,6 +215,7 @@
         "8": "PWM;1",
         "1": "Button;1"
       },
+      "keywords": ["single color"],
       "image": "https://obrazki.elektroda.pl/6506291700_1618394268.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3798114.html"
     },
@@ -150,8 +242,33 @@
       "board": "WBLC5",
       "pins": {
       },
+      "keywords": ["RGBCW"],
       "image": "https://obrazki.elektroda.pl/2114413500_1644162876_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19868255#19868255"
+    },
+    {
+      "vendor": "Tuya",
+      "name": "Tuya 4CH touch switch 10A",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["switch","TuyaMCU"],
+      "image": "https://obrazki.elektroda.pl/3475538400_1657825529_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3907478.html"
+    },
+    {
+      "vendor": "Feit",
+      "name": "Feit OM60/RGB/CA/AG/3 bulb",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "pins": {
+        "7": "BP5758D_CLK;0",
+        "8": "BP5758D_DAT;0"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/9074911700_1658371428_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3907478.html"
     },
     {
       "vendor": "Nous",
@@ -162,6 +279,7 @@
         "7": "BP5758D_CLK;0",
         "8": "BP5758D_DAT;0"
       },
+      "keywords": ["RGBCW"],
       "image": "https://obrazki.elektroda.pl/8257876800_1662741933.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3918447&highlight="
     },
@@ -543,6 +661,21 @@
       "wiki": ""
     },
 
+    {
+      "vendor": "OKOS",
+      "name": "OKOS 1 Gang WiFi Smart Light",
+      "model": "OKOS 1 Gang WiFi Smart Light",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "Rel;1",
+        "8": "TglChanOnTgl;1",
+        "9": "LED;1",
+        "26": "Button;1"
+      },
+      "image": "https://obrazki.elektroda.pl/6601619200_1660013813_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3911356.html"
+    },
     {
       "vendor": "Enbrighten",
       "name": "WiFi Switch",
