@@ -789,7 +789,7 @@
       "name": "Tuya Smart High Power Switch for Boiler Water Heater 20A 4400W",
       "chip": "BK2731N",
       "bDetailed": "1",
-      "chip": "CB3S",
+      "board": "CB3S",
       "pins": {
         "6": "Relay;1",
         "7": "LED;1",
