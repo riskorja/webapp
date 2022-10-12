@@ -3,6 +3,7 @@
   "devices": [
     {
       "vendor": "Generic",
+      "bDetailed": "1",
       "name": "WiFi DIY Switch",
       "model": "ZN268131",
       "chip": "BK7231T",
@@ -19,6 +20,7 @@
     },
     {
       "vendor": "Aoycocr",
+      "bDetailed": "1",
       "name": "Aoycocr U3 UK Smart Plug",
       "chip": "BK7231T",
       "board": "WB3",
@@ -33,6 +35,7 @@
     },
     {
       "vendor": "Magic Home",
+      "bDetailed": "1",
       "name": "LED RGB IR Strip",
       "chip": "BL602",
       "pins": {
@@ -47,6 +50,7 @@
     
     {
       "vendor": "HomeMate",
+      "bDetailed": "1",
       "name": "HomeMate Wi-Fi + Bluetooth Smart 4 Gang Touch Switch",
       "chip": "BK7231N",
       "board": "CB3S",
@@ -54,10 +58,11 @@
       },
       "keywords": ["ULN2003A","HLK-PM01L","ATTINY1616","TuyaMCU"],
       "image": "https://obrazki.elektroda.pl/3724601400_1657910301_thumb.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3903356.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3906443.html"
     },
     {
       "vendor": "TEQOOZ",
+      "bDetailed": "1",
       "name": "Tuya 5 Speed Fan Controller by TEQOOZ",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -69,6 +74,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "Tuya LED RGBCW E27 18W WB2L_M1",
       "chip": "BK7231N",
       "board": "WB2L_M1",
@@ -85,6 +91,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "Tuya LED RGBCW E14 9W WB2L_M1",
       "chip": "BK7231N",
       "board": "WB2L_M1",
@@ -101,6 +108,7 @@
     },
     {
       "vendor": "Magic Home",
+      "bDetailed": "0",
       "name": "LED CCT Strip",
       "chip": "BL602",
       "pins": {
@@ -113,6 +121,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "SmartSwitch SW01 16A",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -127,6 +136,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "SmartLife 4CH 10A",
       "board": "WB3S",
       "chip": "BK7231T",
@@ -147,6 +157,7 @@
 
     {
       "vendor": "SPECTRUM",
+      "bDetailed": "1",
       "name": "WiFi LED RGBCW WOJ14415 with SM2135 GU10 5W",
       "chip": "BK7231T",
 	  "board": "WBLC5",
@@ -161,6 +172,7 @@
 	
     {
       "vendor": "SHOP",
+      "bDetailed": "1",
       "name": "SHOP/4/HO/CCT/AG",
       "chip": "BK7231T",
 	  "board": "WB2L",
@@ -174,6 +186,7 @@
     },
     {
       "vendor": "LSC",
+      "bDetailed": "1",
       "name": "LSC Smart Ceiling Light RGBCW - CB2S (BK7231N)",
       "chip": "BK7231N",
 	  "board": "CB2S",
@@ -190,6 +203,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "E27 LED RGBCW 5PWMs",
       "chip": "BK7231N",
 	  "board": "XH-0068A",
@@ -207,6 +221,7 @@
 
     {
       "vendor": "Intelligent Life",
+      "bDetailed": "1",
       "name": "NF101A",
 	  "board": "WB2S",
       "chip": "BK7231T",
@@ -221,6 +236,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "LED Dimmer Single Channel PWM",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -235,6 +251,7 @@
 
     {
       "vendor": "Calex",
+      "bDetailed": "0",
       "name": "RGBWW LED Dimmer Five Channel PWM",
       "chip": "BK7231S",
       "pins": {
@@ -250,6 +267,7 @@
 
     {
       "vendor": "Hama",
+      "bDetailed": "0",
       "name": "Hama light bulb, Item No.: 00176583.",
       "chip": "BK7231T",
       "board": "WBLC5",
@@ -261,6 +279,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "Tuya 4CH touch switch 10A",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -268,10 +287,11 @@
       },
       "keywords": ["switch","TuyaMCU"],
       "image": "https://obrazki.elektroda.pl/3475538400_1657825529_thumb.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3907478.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3906295.html"
     },
     {
       "vendor": "Feit",
+      "bDetailed": "1",
       "name": "Feit OM60/RGB/CA/AG/3 bulb",
       "chip": "BK7231N",
       "board": "on PCB",
@@ -285,6 +305,7 @@
     },
     {
       "vendor": "Nous",
+      "bDetailed": "1",
       "name": "Bulb P3-A60-RGB-CCT (CB2L + BP5758)",
       "chip": "BK7231N",
       "board": "CB2L",
@@ -298,6 +319,7 @@
     },
     {
       "vendor": "Calex",
+      "bDetailed": "0",
       "name": "UK power strip 900018.1 v1.0 UK",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -317,6 +339,7 @@
 
     {
       "vendor": "Arlec",
+      "bDetailed": "0",
       "name": "CCT LED Downlight",
       "model": "ALD029CHA",
       "chip": "BK7231T",
@@ -331,6 +354,7 @@
 
     {
       "vendor": "Kanlux",
+      "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
       "model": "",
       "chip": "BK7231N",
@@ -347,6 +371,7 @@
     },
     {
       "vendor": "Arlec",
+      "bDetailed": "0",
       "name": "RGB+CCT LED Downlight",
       "model": "ALD092RHA",
       "chip": "BK7231T",
@@ -363,6 +388,7 @@
     },
     {
       "vendor": "CasaLife",
+      "bDetailed": "1",
       "name": "CCT LED Downlight",
       "model": "SMART-AL2017-TGTS",
       "chip": "BK7231T",
@@ -378,6 +404,7 @@
 
     {
       "vendor": "Nedis",
+      "bDetailed": "0",
       "name": "WIFIPO120FWT SmartPlug 16A",
       "model": "WIFIPO120FWT",
       "chip": "BK7231T",
@@ -392,6 +419,7 @@
 
     {
       "vendor": "Nedis",
+      "bDetailed": "0",
       "name": "WIFIP130FWT SmartPlug 10A",
       "model": "WIFIP130FWT",
       "chip": "BK7231T",
@@ -406,6 +434,7 @@
 
     {
       "vendor": "Emax",
+      "bDetailed": "0",
       "name": "EDU8774 Home SmartPlug 16A",
       "model": "EDU8774",
       "chip": "BK7231T",
@@ -420,6 +449,7 @@
 
     {
       "vendor": "ELIVCO",
+      "bDetailed": "1",
       "name": "LSPA9 Power metering plug BL0942 version",
       "model": "LSPA9",
       "chip": "BK7231N",
@@ -436,6 +466,7 @@
 
     {
       "vendor": "NAS",
+      "bDetailed": "1",
       "name": "NAS-WR07W Power Metering Plug (BK7231T + BL0937)",
       "model": "NAS-WR07W",
       "chip": "BK7231T",
@@ -453,6 +484,7 @@
     },
     {
       "vendor": "NAS",
+      "bDetailed": "1",
       "name": "NAS-WR01W Power Metering Plug (BK7231N + BL0942)",
       "model": "NAS-WR01W",
       "chip": "BK7231N",
@@ -467,6 +499,7 @@
     },
     {
       "vendor": "QiaChip",
+      "bDetailed": "1",
       "name": "QiaChip Smart Switch (N version)",
       "chip": "BK7231T",
       "board": "CB2S",
@@ -480,6 +513,7 @@
     },
     {
       "vendor": "QiaChip",
+      "bDetailed": "1",
       "name": "QiaChip Smart Switch (T version)",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -493,6 +527,7 @@
 
     {
       "vendor": "Hidin Tech",
+      "bDetailed": "0",
       "name": "Touch Switch US",
       "model": "KS602",
       "chip": "BK7231N",
@@ -508,6 +543,7 @@
 
     {
       "vendor": "Prime",
+      "bDetailed": "1",
       "name": "CCWFIO232PK SmartOutlet Outdoor 2x Costco",
       "model": "CCWFIO232PK",
       "chip": "BK7231T",
@@ -524,6 +560,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Smart PFW02-G",
       "model": "PFW02-G",
       "chip": "BK7231T",
@@ -539,6 +576,7 @@
 
     {
       "vendor": "Avatar",
+      "bDetailed": "0",
       "name": "5v LED strip",
       "model": "ASL04",
       "chip": "BK7231T",
@@ -556,6 +594,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Smart Wifi Switch 4 Gang",
       "chip": "BK7231N",
       "board": "CB3S",
@@ -576,6 +615,7 @@
 
     {
       "vendor": "LSC",
+      "bDetailed": "0",
       "name": "Smart Connect Plug",
       "chip": "BK7231N",
       "board": "CB2S",
@@ -590,6 +630,7 @@
 
     {
       "vendor": "DS-101",
+      "bDetailed": "0",
       "name": "1 Gang Switch",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -605,6 +646,7 @@
 
     {
       "vendor": "Gosund",
+      "bDetailed": "0",
       "name": "Smart Switch",
       "model": "SW5-A-V2.1",
       "chip": "BK7231T",
@@ -620,6 +662,7 @@
 
     {
       "vendor": "DS-102",
+      "bDetailed": "0",
       "name": "2 Gang Switch",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -638,6 +681,7 @@
 
     {
       "vendor": "DS-103",
+      "bDetailed": "0",
       "name": "3 Gang Switch",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -659,7 +703,8 @@
 
     {
       "vendor": "AliExpress",
-      "name": "Socket 13A",
+      "bDetailed": "1",
+      "name": "Cheap AliExpress 13a socket with CB2S (BK7321N)",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
@@ -675,6 +720,7 @@
 
     {
       "vendor": "DETA",
+      "bDetailed": "0",
       "name": "Smart Double Power Point Series 2",
       "model": "6922HA",
       "chip": "BK7231T",
@@ -691,6 +737,7 @@
 
     {
       "vendor": "OKOS",
+      "bDetailed": "1",
       "name": "OKOS 1 Gang WiFi Smart Light",
       "model": "OKOS 1 Gang WiFi Smart Light",
       "chip": "BK7231T",
@@ -706,6 +753,7 @@
     },
     {
       "vendor": "Enbrighten",
+      "bDetailed": "1",
       "name": "WiFi Switch",
       "model": "WFD4103",
       "chip": "BK7231T",
@@ -722,6 +770,7 @@
 
     {
       "vendor": "Sonoff",
+      "bDetailed": "0",
       "name": "MINI R3 Smart Switch",
       "model": "MiniR3",
       "chip": "BL602",
@@ -739,6 +788,7 @@
       "vendor": "Tuya",
       "name": "Tuya Smart High Power Switch for Boiler Water Heater 20A 4400W",
       "chip": "BK2731N",
+      "bDetailed": "1",
       "chip": "CB3S",
       "pins": {
         "6": "Relay;1",
@@ -752,6 +802,7 @@
       "vendor": "Globe",
       "name": "Globe Electric Smart Ambient Light Wifi rgbcw 50239",
       "chip": "BK7231T",
+      "bDetailed": "1",
       "board": "WB3S",
       "pins": {
         "26": "PWM;3",
@@ -767,6 +818,7 @@
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: PLUG/WIFI/WP",
       "chip": "BK7231T",
+      "bDetailed": "1",
       "board": "on PCB",
       "pins": {
         "7": "LED_n;1",
@@ -778,6 +830,7 @@
     },
     {
       "vendor": "Aubess",
+      "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A",
       "chip": "BK7231N",
       "pins": {
@@ -792,6 +845,7 @@
 
     {
       "vendor": "Smartlife",
+      "bDetailed": "1",
       "name": "AW201 Door Sensor",
       "chip": "XR809",
       "pins": {
@@ -803,6 +857,7 @@
 
     {
       "vendor": "Smartlife",
+      "bDetailed": "1",
       "name": "Tuya Smart WiFi Water Leak Sensor",
       "chip": "XR809",
       "pins": {
@@ -814,6 +869,7 @@
 
     {
       "vendor": "AVATTO",
+      "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
       "chip": "BK7231N",
       "pins": {
@@ -826,6 +882,7 @@
 
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "TH06 themometer calendar SKUH77374",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -838,6 +895,7 @@
     },
     {
       "vendor": "AVATTO",
+      "bDetailed": "1",
       "name": "Tuya W06 Water Sensor",
       "chip": "BK7231N",
       "pins": {
@@ -849,6 +907,7 @@
     },
     {
       "vendor": "Aqara",
+      "bDetailed": "1",
       "name": "Zigbee Door/Window Sensor MCCGQ11LM",
       "model": "MCCGQ11LM",
       "chip": "JN5169",
@@ -860,6 +919,7 @@
     },
     {
       "vendor": "Aqara",
+      "bDetailed": "1",
       "name": "Zigbee Temperature/Pressure/Humidity Sensor WSDCGQ11LM",
       "model": "WSDCGQ11LM",
       "chip": "JN5169",
@@ -871,6 +931,7 @@
     },
     {
       "vendor": "Aubess",
+      "bDetailed": "0",
       "name": "Smart Plug",
       "model": "Tuya WIFI Smart Socket",
       "chip": "BK7231N",
@@ -890,6 +951,7 @@
     },
     {
       "vendor": "Casenl",
+      "bDetailed": "0",
       "name": "4 gang push button switch",
       "model": "Tuya WIFI 4gang Switch",
       "chip": "BK7231N",
@@ -912,6 +974,7 @@
     },
     {
       "vendor": "LSC",
+      "bDetailed": "1",
       "name": "LSC Smart connect Smart LED MOOD LIGHT 970743 USB",
       "chip": "BK7231N",
       "board": "CB3S",
@@ -928,6 +991,7 @@
     },
     {
       "vendor": "LSC",
+      "bDetailed": "1",
       "name": "LSC Smart E27 806lm CW - BK7231T 3000272",
       "chip": "BK7231T",
       "board": "on PCB",
@@ -940,6 +1004,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "E27 A60-Bulb LED RGBCCT 5PWMs",
       "chip": "BK7231T",
       "board": "WB2L",
@@ -956,6 +1021,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "MOES Smart Swich Module WIFI 4gang",
       "model": "MOES Smart Swich Module WIFI 4gang",
       "chip": "BK7231N",
@@ -978,6 +1044,7 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "WX300P RGB Strip Controller",
       "model": "WX300P",
       "chip": "W800",
@@ -988,6 +1055,7 @@
     },
     {
       "vendor": "DT-BL10",
+      "bDetailed": "1",
       "name": "DT-BL10 Dev Board",
       "model": "DT-BL10",
       "chip": "BL602",
@@ -998,6 +1066,7 @@
     },
     {
       "vendor": "C37",
+      "bDetailed": "1",
       "name": "RGB+CW C37 Lamp Tuya WBLC9 (BK7231T) + BP1658 ",
       "model": "",
       "chip": "BK7231T",
@@ -1011,6 +1080,7 @@
     },
     {
       "vendor": "Taloya",
+      "bDetailed": "1",
       "name": "Taloya 12\" 24W Ceiling Light",
       "model": "YL300-24W-AI-WEMG",
       "chip": "BK7231T",
@@ -1026,6 +1096,7 @@
       "flag": 11
     },
     {
+      "bDetailed": "0",
       "vendor": "Hama",
       "name": "WiFi LED Lamp, GU10, 5.5 W, RGBW",
       "model": "Hama RGBCW GU10 5,5W Lamp",
