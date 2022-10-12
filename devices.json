@@ -330,6 +330,22 @@
     },
 
     {
+      "vendor": "Kanlux",
+      "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3L",
+      "pins": {
+        "6": "PWM;4",
+        "7": "PWM;3",
+        "8": "PWM;0",
+        "26": "PWM;2",
+        "24": "PWM;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4634405600_1662811736_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3920298.html",
+    },
+    {
       "vendor": "Arlec",
       "name": "RGB+CCT LED Downlight",
       "model": "ALD092RHA",
@@ -345,7 +361,6 @@
       "wiki": "",
       "product": "https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695"
     },
-
     {
       "vendor": "CasaLife",
       "name": "CCT LED Downlight",
@@ -721,6 +736,19 @@
     },
 
     {
+      "vendor": "Tuya",
+      "name": "Tuya Smart High Power Switch for Boiler Water Heater 20A 4400W",
+      "chip": "BK2731N",
+      "chip": "CB3S",
+      "pins": {
+        "6": "Relay;1",
+        "7": "LED;1",
+        "24": "Btn;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4955351700_1662320800_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html",
+    },
+    {
       "vendor": "Globe",
       "name": "Globe Electric Smart Ambient Light Wifi rgbcw 50239",
       "chip": "BK7231T",
@@ -883,6 +911,34 @@
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
     },
     {
+      "vendor": "LSC",
+      "name": "LSC Smart connect Smart LED MOOD LIGHT 970743 USB",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "26": "PWM;3",
+        "24": "PWM;2",
+        "6": "PWM;5",
+        "8": "PWM;1",
+        "7": "PWM;4",
+        "4": "Button;1"
+      },
+      "image": "https://obrazki.elektroda.pl/7011755600_1663840884_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html",
+    },
+    {
+      "vendor": "LSC",
+      "name": "LSC Smart E27 806lm CW - BK7231T 3000272",
+      "chip": "BK7231T",
+      "board": "on PCB",
+      "pins": {
+        "26": "PWM;5",
+        "24": "PWM;4"
+      },
+      "image": "https://obrazki.elektroda.pl/7541980800_1660163916_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3911757.html"
+    },
+    {
       "vendor": "Tuya",
       "name": "E27 A60-Bulb LED RGBCCT 5PWMs",
       "chip": "BK7231T",
@@ -894,8 +950,8 @@
         "8": "PWM;4",
         "7": "PWM;5"
       },
-      "image": "",
-      "wiki": "",
+      "image": "https://obrazki.elektroda.pl/7307152900_1663474924_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3920286.html",
       "product": "https://shopee.com.my/product/68463208/6454092983?smtt=0.5847450-1663473183.9"
     },
     {
