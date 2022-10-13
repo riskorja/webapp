@@ -1078,6 +1078,20 @@
       "product": ""
     },
     {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "BlitzWolf BW-IS9 TS0207 ZigBee Water Leak Sensor Smart Flood",
+      "model": "BW-IS9",
+      "chip": "EFR32MG13P732F512GM48",
+      "board": "TYZS5",
+      "pins": {
+      },
+      "keywords": ["CR2450","water","SKUG45319"],
+      "image": "https://obrazki.elektroda.pl/8767776800_1637608267_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3850717.html",
+      "product": ""
+    },
+    {
       "vendor": "SmartLife",
       "bDetailed": "1",
       "name": "WF-DS01 Dimmer SmartLife Wall Switch",
