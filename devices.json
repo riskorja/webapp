@@ -1064,6 +1064,20 @@
       "product": ""
     },
     {
+      "vendor": "SmartLife",
+      "bDetailed": "1",
+      "name": "WF-DS01 Dimmer SmartLife Wall Switch",
+      "model": "WF-DS01",
+      "chip": "ESP8266",
+      "board": "TYWE3S",
+      "pins": {
+      },
+      "keywords": ["schematic","CR302","MM32F003","TuyaMCU","MOC3052","JST24B-800CW","DP2525","AMS1117","EL357N"],
+      "image": "https://obrazki.elektroda.pl/1196072400_1628966852_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3825966.html",
+      "product": ""
+    },
+    {
       "vendor": "Aqara",
       "bDetailed": "1",
       "name": "Zigbee Door/Window Sensor MCCGQ11LM",
