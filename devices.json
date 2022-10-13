@@ -990,6 +990,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html"
     },
     {
+      "vendor": "B.K.Licht",
+      "bDetailed": "1",
+      "name": "BKL1262 - RGBCW GU10 LED B.K.Licht Bulb",
+      "chip": "ESP8266",
+      "board": "TYWE2L",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/3228419400_1658151087_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3912647.html"
+    },
+    {
+      "vendor": "B.K.Licht",
+      "bDetailed": "1",
+      "name": "BKL1250 white LED E26 for 3$ WiFi Tuya",
+      "chip": "ESP8266",
+      "board": "TYWE2L",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/9153367100_1658071647_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3909988.html"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "1",
       "name": "LSC Smart E27 806lm CW - BK7231T 3000272",
