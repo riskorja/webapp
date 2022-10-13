@@ -301,6 +301,65 @@
     },
 
     {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "Blitzwolf BW-LT30 E27 Adapter",
+      "chip": "ESP8266",
+      "board": "LM2",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/4490916400_1602520214_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3736876.html"
+    },
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "Blitzwolf BW-SHP8 socket",
+      "chip": "ESP8266",
+      "board": "TYWE2S",
+      "pins": {
+      },
+	  "keywords": ["BL0937","STL6118A"],
+      "image": "https://obrazki.elektroda.pl/8170361000_1587643996_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=18652154#18652154"
+    },
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "Blitzwolf BW-SS3 socket",
+      "chip": "ESP8266",
+      "board": "TYWE3S",
+      "pins": {
+      },
+	  "keywords": ["FBE3-WT3-Ver1.0 Sep18 2018","BS813A-1","ABS10","PN8016","S8050MD"],
+      "image": "https://obrazki.elektroda.pl/7618771200_1600428965_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3729892.html"
+    },
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "Blitzwolf BW-SS1 relay",
+      "chip": "ESP8266",
+      "board": "",
+      "pins": {
+      },
+	  "keywords": ["RD-105DM-A","DC29B-7.62"],
+      "image": "https://obrazki.elektroda.pl/9036964100_1609457987_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3763930.html"
+    },
+    {
+      "vendor": "eWeLink",
+      "bDetailed": "1",
+      "name": "eWeLink/Coolkit PS-16-M",
+      "chip": "ESP8285",
+      "board": "on board",
+      "pins": {
+      },
+	  "keywords": ["PN8366","CJT1117B","ESP8285","JQC-3FB-S 005-1H11"],
+      "image": "https://obrazki.elektroda.pl/4094363700_1599773703_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3728094.html"
+    },
+    {
       "vendor": "Hama",
       "bDetailed": "0",
       "name": "Hama light bulb, Item No.: 00176583.",
