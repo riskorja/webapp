@@ -118,11 +118,34 @@
       "image": "https://obrazki.elektroda.pl/3786509100_1650998928.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3889041.html#19999397"
     },
+    {
+      "vendor": "",
+      "bDetailed": "0",
+      "name": "IoT Lamp Holder",
+      "chip": "BL602",
+      "pins": {
+      },
+      "keywords": ["", ""],
+      "image": "https://obrazki.elektroda.pl/2624166500_1657830253_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3906289.html"
+    },
+    {
+      "vendor": "MoesHouse",
+      "bDetailed": "1",
+      "name": "MoesHouse DIY Smart WiFi Light LED Dimmer Switch Smart Life",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "dimmer"],
+      "image": "https://obrazki.elektroda.pl/9320043800_1654589943_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3898502.html"
+    },
 
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "SmartSwitch SW01 16A",
+      "name": "SmartSwitch WL-SW01_16 SW01 16A",
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
@@ -132,6 +155,18 @@
       "keywords": ["switch","relay","SM7033P","SM-S-112DM1"],
       "image": "https://obrazki.elektroda.pl/4822560000_1620736449.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "SmartSwitch T102_V1.1 / RTL8710BN",
+      "chip": "RTL8710BN",
+      "board": "T102_V1.1",
+      "pins": {
+      },
+      "keywords": ["switch","relay","RTL8710BN","OB2222MCP","AMS1117","Y3F-SS-105DM","25Q16BVSIG","WR2"],
+      "image": "https://obrazki.elektroda.pl/8082201300_1624998129_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3815120.html"
     },
 
     {
@@ -646,18 +681,19 @@
 
     {
       "vendor": "Gosund",
-      "bDetailed": "0",
+      "bDetailed": "1",
       "name": "Smart Switch",
       "model": "SW5-A-V2.1",
       "chip": "BK7231T",
+      "board": "Z2-B-V1.0",
       "pins": {
         "7": "WifiLED;1",
         "14": "Relay;1",
         "8": "Button;1",
         "16": "LED_n;1"
       },
-      "image": "",
-      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20008969#20008969"
+      "image": "https://obrazki.elektroda.pl/5510737000_1651731570_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3892160.html"
     },
 
     {
@@ -906,6 +942,20 @@
       "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 ReadOnly; linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
     },
     {
+      "vendor": "Bakeey",
+      "bDetailed": "1",
+      "name": "TS0201 Temperature and Humidity Sensor LCD Screen RSH-Z-Bee-HS01 SKUG53464",
+      "model": "TS0201",
+      "chip": "EFR32MG13P732F512GM48-C",
+	  "board": "TYZS5",
+      "pins": {
+      },
+      "keywords": ["BL55072","LCD","zigbee","Banggood"],
+      "image": "https://obrazki.elektroda.pl/6694878000_1621361347_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3806108.html",
+      "product": ""
+    },
+    {
       "vendor": "Aqara",
       "bDetailed": "1",
       "name": "Zigbee Door/Window Sensor MCCGQ11LM",
@@ -913,6 +963,7 @@
       "chip": "JN5169",
       "pins": {
       },
+      "keywords": ["zigbee"],
       "image": "https://obrazki.elektroda.pl/8432159400_1613311324_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3805186.html",
       "product": ""
@@ -925,6 +976,7 @@
       "chip": "JN5169",
       "pins": {
       },
+      "keywords": ["zigbee"],
       "image": "https://obrazki.elektroda.pl/3872534700_1613399524_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3791330.html",
       "product": ""
