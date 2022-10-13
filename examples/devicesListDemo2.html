@@ -111,6 +111,15 @@
       </div>
     </div>
     <div class="col-auto">
+      <label class="mr-sm-2" for="filter_ESP82XX"></label>
+      <div class="form-check mb-2">
+        <input class="form-check-input" type="checkbox" id="filter_ESP82XX">
+        <label class="form-check-label" for="filter_ESP82XX">
+         ESP82XX
+        </label>
+      </div>
+    </div>
+    <div class="col-auto">
       <label class="mr-sm-2" for="filter_detailed"></label>
       <div class="form-check mb-2">
         <input class="form-check-input" type="checkbox" id="filter_detailed">
@@ -178,7 +187,10 @@ function refreshJSON(json) {
   var filter_BK7231N = document.getElementById("filter_BK7231N").checked;
   var filter_XR809 = document.getElementById("filter_XR809").checked;
   var filter_BL602 = document.getElementById("filter_BL602").checked;
+  var filter_ESP82XX = document.getElementById("filter_ESP82XX").checked;
   var filter_detailed = document.getElementById("filter_detailed").checked;
+  var filter_W80X = document.getElementById("filter_W80X").checked;
+  var filter_W60X = document.getElementById("filter_W60X").checked;
   var g_state = document.getElementById("g_state");
   
   var cnt = 0;
@@ -217,6 +229,27 @@ function refreshJSON(json) {
 		if(filter_XR809 == false)
 		{
 			if(chip == "XR809")
+			{
+				continue;
+			}
+		}
+		if(filter_ESP82XX == false)
+		{
+			if(chip == "ESP8266" || chip == "ESP8285")
+			{
+				continue;
+			}
+		}
+		if(filter_W60X == false)
+		{
+			if(chip == "W600" || chip == "W601")
+			{
+				continue;
+			}
+		}
+		if(filter_W80X == false)
+		{
+			if(chip == "W800" || chip == "W801")
 			{
 				continue;
 			}

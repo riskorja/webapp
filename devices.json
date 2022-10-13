@@ -288,7 +288,7 @@
       "vendor": "Calex",
       "bDetailed": "0",
       "name": "RGBWW LED Dimmer Five Channel PWM",
-      "chip": "BK7231S",
+      "chip": "BK7231T",
       "pins": {
         "7": "PWM;1",
         "8": "PWM;2",
