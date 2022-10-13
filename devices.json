@@ -1064,6 +1064,20 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "RR400ZB/TS011F Zigbee Switch Module",
+      "model": "RR400ZB/TS011F",
+      "chip": "EFR32MG21A020F768",
+      "board": "ZS2S",
+      "pins": {
+      },
+      "keywords": ["schematic","OB2222MCP","RJ-SS-105DM1","07D471K"],
+      "image": "https://obrazki.elektroda.pl/1155012900_1627035865_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3828223.html",
+      "product": ""
+    },
+    {
       "vendor": "SmartLife",
       "bDetailed": "1",
       "name": "WF-DS01 Dimmer SmartLife Wall Switch",
