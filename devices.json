@@ -348,6 +348,30 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3763930.html"
     },
     {
+      "vendor": "QTouch",
+      "bDetailed": "1",
+      "name": "QTouch No-Neutral WiFi/RF433 Wall Switch QWP.W1.WIFI-TOUCH",
+      "chip": "ESP8285",
+      "board": "on board",
+      "pins": {
+      },
+	  "keywords": ["QWP.W1.WIFI-TOUCH","RF433","AMS1117","ATMEL2YH 24C02N","PC817C","SS26","BTA16-600B","MB6S","schematic"],
+      "image": "https://obrazki.elektroda.pl/6490352900_1617381733_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3793509.html"
+    },
+    {
+      "vendor": "Smart Life",
+      "bDetailed": "1",
+      "name": "SC3-01 1/2/3 Gang WiFi Touch Switch Home Wall Light Control+ RF Touch Remote Smart Life",
+      "chip": "ESP8286",
+      "board": "TYWE3S",
+      "pins": {
+      },
+	  "keywords": ["SC3-01 (EU1ch)","8BOA1947","S8050","PN8366","ABS8","SS34","AMS1117","W11-1A2STLE-H DC5V 10A 250VAC/30VDC CHINA CQC","07D471K"],
+      "image": "https://obrazki.elektroda.pl/8612312800_1608845228_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3769864.html"
+    },
+    {
       "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "eWeLink/Coolkit PS-16-M",
