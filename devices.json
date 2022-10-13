@@ -1051,6 +1051,19 @@
       "product": ""
     },
     {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
+      "name": "SONOFF BASICZBR3 ZB DIY Smart Switch Controlled Via SmartThing ",
+      "model": "BASICZBR3",
+      "chip": "CC2530",
+      "pins": {
+      },
+      "keywords": ["schematic","zigbee","STE10D471K","10D471K","GI-1A-5DH","CD221K","CSC7102C","6211A"],
+      "image": "https://obrazki.elektroda.pl/5058501400_1625684278_thumb.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3816656.html",
+      "product": ""
+    },
+    {
       "vendor": "Aqara",
       "bDetailed": "1",
       "name": "Zigbee Door/Window Sensor MCCGQ11LM",
