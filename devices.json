@@ -631,7 +631,7 @@
       "vendor": "QiaChip",
       "bDetailed": "1",
       "name": "QiaChip Smart Switch (N version)",
-      "chip": "BK7231T",
+      "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
         "7": "Button;1",
