@@ -1083,6 +1083,20 @@
     {
       "vendor": "Smart Life",
       "bDetailed": "0",
+      "name": "Nedis Wi-Fi Smart Plug WIFIP121FWT",
+      "model": "WIFIP121FWT",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+      },
+      "keywords": ["BL0937","Nedis"],
+      "image": "https://obrazki.elektroda.pl/5829900600_1665848459_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3926632.html",
+      "product": ""
+    },
+    {
+      "vendor": "Smart Life",
+      "bDetailed": "0",
       "name": "Universal IR Remote Control S08",
       "model": "S08",
       "chip": "BK7231N",
