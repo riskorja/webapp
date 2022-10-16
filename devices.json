@@ -677,6 +677,7 @@
       "name": "CCWFIO232PK SmartOutlet Outdoor 2x Costco",
       "model": "CCWFIO232PK",
       "chip": "BK7231T",
+      "board": "on PCB",
       "pins": {
         "6": "Relay;1",
         "7": "Relay;2",
@@ -964,6 +965,7 @@
       "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A",
       "chip": "BK7231N",
+      "board": "on PCB",
       "pins": {
         "6": "LED_n;1",
         "8": "Button;1",
@@ -1029,6 +1031,7 @@
       "bDetailed": "1",
       "name": "Tuya W06 Water Sensor",
       "chip": "BK7231N",
+      "board": "CB3S",
       "pins": {
 
       },
@@ -1076,6 +1079,34 @@
       "image": "https://obrazki.elektroda.pl/1155012900_1627035865_thumb.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3828223.html",
       "product": ""
+    },
+    {
+      "vendor": "Smart Life",
+      "bDetailed": "0",
+      "name": "Universal IR Remote Control S08",
+      "model": "S08",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": ["IR","38kHz","Remote","USB"],
+      "image": "https://obrazki.elektroda.pl/8432832000_1663500597_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3920360.html",
+      "product": "https://www.aliexpress.com/item/4000764652478.html"
+    },
+    {
+      "vendor": "Smart Life",
+      "bDetailed": "0",
+      "name": "IR Blaster S06Pro WB3S ",
+      "model": "S06",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["IR","38kHz","Remote","USB"],
+      "image": "https://obrazki.elektroda.pl/3457161900_1665933908_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20238985#20238985",
+      "product": "https://obrazki.elektroda.pl/4773578600_1665933910.jpg"
     },
     {
       "vendor": "Blitzwolf",
