@@ -1272,6 +1272,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3911757.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "LSC Smart LED E27 806 lumen (RGBCW)",
+      "chip": "BK7231T",
+      "board": "on PCB",
+      "pins": {
+        "26": "BP5758D_DAT;0",
+        "24": "BP5758D_CLK;0"
+      },
+      "keywords": ["BP5758D", "Action Store"],
+      "image": "https://obrazki.elektroda.pl/6775932100_1665943145_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3926917.html"
+    },
+    {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "LSC Smart Dimmer Switch",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["Dimmer", "TuyaMCU","rotary switch","battery", "Action Store"],
+      "image": "https://obrazki.elektroda.pl/2139408300_1665942159_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "E27 A60-Bulb LED RGBCCT 5PWMs",
