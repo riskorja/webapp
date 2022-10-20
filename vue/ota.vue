@@ -21,7 +21,7 @@
         </div>
         <br/>
         <div>
-            <label for="otaFilePicker">Select OTA file:</label><input id="otaFilePicker" type="file" @change="fileSelected($event)" :accept="otaFileExtension">
+            <label for="otaFilePicker">Select OTA (RBL) file:</label><input id="otaFilePicker" type="file" @change="fileSelected($event)" :accept="otaFileExtension">
             <div class="drop" @drop="dropHandler($event)" @dragover="dragOverHandler($event)">
                 <div class="otatext center" v-html="otatext"></div>
             </div>
