@@ -925,7 +925,7 @@
       "pins": {
         "6": "Relay;1",
         "7": "LED;1",
-        "24": "Btn;1"
+        "24": "Button;1"
       },
       "image": "https://obrazki.elektroda.pl/4955351700_1662320800_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
