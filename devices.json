@@ -595,6 +595,24 @@
     },
 
     {
+      "vendor": "ELIVCO",
+      "bDetailed": "1",
+      "name": "LSPA9 Power metering plug BL0937 version",
+      "model": "LSPA9",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "BL0937CF1;1",
+        "7": "BL0937CF;1",
+        "10": "Button;1",
+        "24": "BL0937SEL;1",
+        "26": "Relay;1"
+      },
+      "wiki": "https://www.elektroda.com/rtvforum/topic3887748.html",
+      "command": "backlog startDriver BL0937; PREF 1.2; VREF 0.124868; IREF 0.010548"
+    },
+
+    {
       "vendor": "NAS",
       "bDetailed": "1",
       "name": "NAS-WR07W Power Metering Plug (BK7231T + BL0937)",
