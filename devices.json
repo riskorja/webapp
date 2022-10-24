@@ -1302,7 +1302,7 @@
       "vendor": "",
       "bDetailed": "0",
       "name": "BL602 relay module ZN366360_01",
-      "chip": "BL602L20",
+      "chip": "BL602",
       "board": "on board",
       "pins": {
         
