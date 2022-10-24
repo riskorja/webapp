@@ -1136,6 +1136,67 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Zmai-90 WiFi Smart Energy Meter [CBU version]",
+      "model": "Zmai-90",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": ["DiN Rail","power metering"],
+      "image": "https://obrazki.elektroda.pl/9875365000_1666587511_org.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20250617#20250617",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Zmai-90 WiFi Smart Energy Meter [WB3S version]",
+      "model": "Zmai-90",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["DiN Rail","power metering"],
+      "image": "https://obrazki.elektroda.pl/5584330500_1650619512.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20250617#20250617",
+      "product": ""
+    },
+    {
+      "vendor": "BNETA",
+      "bDetailed": "0",
+      "name": "BNETA IoT Smart WIFI LED Bulb E27 - RGB+2700-6500K bulbs (BK7231N/CB2L/BP5758D)",
+      "model": "BNETA",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "pins": {
+      },
+      "keywords": ["LED","BP5758D"],
+      "image": "https://obrazki.elektroda.pl/8189429100_1666543803.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3928569.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
+      "model": "Tuya",
+      "chip": "BK7231N",
+      "board": "FL_M93_V1",
+      "pins": {
+        "26": "PWM;3",
+        "24": "PWM;2",
+        "6": "PWM;5",
+        "8": "PWM;1",
+        "7": "PWM;4"
+      },
+      "keywords": ["RGBCW","LED"],
+      "image": "https://obrazki.elektroda.pl/4084507000_1666596404.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3928677.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "RR400ZB/TS011F Zigbee Switch Module",
       "model": "RR400ZB/TS011F",
