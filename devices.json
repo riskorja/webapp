@@ -1011,6 +1011,28 @@
     },
 
     {
+      "vendor": "",
+      "bDetailed": "0",
+      "name": "XR809 LCD TuyaMCU Thermometer",
+      "chip": "XR809",
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/1797393800_1621784942.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3806769.html#gallery-81"
+    },
+    {
+      "vendor": "",
+      "bDetailed": "0",
+      "name": "CT60W XR809 Indoor PIR Sensor",
+      "chip": "XR809",
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/6755644700_1624469693.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3806769.html#gallery-90"
+    },
+    {
       "vendor": "Smartlife",
       "bDetailed": "1",
       "name": "AW201 Door Sensor",
