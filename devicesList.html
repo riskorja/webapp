@@ -221,6 +221,14 @@ function refreshJSON(json) {
 		{
 			vendor = "";
 		}
+		// if full display name has no vendor included, add italic
+		if(vendor.length > 0)
+		{
+			if(name.toLowerCase().includes(vendor.toLowerCase()) == false)
+			{
+				name += " (" + vendor + ")";
+			}
+		}
 		if(filter_BK7231T == false)
 		{
 			if(chip == "BK7231T")
