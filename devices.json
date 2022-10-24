@@ -936,6 +936,18 @@
 
     {
       "vendor": "Sonoff",
+      "bDetailed": "1",
+      "name": "Sonoff S26 R2 Smart Plug",
+      "model": "S26 R2",
+      "chip": "ESP8266",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/9673770800_1665666140.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3927927.html"
+    },
+
+    {
+      "vendor": "Sonoff",
       "bDetailed": "0",
       "name": "MINI R3 Smart Switch",
       "model": "MiniR3",
