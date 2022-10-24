@@ -208,12 +208,18 @@ function refreshJSON(json) {
 		var chip = json.devices[i].chip;
 		var board = json.devices[i].board;
 		var keywords = json.devices[i].keywords;
+		var vendor = json.devices[i].vendor;
+		
 		var chipStr = chip;
 		if(board == null || board.length == 0) {
 		
 		} else {
 			chipStr += " ";
 			chipStr += "(" + board + ")";
+		}
+		if(vendor == null)
+		{
+			vendor = "";
 		}
 		if(filter_BK7231T == false)
 		{
@@ -291,7 +297,7 @@ function refreshJSON(json) {
 			if(filter_text.length > 0)
 			{
 				// at least one of fields must contain
-				if(name.toLowerCase().includes(filter_text.toLowerCase()) == false && chipStr.toLowerCase().includes(filter_text.toLowerCase()) == false && wiki.toLowerCase().includes(filter_text.toLowerCase()) == false
+				if(name.toLowerCase().includes(filter_text.toLowerCase()) == false && chipStr.toLowerCase().includes(filter_text.toLowerCase()) == false && wiki.toLowerCase().includes(filter_text.toLowerCase()) == false && vendor.toLowerCase().includes(filter_text.toLowerCase()) == false
 				 && keywordsString.toLowerCase().includes(filter_text.toLowerCase()) == false) {
 					continue;
 				}
