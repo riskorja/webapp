@@ -483,6 +483,40 @@
     },
 
     {
+      "vendor": "Smartrul",
+      "bDetailed": "0",
+      "name": "Smartrul SMR-DP005-WIF-A19",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "pins": {
+        "6": "PWM;5",
+        "9": "PWM;2",
+        "8": "PWM;1",
+        "26": "PWM;3",
+        "24": "PWM;4"
+      },
+      "image": "https://obrazki.elektroda.pl/5816412700_1666272919_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
+    },
+    {
+      "vendor": "Smartrul",
+      "bDetailed": "0",
+      "name": "Smartrul SMR-DP005-WIF-A19",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "pins": {
+        "6": "PWM;5",
+        "9": "PWM;2",
+        "8": "PWM;1",
+        "26": "PWM;3",
+        "24": "PWM;4"
+      },
+      "image": "https://obrazki.elektroda.pl/5816412700_1666272919_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
+    },
+    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
@@ -1177,6 +1211,26 @@
       "product": ""
     },
     {
+      "vendor": "Mycket ",
+      "bDetailed": "1",
+      "name": "Mycket Smart Socket PE-01E IP44",
+      "model": "PE-01E IP44",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": ["outdoor", "plug", "power monitoring", "BL0937"],
+      "pins": {
+        "8": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "6": "LED_n;1",
+        "10": "Button;1",
+        "24": "BL0937SEL;0",
+        "26": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/2065343100_1665995990_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3927458.html",
+      "product": ""
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Smart Plug",
@@ -1218,6 +1272,43 @@
       "image": "https://obrazki.elektroda.pl/6472286600_1665558182.png",
       "wiki": "",
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
+    },
+    {
+      "vendor": "Daybetter",
+      "bDetailed": "1",
+      "name": "Daybetter 800 Lumens 120V 9W RGB+2700-6500K bulbs (BK7231N/CB2L/BP5758D)",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "pins": {
+        "8": "BP5758D_DAT;0",
+        "7": "BP5758D_CLK;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5474775300_1665245227_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3925050.html"
+    },
+    {
+      "vendor": "SmartPlug",
+      "bDetailed": "1",
+      "name": "SmartPlug W600 WinnerMicro TC0025_TW02_PLUG_L1_P0",
+      "chip": "W600",
+      "board": "TW-02",
+      "pins": {
+        
+      },
+      "image": "https://obrazki.elektroda.pl/9485403100_1665970535_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3926992.html"
+    },
+    {
+      "vendor": "",
+      "bDetailed": "0",
+      "name": "BL602 relay module ZN366360_01",
+      "chip": "BL602L20",
+      "board": "on board",
+      "pins": {
+        
+      },
+      "image": "https://obrazki.elektroda.pl/9793757900_1666010303_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3927070.html"
     },
     {
       "vendor": "LSC",
