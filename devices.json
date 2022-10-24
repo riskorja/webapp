@@ -375,7 +375,7 @@
       "vendor": "Smart Life",
       "bDetailed": "1",
       "name": "SC3-01 1/2/3 Gang WiFi Touch Switch Home Wall Light Control+ RF Touch Remote Smart Life",
-      "chip": "ESP8286",
+      "chip": "ESP8266",
       "board": "TYWE3S",
       "pins": {
       },
