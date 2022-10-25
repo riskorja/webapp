@@ -76,13 +76,13 @@
         "command": {
           "description": "Startup command",
           "type": "string",
-          "maxLength": 127
+          "maxLength": 511
         },
         "flag": {
           "description": "OBK Device flag to set (see new_pins.h)",
           "type": "number",
           "minimum": 0,
-          "maximum": 10
+          "maximum": 15
         },
         "keywords": {
           "description": "Keywords",

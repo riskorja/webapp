@@ -971,7 +971,7 @@
       "pins": {
         "6": "Relay;1",
         "7": "LED;1",
-        "24": "Btn;1"
+        "24": "Button;1"
       },
       "image": "https://obrazki.elektroda.pl/4955351700_1662320800_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
@@ -1591,6 +1591,21 @@
       "wiki": "",
       "product": "https://www.hama.com/00176598/hama-wlan-led-lamp-gu10-5-5-w-rgbw-dimmable-reflective-for-voice-app-control?srcLang=0&targetLang=1",
       "flag": 4
+    },
+    {
+      "vendor": "Generic",
+      "bDetailed": "1",
+      "name": "SmartPlug",
+      "chip": "W600",
+      "board": "TW02",
+      "keywords": ["switch","relay","W600"],
+      "pins": {
+        "2": "Button;1",
+        "5": "WifiLED_n;2",
+        "12": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/7283692500_1665970536.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3926992.html"
     }
   ]
 }
