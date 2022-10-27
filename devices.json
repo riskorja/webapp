@@ -436,6 +436,30 @@
     {
       "vendor": "Nous",
       "bDetailed": "1",
+      "name": "Smart Breaker Nous L6",
+      "chip": "W701-VA2-CG",
+      "board": "WBR2",
+      "pins": {
+      },
+      "keywords": ["W701-VA2-CG","W700","BP2905","AMS1117","1AM"],
+      "image": "https://obrazki.elektroda.pl/5419031800_1665142792.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929412&highlight="
+    },
+    {
+      "vendor": "MoesHouse",
+      "bDetailed": "1",
+      "name": "EDM-01AA-EU Dimmer",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU","dimmer","WML26N65C4","WMM26N65C4","PC817","SC95F8613X"],
+      "image": "https://obrazki.elektroda.pl/2560946000_1666618650.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929151&highlight="
+    },
+    {
+      "vendor": "Nous",
+      "bDetailed": "1",
       "name": "Bulb P3-A60-RGB-CCT (CB2L + BP5758)",
       "chip": "BK7231N",
       "board": "CB2L",
