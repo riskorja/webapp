@@ -1181,6 +1181,20 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Hiking DDS238-2 Smart Meter",
+      "model": "Hiking DDS238-2 Smart Meter",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["DiN Rail","power metering"],
+      "image": "https://obrazki.elektroda.pl/6796045400_1666654364.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3928897.html",
+      "product": ""
+    },
+    {
       "vendor": "BNETA",
       "bDetailed": "0",
       "name": "BNETA IoT Smart WIFI LED Bulb E27 - RGB+2700-6500K bulbs (BK7231N/CB2L/BP5758D)",
