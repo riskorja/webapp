@@ -156,6 +156,8 @@
         },
 
         savefile(name, data, cb){
+            let readCallback = this.read;
+            
             this.status += '<br/>saving file...';
             let url = window.device+'/api/lfs/';
             if (this.folder){
@@ -171,6 +173,7 @@
                 .then(text => {
                     console.log('received '+text);
                     this.status += 'save complete...';
+                    readCallback();
                     if(cb) cb();
                 })
                 .catch(err => console.error(err)); // Never forget the final catch!
