@@ -3,7 +3,8 @@
         <div class="top">
             <button @click="backup(null, $event)">Read fsblock</button>
             <button @click="restore(null, $event)">Restore fsblock</button>
-            <button @click="read(null, $event)">List Filesystem</button>
+            <button @click="read(null, $event)">List Filesystem</button>>
+            <button @click="create(null, $event)">Create File</button>
         </div>
         <div class="bottom">
             <div class="left">
@@ -245,6 +246,13 @@
         },
 
 
+        create(cb) {
+            let fname = prompt("Please enter new file name:", "autoexec.bat");
+        
+        
+            alert("TODO "+fname);
+        },
+        
         editfile(name){
             let url = window.device+'/api/lfs'+name;
             fetch(url)
