@@ -260,7 +260,7 @@
             {
                  //alert("TODO "+fname);
                  alert("Will try to create " +fname);
-                 savefile(fname,"");
+                 this.savefile(fname,"");
             }
         },
         
