@@ -3,7 +3,7 @@
         <div class="top">
             <button @click="backup(null, $event)">Read fsblock</button>
             <button @click="restore(null, $event)">Restore fsblock</button>
-            <button @click="read(null, $event)">List Filesystem</button>>
+            <button @click="read(null, $event)">List Filesystem</button>
             <button @click="create(null, $event)">Create File</button>
         </div>
         <div class="bottom">
@@ -248,9 +248,20 @@
 
         create(cb) {
             let fname = prompt("Please enter new file name:", "autoexec.bat");
-        
-        
-            alert("TODO "+fname);
+            if(fname == null)
+            {
+                 alert("Canceled.");
+            }
+            else if(fname.length < 1)
+            {
+                 alert("Empty name.");
+            }
+            else
+            {
+                 //alert("TODO "+fname);
+                 alert("Will try to create " +fname);
+                 savefile(fname,"");
+            }
         },
         
         editfile(name){
