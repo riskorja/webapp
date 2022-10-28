@@ -278,6 +278,7 @@
         },
 
         save() {
+            let readCallback = this.read;
             if (this.editname) {
                 let url = window.device+'/api/lfs'+this.editname;
                 fetch(url, { 
@@ -285,8 +286,10 @@
                         method: 'POST',
                     })
                     .then(()=>{
-
+                         readCallback();
                     });
+            } else {
+                alert("Please begin editing some file first. Just click the name on list to edit.");
             }
         }
 
