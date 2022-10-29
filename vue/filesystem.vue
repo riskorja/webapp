@@ -293,7 +293,7 @@
             } else {
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
-        }
+        },
         startScript(cb, event, bResetAll) {
             if (this.editname) {
                 let url = window.device+'/api/cmnd';
