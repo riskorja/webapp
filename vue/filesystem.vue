@@ -25,6 +25,8 @@
             </div>
             <div class="right">
                 <button @click="save(null, $event)">Save</button>
+                <button @click="startScript(null, $event, 0)">Run file as script thread</button>
+                <button @click="startScript(null, $event, 1)">Reset SVM and run file as script thread</button>
                 <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
             </div>
         </div>
@@ -283,6 +285,26 @@
                 let url = window.device+'/api/lfs'+this.editname;
                 fetch(url, { 
                         body: this.edittext,
+                        method: 'POST',
+                    })
+                    .then(()=>{
+                         readCallback();
+                    });
+            } else {
+                alert("Please begin editing some file first. Just click the name on list to edit.");
+            }
+        }
+        startScript(cb, event, bResetAll) {
+            if (this.editname) {
+                let url = window.device+'/api/cmnd';
+                let cmd = "";
+                if(bResetAll == 1)
+                {
+                    cmd = "backlog resetSVM; ";
+                }
+                cmd += "startScript " + this.editname;
+                fetch(url, { 
+                        body: cmd,
                         method: 'POST',
                     })
                     .then(()=>{
