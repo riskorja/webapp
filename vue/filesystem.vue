@@ -26,8 +26,8 @@
             </div>
             <div class="right">
                 <button @click="save(null, $event)">Save</button>
-                <button @click="startScript(null, $event, 0)">Run file as script thread</button>
-                <button @click="startScript(null, $event, 1)">Reset SVM and run file as script thread</button>
+                <button @click="save(startScript_simple)">Save, Run file as script thread</button>
+                <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>
                 <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
             </div>
         </div>
@@ -280,7 +280,7 @@
                 });
         },
 
-        save() {
+        save(cb) {
             let readCallback = this.read;
             if (this.editname) {
                 let url = window.device+'/api/lfs'+this.editname;
@@ -289,6 +289,7 @@
                         method: 'POST',
                     })
                     .then(()=>{
+                         if (cb) cb();
                          readCallback();
                     });
             } else {
@@ -310,6 +311,12 @@
                          
                     });
             }
+        },
+        startScript_simple() {
+            this.startScript(null,null,0);
+        },
+        startScript_firstReset() {
+            this.startScript(null,null,1);
         },
         startScript(cb, event, bResetAll) {
             if (this.editname) {
