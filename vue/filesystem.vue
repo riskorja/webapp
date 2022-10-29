@@ -5,6 +5,7 @@
             <button @click="restore(null, $event)">Restore fsblock</button>
             <button @click="read(null, $event)">List Filesystem</button>
             <button @click="create(null, $event)">Create File</button>
+            <button @click="resetSVM(null, $event)">Reset scripts</button>
         </div>
         <div class="bottom">
             <div class="left">
@@ -294,6 +295,22 @@
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
         },
+        resetSVM() {
+            if (this.editname) {
+                let url = window.device+'/api/cmnd';
+                let cmd = "";
+                
+                cmd = "backlog resetSVM; ";
+                    
+                fetch(url, { 
+                        body: cmd,
+                        method: 'POST',
+                    })
+                    .then(()=>{
+                         
+                    });
+            }
+        },
         startScript(cb, event, bResetAll) {
             if (this.editname) {
                 let url = window.device+'/api/cmnd';
@@ -308,12 +325,13 @@
                         method: 'POST',
                     })
                     .then(()=>{
-                         readCallback();
+                         
                     });
             } else {
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
         }
+
 
     },
     mounted (){
