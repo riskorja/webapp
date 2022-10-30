@@ -1,31 +1,49 @@
 <template>
-    <div class="fullheight">
-      <div ref="logs" style="height:80%; overflow:scroll;" id="logs"><pre>{{logs}}</pre></div>
+    <div class="container">
+        <textarea readonly ref="logs" style="overflow:scroll;" id="logs" class="logs">{{logs}}</textarea>
 
-      <label for="pause">Pause<input  class="checkbox" type="checkbox" id="pause" name="pause" v-model="paused"></label>
-      
-      <button class="feature" @click="clear">Clear</button>
-      <br />
-
-      <label>Log Features:
-        <label class="feature" :for="item" v-for="(item, index) in logfeaturenames" :key="item">{{item}}
-            <input class="checkbox" type="checkbox" :id="item" :name="item" v-model="logfeatures[index]" @click="setfeature(index, $event)">
-        </label>
-      </label>
-      <br />
-      <label>Log Level:
-        <select v-model="loglevel">
-            <option v-for="(item,index) of loglevelnames" :value="index" :key="index">{{item}}</option>
-        </select>
-      </label>
-
-      <form @submit="send($event)">
-        <label>Cmd:
-          <input v-model="cmd" id="obkcommand" type="text" autocomplete="on" style="width:60%;">
-        </label>
-
-        <input type="submit">
-      </form>
+        <table class="logging-settings">
+            <tr>
+                <td style="width: 80px">
+                    Logging:
+                </td>
+                <td>
+                    <button class="logging" :class="{paused:paused}"  @click="paused = !paused">{{paused?"Resume":"Pause"}}</button>
+                    <button class="feature" @click="clear">Clear</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 80px">
+                    <label>Log Features:</label>
+                </td>
+                <td>
+                    <label class="feature" :for="item" v-for="(item, index) in logfeaturenames" :key="item">{{item}}
+                        <input class="checkbox" type="checkbox" :id="item" :name="item" v-model="logfeatures[index]" @click="setfeature(index, $event)">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 80px">
+                    <label>Log Level:</label>
+                </td>
+                <td>
+                    <select v-model="loglevel">
+                        <option v-for="(item,index) of loglevelnames" :value="index" :key="index">{{item}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Command:</label>
+                </td>
+                <td>
+                    <form @submit="send($event)">
+                        <input v-model="cmd" id="obkcommand" type="text" autocomplete="on" style="width:60%;">
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
     </div>
 </template>
 
@@ -190,16 +208,35 @@
 </script>
 
 <style scoped>
-.fullheight {
-    height:95%;
+.container .logs{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 150px;
+    left: 0;
+    margin: 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    resize: none;
 }
-
+.container .logging-settings{
+    height: 150px;
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+}
 .feature {
-    margin-left:2em
+    margin-right:2em
 }
 
 .checkbox {
     vertical-align: bottom;
 }
 
+button.logging.paused{
+   background-color: #c0c0c0;
+}
+
+button.feature, button.logging{
+    width: 75px;
+}
 </style>
