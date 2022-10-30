@@ -9,6 +9,13 @@ s1 = document.createElement('script');
 s1.setAttribute('src', window.root+"lib/httpVueLoader.js");
 document.head.appendChild(s1);
 
+//Root styles - prevent scrollbar in body, consistent default font
+var css = document.createElement("style");
+css.type = "text/css";
+var styles = "body{margin:0; padding:0;} *{font-family: 'Segoe UI',Arial,sans-serif;}";
+css.appendChild(document.createTextNode(styles));
+document.head.appendChild(css);
+
 window.onload = ()=>{
     
     var appdiv = document.createElement('div');
