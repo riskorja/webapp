@@ -17,9 +17,9 @@
                     <label>Log Features:</label>
                 </td>
                 <td>
-                    <div class="feature" v-for="(item, index) in logfeaturenames" :key="item">
-                        <input class="checkbox" type="checkbox" :id="item" :name="item" v-model="logfeatures[index]" @click="setfeature(index, $event)">
-                        <label :for="item">{{item}}</label>
+                    <div class="feature" v-for="(item) in sortedLogFeatureNames" :key="item">
+                        <input class="checkbox" type="checkbox" :id="item.title" :name="item.title" v-model="logfeatures[item.index]" @click="setfeature(item.index, $event)">
+                        <label :for="item.title">{{item.title}}</label>
                     </div>
                 </td>
             </tr>
@@ -55,7 +55,7 @@
         logs: '',
         cmd: '',
         paused:false,
-        logfeaturenames:[],
+        sortedLogFeatureNames:[],
             // "HTTP",//            = 0,
             // "MQTT",//            = 1,
             // "CFG",//             = 2,
@@ -71,7 +71,7 @@
         logfeatures:[],
         loglevel:6,
         loglevelnames:[],
-        initialised: false,
+        initialised: false
       }
     },
     watch:{
@@ -86,7 +86,15 @@
             .then(response => response.json())
             .then(data => {
                 console.log('logconfig',data);
-                this.logfeaturenames = data.featurenames.map(x => x.split(':')[0]);
+
+                this.sortedLogFeatureNames = data.featurenames.map(function(x, index){
+                    var title = x;
+                    if (title.endsWith(":")){
+                        title = title.substr(0, title.length-1);
+                    }
+                    return {title: title, index: index};
+                }).sort((a,b) => a.title.localeCompare(b.title));
+
                 this.loglevelnames = data.levelnames;
                 for (let i = 0; i < 31; i++){
                     if ((data.features >> i) & 1){
