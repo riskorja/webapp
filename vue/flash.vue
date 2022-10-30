@@ -4,7 +4,7 @@
         <button @click="rf(null, $event)">Read RF Config</button>
         <button @click="config(null, $event)">Read Config</button>
         </div>
-        <div v-html="display"></div>
+        <div v-html="display" class="display"></div>
     </div>
 </template>
 
@@ -81,4 +81,8 @@
 </script>
 
 <style scoped>
+.display pre{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
 </style>
