@@ -1063,7 +1063,22 @@
       "image": "https://obrazki.elektroda.pl/6209806600_1660573904.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3912748.html#20145042"
     },
-
+    {
+      "vendor": "Aubess",
+      "bDetailed": "1",
+      "name": "Aubess Mini Smart Switch 16A, A5C-30E1-02",
+      "model": "A5C-30E1-02",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "pins": {
+        "6": "Button;1",
+        "7": "WifiLED_n;1",
+        "24": "Relay;1",
+        "26": "TglChanOnTgl;1"
+      },
+      "image": "https://obrazki.elektroda.pl/6581801300_1667148345.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3912748.html#20259945"
+    },
     {
       "vendor": "",
       "bDetailed": "0",
