@@ -396,5 +396,6 @@
     }
     .bottom {
         height:90%;
+        position: relative;
     }
 </style>

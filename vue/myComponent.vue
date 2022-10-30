@@ -25,7 +25,7 @@
     <div class="tabcontent" v-if="tab === 'Status'">
       <h3>Status</h3>
       <control-controller></control-controller>
-    </div>    
+    </div>
 
     <div class="tabcontent" v-if="tab === 'About'">
       <h3>About</h3>
@@ -33,20 +33,20 @@
       <p>A simple web app to go with OpenBekenIOT equipped devices by <a href="https://github.com/btsimonh">btsimonh</a></p>
       <p>This app is a pure javascript application written in VueJS as an SFC .vue component, and dynamically loaded from the device via a simple webpage.  The intent here is to be able to provide a rich UI and allow the device UI to remain simple (and small).</p>
       <p>Currently, it supports displaying logging from the device</p>
-    </div>    
+    </div>
 
     <div class="tabcontent" v-if="tab === 'OTA'">
       <h3>OTA</h3>
       <ota-controller></ota-controller>
-    </div>    
+    </div>
     <div class="tabcontent" v-if="tab === 'Flash'">
       <h3>Flash</h3>
       <flash-controller></flash-controller>
-    </div>    
+    </div>
     <div class="tabcontent" v-if="tab === 'Filesystem'">
       <h3>Filesystem</h3>
       <filesystem-controller></filesystem-controller>
-    </div>    
+    </div>
 
     </div>
 </template>
@@ -117,6 +117,8 @@
       overflow: hidden;
       border: 1px solid #ccc;
       background-color: #f1f1f1;
+      height: 40px;
+      box-sizing: border-box;
     }
     
     /* Style the buttons that are used to open the tab content */
@@ -142,16 +144,29 @@
     
     /* Style the tab content */
     .tabcontent {
-      position: relative;      
-      padding: 6px 12px;
+      padding: 0px 12px;
       border: 1px solid #ccc;
       border-top: none;
-      height:90%;
-      overflow:scroll
+      overflow: auto;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      box-sizing: border-box;
     }
     input[type=range] {
         width:99%;
     }
 
-  
+    .tabcontent h3{
+      height: 25px;
+    }
+   .tabcontent .container{
+      position:absolute;
+      top: 65px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
 </style>

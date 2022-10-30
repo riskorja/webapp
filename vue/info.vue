@@ -38,7 +38,7 @@
     <div class="item">
       <h4>Pin Settings:</h4>
       <div v-for="(role, index) in pins.roles" :key="index">
-        <span>{{index}}</span>
+        <span class="pin-index">{{index}}</span>
         <select v-model="pins.roles[index]">
           <option v-for="(name, index2) in pins.rolenames" :value="index2" :key="index2" :selected="(role == index2)">{{name}}</option>
         </select>
@@ -286,6 +286,10 @@
   }
 
   .item {
-    padding: 0 10px 0 10px;
+    padding: 0 15px;
+  }
+  .pin-index {
+    display: inline-block;
+    width: 20px;
   }
 </style>

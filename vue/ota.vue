@@ -9,6 +9,7 @@
             <br/>
             <button :disabled="!otadata" @click="startota(null, $event)">Start quick OTA (delete all LittleFS data)</button>
             <br/>
+            <br/>
             <button @click="backup(null, $event)">Read fsblock</button>
             <button @click="reboot(null, $event)">Reboot</button>
             <button @click="restore(null, $event)">Restore fsblock</button>
