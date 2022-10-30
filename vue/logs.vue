@@ -17,9 +17,10 @@
                     <label>Log Features:</label>
                 </td>
                 <td>
-                    <label class="feature" :for="item" v-for="(item, index) in logfeaturenames" :key="item">{{item}}
+                    <div class="feature" v-for="(item, index) in logfeaturenames" :key="item">
                         <input class="checkbox" type="checkbox" :id="item" :name="item" v-model="logfeatures[index]" @click="setfeature(index, $event)">
-                    </label>
+                        <label :for="item">{{item}}</label>
+                    </div>
                 </td>
             </tr>
             <tr>
@@ -54,24 +55,22 @@
         logs: '',
         cmd: '',
         paused:false,
-        logfeaturenames:[
-            "HTTP:",//            = 0,
-            "MQTT:",//            = 1,
-            "CFG:",//             = 2,
-            "HTTP_CLIENT:",//     = 3,
-            "OTA:",//             = 4,
-            "PINS:",//            = 5,
-            "MAIN:",//            = 6,
-            "GEN:", //              = 7
-            "API:", // = 8
-            "LFS:", // = 9
-            "CMD:", // = 10
-        ],
-        logfeatures:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-
+        logfeaturenames:[],
+            // "HTTP",//            = 0,
+            // "MQTT",//            = 1,
+            // "CFG",//             = 2,
+            // "HTTP_CLIENT",//     = 3,
+            // "OTA",//             = 4,
+            // "PINS",//            = 5,
+            // "MAIN",//            = 6,
+            // "GEN", //              = 7
+            // "API", // = 8
+            // "LFS", // = 9
+            // "CMD", // = 10
+        
+        logfeatures:[],
         loglevel:6,
-        loglevelnames:[
-        ],
+        loglevelnames:[],
         initialised: false,
       }
     },
@@ -87,7 +86,7 @@
             .then(response => response.json())
             .then(data => {
                 console.log('logconfig',data);
-                this.logfeaturenames = data.featurenames;
+                this.logfeaturenames = data.featurenames.map(x => x.split(':')[0]);
                 this.loglevelnames = data.levelnames;
                 for (let i = 0; i < 31; i++){
                     if ((data.features >> i) & 1){
@@ -225,7 +224,8 @@
     bottom: 0;
 }
 .feature {
-    margin-right:2em
+    margin-right:2em;
+    display: inline-block;
 }
 
 .checkbox {
