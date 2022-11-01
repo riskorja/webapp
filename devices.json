@@ -446,6 +446,18 @@
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929412&highlight="
     },
     {
+      "vendor": "Aubess",
+      "bDetailed": "1",
+      "name": "Aubess DIY Smart Switch (BL2028N version)",
+      "chip": "BL2028N",
+      "board": "FL_M99_V1",
+      "pins": {
+      },
+      "keywords": ["Belon","flash as BK7231N"],
+      "image": "https://obrazki.elektroda.pl/8487529500_1667287453.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3930515.html"
+    },
+    {
       "vendor": "MoesHouse",
       "bDetailed": "1",
       "name": "EDM-01AA-EU Dimmer",
