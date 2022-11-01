@@ -446,6 +446,30 @@
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929412&highlight="
     },
     {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "Generic Smart Plug AWP08L",
+      "chip": "BK7231T",
+      "board": "WB3",
+      "pins": {
+      },
+      "keywords": ["relay"],
+      "image": "https://obrazki.elektroda.pl/2975579700_1667258541.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
+    },
+    {
+      "vendor": "Gosund",
+      "bDetailed": "0",
+      "name": "Gosund Smart Plug SP1-C",
+      "chip": "BK7231T",
+      "board": "MW013_V02",
+      "pins": {
+      },
+      "keywords": ["relay"],
+      "image": "https://obrazki.elektroda.pl/2164493500_1667258463.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
+    },
+    {
       "vendor": "Sonoff",
       "bDetailed": "1",
       "name": "B05-BL-A60 RGB E27 Bulb",
