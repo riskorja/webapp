@@ -458,6 +458,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
     },
     {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "4CH 4Relay CB3S Module 7-28V",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["relay","low voltage","24V","DIY","Shopee","4 channels"],
+      "image": "https://obrazki.elektroda.pl/9714350400_1667326014_org.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20265559#20265559"
+    },
+    {
       "vendor": "Gosund",
       "bDetailed": "0",
       "name": "Gosund Smart Plug SP1-C",
