@@ -726,6 +726,7 @@
         "24": "BL0937SEL;1",
         "26": "Relay;1"
       },
+      "image": "https://obrazki.elektroda.pl/7144402400_1667457959.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3887748.html",
       "command": "backlog startDriver BL0937; PREF 1.2; VREF 0.124868; IREF 0.010548"
     },
