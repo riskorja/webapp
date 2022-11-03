@@ -18,10 +18,25 @@
         rfdata: null,
         display: '',
         configdata: null,
+        build:'unknown',
+        chipset:'unknown',
         status:'nothing going on',
       }
     },
     methods:{
+        getinfo(){
+            let url = window.device+'/api/info';
+            fetch(url)
+                .then(response => response.json())
+                .then(res => {
+                    this.build = res.build;
+                    this.chipset = res.chipset;     //Set chipset to fixed value for testing
+                })
+                .catch(err => {
+                    this.error = err.toString();
+                    console.error(err)
+                }); // Never forget the final catch!
+        },
         getRFAddress(){
             if(this.chipset === "BK7231T") {
 				return '1e0000-1000';
@@ -141,6 +156,7 @@
     mounted (){
         this.msg = 'fred';
         console.log('mounted ota');
+        this.getinfo();
     }
   }
 //@ sourceURL=/vue/flash.vue
