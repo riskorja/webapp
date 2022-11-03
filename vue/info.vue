@@ -1,6 +1,10 @@
 <template>
   <div class="container">
     <div class="item">
+      <h4 v-if="peers.length">SSDP Devices:</h4>
+      <p v-for="peer in peers" v-bind:key="peer.url"><a target="_blank" v-bind:href="peer.url">{{peer.name}}</a></p>
+    </div>
+    <div class="item">
       <h4>Current Device:</h4>
       <p>UpTime: {{uptime_s}}s</p>
       <p>Build: {{build}}</p>
@@ -10,6 +14,7 @@
       <p>MQTT Topic: {{mqtttopic}}</p>
       <p>WEBAPP Url root: {{webapp}}</p>
       <p>Chipset: {{chipset}}</p>
+      <p>Version: {{currentversion}} <span v-html="lateststr"></span></p>
       <p v-if="error">Error: {{error}}</p>
     </div>
 
@@ -114,7 +119,13 @@
           "BP1658CJ_DAT",
 	        "BP1658CJ_CLK",
         	"PWM_n"
-        ]
+        ],
+        releases: [],
+        latest: "", // read from github
+        currentversion: "", // extracted from build
+        lateststr: "",
+
+        peers:[],
       }
     },
     computed:{
@@ -143,6 +154,13 @@
                 this.webapp     = res.webapp;
                 this.chipset    = res.chipset;
                 this.supportsClientDeviceDB = res.supportsClientDeviceDB;
+
+                this.currentversion = this.build.split(' ').pop();
+                // only get releases the first time.
+                if (!this.releases.length){
+                  this.getReleases();
+                }
+                this.getPeers();
             })
             .catch(err => {
               this.error = err.toString();
@@ -150,6 +168,20 @@
             }); // Never forget the final catch!
 
       },
+
+      getPeers(){
+        let url = window.device+'/obkdevicelist';
+        fetch(url)
+          .then(response => response.json())
+          .then(res => {
+            this.peers = [];
+            for (let i = 0; i < res.length; i++){
+              let peer = { url:'http://'+res[i].ip, name:res[i].ip };
+              this.peers.push(peer);
+            }
+          });
+      },
+
       getPins(){
         let url = window.device+'/api/pins';
         fetch(url)
@@ -250,6 +282,23 @@
             });
 
             this.devices.unshift(null); //Empty placeholder
+          })
+          .catch(err => {
+              this.error = err.toString();
+              console.error(err)
+            });
+      },
+      getReleases(){
+        let base = "https://api.github.com/repos/openshwprojects/OpenBK7231T_App/releases";
+        fetch(base)
+          .then(response => response.json())
+          .then(data => {
+            this.releases = data;
+            // find latest release
+            this.latest = data[0].name;
+            if (this.latest !== this.currentversion){
+              this.lateststr = `(<a href="${data[0].html_url}" target="_blank">${this.latest}</a> available)`;
+            }
           })
           .catch(err => {
               this.error = err.toString();
