@@ -458,6 +458,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
     },
     {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "4CH 4Relay CB3S Module 7-28V",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["relay","low voltage","24V","DIY","Shopee","4 channels"],
+      "image": "https://obrazki.elektroda.pl/9714350400_1667326014_org.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20265559#20265559"
+    },
+    {
       "vendor": "Gosund",
       "bDetailed": "0",
       "name": "Gosund Smart Plug SP1-C",
@@ -472,7 +484,7 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
-      "name": "B05-BL-A60 RGB E27 Bulb",
+      "name": "B05-BL-A60 RGBCW E27 Bulb",
       "chip": "BL602",
       "board": "",
       "pins": {
@@ -572,21 +584,35 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
     },
     {
-      "vendor": "Smartrul",
+      "vendor": "LVJING",
+      "bDetailed": "1",
+      "name": "LVJING WIFI LED Plant Grow Light",
+      "model": "",
+      "chip": "BL602",
+      "board": "on PCB",
+      "pins": {
+      },
+      "keywords": ["UCS1912S ","plants"],
+      "image": "https://obrazki.elektroda.pl/3800183000_1667396617.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3930834.html",
+      "vendor": "https://www.aliexpress.com/item/1005004319893210.html"
+    },
+    {
+      "vendor": "CoRui",
       "bDetailed": "0",
-      "name": "Smartrul SMR-DP005-WIF-A19",
+      "name": " CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
       "model": "",
       "chip": "BK7231N",
-      "board": "CBLC9",
+      "board": "",
       "pins": {
-        "6": "PWM;5",
-        "9": "PWM;2",
+        "6": "PWM;3",
+        "7": "PWM;2",
         "8": "PWM;1",
-        "26": "PWM;3",
+        "26": "PWM;5",
         "24": "PWM;4"
       },
-      "image": "https://obrazki.elektroda.pl/5816412700_1666272919_thumb.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
+      "image": "https://obrazki.elektroda.pl/4977011200_1667315101.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3930622.html"
     },
     {
       "vendor": "Kanlux",
@@ -714,6 +740,7 @@
         "24": "BL0937SEL;1",
         "26": "Relay;1"
       },
+      "image": "https://obrazki.elektroda.pl/7144402400_1667457959.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3887748.html",
       "command": "backlog startDriver BL0937; PREF 1.2; VREF 0.124868; IREF 0.010548"
     },
@@ -879,7 +906,7 @@
         "7": "Button;1",
         "26": "Relay;1"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/1660030700_1667458131.png",
       "wiki": ""
     },
 
@@ -895,7 +922,7 @@
         "10": "Button;1",
         "26": "LED;1"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
       "wiki": ""
     },
 
@@ -931,7 +958,7 @@
         "9": "Relay;2",
         "11": "LED;2"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
       "wiki": ""
     },
 
@@ -953,7 +980,7 @@
         "8": "Button;3",
         "11": "LED;3"
       },
-      "image": "",
+      "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
       "wiki": ""
     },
 
