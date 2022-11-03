@@ -584,23 +584,6 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
     },
     {
-      "vendor": "Smartrul",
-      "bDetailed": "0",
-      "name": "Smartrul SMR-DP005-WIF-A19",
-      "model": "",
-      "chip": "BK7231N",
-      "board": "CBLC9",
-      "pins": {
-        "6": "PWM;5",
-        "9": "PWM;2",
-        "8": "PWM;1",
-        "26": "PWM;3",
-        "24": "PWM;4"
-      },
-      "image": "https://obrazki.elektroda.pl/5816412700_1666272919_thumb.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
-    },
-    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
