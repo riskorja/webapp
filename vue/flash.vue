@@ -3,7 +3,7 @@
         <div>
         <button @click="rf(null, $event)">Read RF Config</button>
         <button @click="config(null, $event)">Read Config</button>
-        <button @click="restore_rf(null, $event)">Restore RF Config (BK7231T, dont click)</button>
+        <button @click="restore_rf(null, $event)">Restore RF Config (T and N, not fully tested, dont click)</button>
         </div>
         <div v-html="display" class="display"></div>
     </div>
