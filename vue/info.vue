@@ -10,6 +10,7 @@
       <p>MQTT Topic: {{mqtttopic}}</p>
       <p>WEBAPP Url root: {{webapp}}</p>
       <p>Chipset: {{chipset}}</p>
+      <p>Version: {{currentversion}} <span v-html="lateststr"></span></p>
       <p v-if="error">Error: {{error}}</p>
     </div>
 
@@ -114,7 +115,11 @@
           "BP1658CJ_DAT",
 	        "BP1658CJ_CLK",
         	"PWM_n"
-        ]
+        ],
+        releases: [],
+        latest: "", // read from github
+        currentversion: "", // extracted from build
+        lateststr: "",
       }
     },
     computed:{
@@ -143,6 +148,12 @@
                 this.webapp     = res.webapp;
                 this.chipset    = res.chipset;
                 this.supportsClientDeviceDB = res.supportsClientDeviceDB;
+
+                this.currentversion = this.build.split(' ').pop();
+                // only get releases the first time.
+                if (!this.releases.length){
+                  this.getReleases();
+                }
             })
             .catch(err => {
               this.error = err.toString();
@@ -250,6 +261,23 @@
             });
 
             this.devices.unshift(null); //Empty placeholder
+          })
+          .catch(err => {
+              this.error = err.toString();
+              console.error(err)
+            });
+      },
+      getReleases(){
+        let base = "https://api.github.com/repos/openshwprojects/OpenBK7231T_App/releases";
+        fetch(base)
+          .then(response => response.json())
+          .then(data => {
+            this.releases = data;
+            // find latest release
+            this.latest = data[0].name;
+            if (this.latest !== this.currentversion){
+              this.lateststr = `(<a href="${data[0].html_url}" target="_blank">${this.latest}</a> available)`;
+            }
           })
           .catch(err => {
               this.error = err.toString();
