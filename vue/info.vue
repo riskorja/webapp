@@ -1,6 +1,10 @@
 <template>
   <div class="container">
     <div class="item">
+      <h4 v-if="peers.length">SSDP Devices:</h4>
+      <p v-for="peer in peers" v-bind:key="peer.url"><a target="_blank" v-bind:href="peer.url">{{peer.name}}</a></p>
+    </div>
+    <div class="item">
       <h4>Current Device:</h4>
       <p>UpTime: {{uptime_s}}s</p>
       <p>Build: {{build}}</p>
@@ -120,6 +124,8 @@
         latest: "", // read from github
         currentversion: "", // extracted from build
         lateststr: "",
+
+        peers:[],
       }
     },
     computed:{
@@ -154,6 +160,7 @@
                 if (!this.releases.length){
                   this.getReleases();
                 }
+                this.getPeers();
             })
             .catch(err => {
               this.error = err.toString();
@@ -161,6 +168,20 @@
             }); // Never forget the final catch!
 
       },
+
+      getPeers(){
+        let url = window.device+'/obkdevicelist';
+        fetch(url)
+          .then(response => response.json())
+          .then(res => {
+            this.peers = [];
+            for (let i = 0; i < res.length; i++){
+              let peer = { url:'http://'+res[i].ip, name:res[i].ip };
+              this.peers.push(peer);
+            }
+          });
+      },
+
       getPins(){
         let url = window.device+'/api/pins';
         fetch(url)
