@@ -54,7 +54,7 @@
 			  let rep = prompt("Are you certain? This might brick device. Enter yes.", "no");
 			  if (rep != null) {
 				  if(rep == "yes") {
-					restore_rf_internal(cb);
+					this.restore_rf_internal(cb);
 				  }
 			  }
 			
