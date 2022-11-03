@@ -19,10 +19,21 @@
                 <option value='sequence'>Backup/OTA/Restore</option>
             </select>
             <span>Selected: {{ defaultaction }}</span>
+            <br/>
+            <br/>
+            <span>Select remote OTA file to download to PC:</span>
+            <select v-model="selectedfile" @change="remoteotafilechange()">
+                <option v-for="opt in options" v-bind:key="opt.url" v-bind:value="opt.url">{{ opt.name }}<option>
+            </select>
+            <span>Download: </span><a v-bind:href="selectedfile">{{selectedfile}}</a>
+
         </div>
         <br/>
         <div>
-            <label for="otaFilePicker">Select OTA (RBL) file:</label><input id="otaFilePicker" type="file" @change="fileSelected($event)" :accept="otaFileExtension">
+            <label for="otaFilePicker">Select OTA file from disk:</label><input id="otaFilePicker" type="file" @change="fileSelected($event)" :accept="otaFileExtension">
+            <br/>
+            <p>Or drop it here:</p>
+            <br/>
             <div class="drop" @drop="dropHandler($event)" @dragover="dragOverHandler($event)">
                 <div class="otatext center" v-html="otatext"></div>
             </div>
@@ -45,17 +56,29 @@
         build:'unknown',
         chipset:'unknown',
         invalidOTASelected: false,
-        otaFileExtension:".rbl,.img"
+        otaFileExtension:".rbl,.img",
+
+        currentversion: '',
+        releases: [],
+        options: [],
+        selectedfile: '',
       }
     },
     methods:{
         getinfo(){
             let url = window.device+'/api/info';
+            console.log('getinfo from ota');
             fetch(url)
                 .then(response => response.json())
                 .then(res => {
                     this.build = res.build;
                     this.chipset = res.chipset;     //Set chipset to fixed value for testing
+
+                    this.currentversion = this.build.split(' ').pop();
+                    // only get releases the first time.
+                    if (!this.releases.length){
+                        this.getReleases();
+                    }
 
                     if (this.chipset){
                         this.otaFileExtension = this.chipSetUsesRBL() ? ".rbl" : ".img";
@@ -73,6 +96,10 @@
             if (view.byteLength < 3) return false;
             console.log(view);
             return view.getUint8(0) === 82 && view.getUint8(1) === 66 && view.getUint8(2) === 76;
+        },
+
+        remoteotafilechange(){
+
         },
 
         /* Check if the chipset uses RBL files */
@@ -253,11 +280,80 @@
                     .catch(err => console.error(err)); // Never forget the final catch!
             }
         },
+
+        getReleases(){
+            let base = "https://api.github.com/repos/openshwprojects/OpenBK7231T_App/releases";
+            fetch(base)
+            .then(response => response.json())
+            .then(data => {
+                this.releases = data;
+
+                let prefix;
+                let ext;
+                switch(this.chipset){
+                    case 'BK7231T':
+                        prefix = 'OpenBK7231T_';
+                        postfix = '.rbl';
+                        break;
+                    case 'BK7231N':
+                        prefix = 'OpenBK7231N_';
+                        postfix = '.rbl';
+                        break;
+                    case 'XR809':
+                        prefix = 'OpenXR809_';
+                        postfix = '.img';
+                        break;
+                    case 'BL602':
+                        prefix = 'OpenBL602_';
+                        postfix = '.bin';
+                        break;
+                    case 'W800': //OpenW800_1.14.116_ota.img
+                        prefix = 'OpenW800_';
+                        postfix = '_ota.img';
+                        break; 
+                    case 'W600': //OpenW600_1.14.116_gz.img
+                        prefix = 'OpenW600_';
+                        postfix = '_gz.img';
+                        break;
+                }
+
+                let options = [];
+                if (prefix){
+                    for (let i = 0; i < data.length; i++){
+                        let fname = prefix+data[i].name+postfix;
+                        let name = data[i].name;
+
+                        let downloadurl;
+                        for (let j = 0; j < data[i].assets.length; j++){
+                            if (data[i].assets[j].name === fname){
+                                downloadurl = data[i].assets[j].browser_download_url;
+                            }
+                        }
+                        // https://github.com/openshwprojects/OpenBK7231T_App/releases/download/1.14.116/OpenBK7231T_1.14.116.rbl
+                        if (downloadurl){
+                            options.push({ name: fname, url:downloadurl });
+                        }
+                    }
+                }
+                this.options = options;
+
+                // find latest release
+                this.latest = data[0].name;
+                if (this.latest !== this.currentversion){
+                this.lateststr = `(<a href="${data[0].html_url}" target="_blank">${this.latest}</a> available)`;
+                }
+            })
+            .catch(err => {
+                this.error = err.toString();
+                console.error(err)
+                });
+        },
+
     },
     mounted (){
         this.msg = 'fred';
         this.getinfo();
-        console.log('mounted ota');
+        console.log('mounted ota!');
     }
   }
 //@ sourceURL=/vue/controller.vue
