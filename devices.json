@@ -484,7 +484,7 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
-      "name": "B05-BL-A60 RGB E27 Bulb",
+      "name": "B05-BL-A60 RGBCW E27 Bulb",
       "chip": "BL602",
       "board": "",
       "pins": {
@@ -582,6 +582,37 @@
       },
       "image": "https://obrazki.elektroda.pl/5816412700_1666272919_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3927799.html"
+    },
+    {
+      "vendor": "LVJING",
+      "bDetailed": "1",
+      "name": "LVJING WIFI LED Plant Grow Light",
+      "model": "",
+      "chip": "BL602",
+      "board": "on PCB",
+      "pins": {
+      },
+      "keywords": ["UCS1912S ","plants"],
+      "image": "https://obrazki.elektroda.pl/3800183000_1667396617.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3930834.html",
+      "vendor": "https://www.aliexpress.com/item/1005004319893210.html"
+    },
+    {
+      "vendor": "CoRui",
+      "bDetailed": "0",
+      "name": " CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "",
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;2",
+        "8": "PWM;1",
+        "26": "PWM;5",
+        "24": "PWM;4"
+      },
+      "image": "https://obrazki.elektroda.pl/4977011200_1667315101.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3930622.html"
     },
     {
       "vendor": "Kanlux",
