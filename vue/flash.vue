@@ -22,9 +22,27 @@
       }
     },
     methods:{
+        getRFAddress(){
+            if(this.chipset === "BK7231T") {
+				return '1e0000-1000';
+			}
+            if(this.chipset === "BK7231N") {
+				return '1d0000-1000';
+			}
+			return '1e0000-1000';
+        },
+        getConfigAddress(){
+            if(this.chipset === "BK7231T") {
+				return '1e1000-1000';
+			}
+            if(this.chipset === "BK7231N") {
+				return '1d1000-1000';
+			}
+			return '1e1000-1000';
+        },
         rf(cb){
             this.status += '<br/>reading rf config...';
-            let url = window.device+'/api/flash/1e0000-1000';
+            let url = window.device+'/api/flash/'+this.getRFAddress();
             fetch(url)
                 .then(response => response.arrayBuffer())
                 .then(buffer => {
@@ -37,8 +55,8 @@
                 .catch(err => console.error(err)); // Never forget the final catch!
         },
         config(cb){
-            this.status += '<br/>reading rf config...';
-            let url = window.device+'/api/flash/1e1000-1000';
+            this.status += '<br/>reading config...';
+            let url = window.device+'/api/flash/'+this.getConfigAddress();
             fetch(url)
                 .then(response => response.arrayBuffer())
                 .then(buffer => {
@@ -62,7 +80,7 @@
         restore_rf_internal(cb){
             this.status += '<br/>Restoring RF config...';
             console.log('restore rf ');
-            let url = window.device+'/api/flash/1e0000-1000';
+            let url = window.device+'/api/flash/'+this.getRFAddress();
 			let correct_bk7231t_rf_config = [0x54,0x4c,0x56,0x00,0xe0,0x01,0x00,0x00,0x00,0x11,0x11,0x11,0x5a,0x00,0x00,0x00,0x01,0x11,0x11,0x11,0x04,0x00,0x00,0x00,0x4e,0x61,0xbc,0x00,0x02,0x11,0x11,0x11,
 0x06,0x00,0x00,0x00,0x84,0xe3,0x42,0xb2,0x61,0xbf,0x03,0x11,0x11,0x11,0x04,0x00,0x00,0x00,0x1d,0x01,0x00,0x00,0x04,0x11,0x11,0x11,0x04,0x00,0x00,0x00,0x8e,0x15,
 0x53,0x01,0x05,0x11,0x11,0x11,0x04,0x00,0x00,0x00,0x1b,0x00,0x00,0x00,0x06,0x11,0x11,0x11,0x04,0x00,0x00,0x00,0x55,0x00,0x54,0x03,0x07,0x11,0x11,0x11,0x08,0x00,
