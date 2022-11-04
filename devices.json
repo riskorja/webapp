@@ -1141,6 +1141,22 @@
     {
       "vendor": "Aubess",
       "bDetailed": "1",
+      "name": "AUBESS Tuya WiFi MiNi Smart Switch With Energy Monitor 16A 2-way control Timer Wireless Switch",
+      "model": "4B2-39G1-01 ZN366877_01",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "8": "LED_n;1",
+        "24": "TglChanOnTgl;1",
+        "26": "Rel;1"
+      },
+      "keywords": ["BL0942","power metering","Power Monitor Switch"],
+      "image": "https://obrazki.elektroda.pl/6581801300_1667148345.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20266899#20266899"
+    },
+    {
+      "vendor": "Aubess",
+      "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A, A5C-30E1-02",
       "model": "A5C-30E1-02",
       "chip": "BK7231N",
