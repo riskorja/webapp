@@ -19,6 +19,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
     {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "BH-AF2 Air Fryer",
+      "chip": "W701-VA2-CG",
+      "board": "WBR3",
+      "pins": {
+      },      
+      "keywords": ["",""],
+      "image": "https://obrazki.elektroda.pl/3243472200_1641952749.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3862336.html"
+    },
+    {
       "vendor": "Aoycocr",
       "bDetailed": "1",
       "name": "Aoycocr U3 UK Smart Plug",
