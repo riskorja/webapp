@@ -19,18 +19,6 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
     {
-      "vendor": "Blitzwolf",
-      "bDetailed": "1",
-      "name": "BH-AF2 Air Fryer",
-      "chip": "W701-VA2-CG",
-      "board": "WBR3",
-      "pins": {
-      },      
-      "keywords": ["",""],
-      "image": "https://obrazki.elektroda.pl/3243472200_1641952749.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3862336.html"
-    },
-    {
       "vendor": "Aoycocr",
       "bDetailed": "1",
       "name": "Aoycocr U3 UK Smart Plug",
@@ -659,6 +647,34 @@
       "image": "https://obrazki.elektroda.pl/2040976900_1665557370.png",
       "wiki": "",
       "product": "https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695"
+    },
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "BH-AF2 Air Fryer",
+      "chip": "W701-VA2-CG",
+      "board": "WBR3",
+      "pins": {
+      },      
+      "keywords": ["",""],
+      "image": "https://obrazki.elektroda.pl/3243472200_1641952749.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3862336.html"
+    },
+    {
+      "vendor": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S) ",
+      "bDetailed": "1",
+      "name": "SM-AW502S",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "Btn;1",
+        "7": "IRRecv;1",
+        "8": "WifiLED;1",
+        "26": "IRSend;1"
+      },      
+      "keywords": ["IR","5V"],
+      "image": "https://obrazki.elektroda.pl/1976518200_1667746638.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3931868.html"
     },
     {
       "vendor": "CasaLife",
