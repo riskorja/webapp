@@ -665,7 +665,7 @@
       "bDetailed": "1",
       "name": "SM-AW502S",
       "chip": "BK7231N",
-      "board": "CB2S",
+      "board": "CB3S",
       "pins": {
         "6": "Btn;1",
         "7": "IRRecv;1",
