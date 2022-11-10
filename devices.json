@@ -1784,6 +1784,25 @@
       "wiki": "",
       "product": "https://www.hama.com/00176598/hama-wlan-led-lamp-gu10-5-5-w-rgbw-dimmable-reflective-for-voice-app-control?srcLang=0&targetLang=1",
       "flag": 4
+    },
+
+    {
+      "vendor": "Generic",
+      "bDetailed": "1",
+      "name": "Generic Tuya WIFI Smart Socket (LSPA8) with WB2S and BL0937",
+      "model": "LSPA8",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "WifiLED_n;0",
+        "7": "BL0937CF;0",
+        "8": "BL0937CF1;0",
+        "10": "Button;0",
+        "24": "BL0937SEL;1",
+        "26": "Relay;0"
+      },
+      "image": "https://obrazki.elektroda.pl/6540960600_1668021484.webp",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3932742.html",
     }
   ]
 }
