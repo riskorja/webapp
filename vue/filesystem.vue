@@ -294,10 +294,12 @@
                 let url = window.device+'/api/del'+this.editname;
                 alert("Will try to remove - url is "+url);
                 fetch(url)
-                    .then(()=>{
+                    .then(response => response.arrayBuffer())
+                    .then(buffer => {
+                        this.status += '..delete done...';
                          if (cb) cb();
                          readCallback();
-                    });
+                    })
             } else {
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
