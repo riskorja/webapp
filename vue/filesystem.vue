@@ -28,7 +28,7 @@
                 <button @click="save(null, $event)">Save</button>
                 <button @click="save(startScript_simple)">Save, Run file as script thread</button>
                 <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>         
-                <button @click="delete(null, $event)">Delete</button>
+                <button @click="deleteFile(null, $event)">Delete</button>
                 <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
             </div>
         </div>
@@ -282,7 +282,7 @@
         },
 
 
-        delete(cb) {   
+        deleteFile(cb) {   
             let readCallback = this.read;
             if (this.editname) {
                 let r = confirm("Press a button!");
