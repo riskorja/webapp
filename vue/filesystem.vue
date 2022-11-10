@@ -293,10 +293,7 @@
                 }
                 let url = window.device+'/api/del'+this.editname;
                 alert("Will try to remove - url is "+url);
-                fetch(url, { 
-                        body: 'dummy',
-                        method: 'GET',
-                    })
+                fetch(url)
                     .then(()=>{
                          if (cb) cb();
                          readCallback();
