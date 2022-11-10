@@ -285,7 +285,7 @@
         deleteFile(cb) {   
             let readCallback = this.read;
             if (this.editname) {
-                let r = confirm("Press a button!");
+                let r = confirm("Do you really want to remove the file "+this.editname+"?");
                 if(r == false)
                 {
                      alert("Ok, then not.");
@@ -294,7 +294,7 @@
                 let url = window.device+'/api/del'+this.editname;
                 alert("Will try to remove - url is "+url);
                 fetch(url, { 
-                        body: '',
+                        body: 'dummy',
                         method: 'GET',
                     })
                     .then(()=>{
