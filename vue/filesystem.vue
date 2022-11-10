@@ -27,7 +27,8 @@
             <div class="right">
                 <button @click="save(null, $event)">Save</button>
                 <button @click="save(startScript_simple)">Save, Run file as script thread</button>
-                <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>
+                <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>         
+                <button @click="delete(null, $event)">Delete</button>
                 <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
             </div>
         </div>
@@ -280,6 +281,30 @@
                 });
         },
 
+
+        delete(cb) {   
+            let readCallback = this.read;
+            if (this.editname) {
+                let r = confirm("Press a button!");
+                if(r == false)
+                {
+                     alert("Ok, then not.");
+                     return;
+                }
+                let url = window.device+'/api/del'+this.editname;
+                alert("Will try to remove - url is "+url);
+                fetch(url, { 
+                        body: '',
+                        method: 'GET',
+                    })
+                    .then(()=>{
+                         if (cb) cb();
+                         readCallback();
+                    });
+            } else {
+                alert("Please begin editing some file first. Just click the name on list to edit.");
+            }
+        },
         save(cb) {
             let readCallback = this.read;
             if (this.editname) {
