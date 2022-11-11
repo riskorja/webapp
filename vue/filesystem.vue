@@ -281,8 +281,8 @@
                 .then(text => {
                     this.edittext = text;
                     this.editname = name;
-                    document.getElementByID("fileEditorLabel").innerHTML = "Editing "+name;
-                    document.getElementByID("fileEditorBody").style.display = "block";
+                    document.getElementById("fileEditorLabel").innerHTML = "Editing "+name;
+                    document.getElementById("fileEditorBody").style.display = "block";
                 });
         },
 
