@@ -25,11 +25,14 @@
                 </div>
             </div>
             <div class="right">
-                <button @click="save(null, $event)">Save</button>
-                <button @click="save(startScript_simple)">Save, Run file as script thread</button>
-                <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>         
-                <button @click="deleteFile(null, $event)">Delete</button>
-                <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
+                <h2 id="fileEditorLabel">File editor. Select file to begin.</h2>
+                <div id="fileEditorBody" style="display:none">
+                    <button @click="save(null, $event)">Save</button>
+                    <button @click="save(startScript_simple)">Save, Run file as script thread</button>
+                    <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>         
+                    <button @click="deleteFile(null, $event)">Delete</button>
+                    <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
+                </div>
             </div>
         </div>
     </div>
@@ -278,6 +281,8 @@
                 .then(text => {
                     this.edittext = text;
                     this.editname = name;
+                    document.getElementByID("fileEditorLabel").innerHTML = "Editing "+name;
+                    document.getElementByID("fileEditorBody").style.display = "block";
                 });
         },
 
