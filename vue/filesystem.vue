@@ -1,5 +1,12 @@
 <template>
     <div class="fill">
+        <p>"List Filesystem" will display all files on LittleFS. 
+        After listing the files, you can click on file name to begin editing text.
+        "Create File" allows you to create a new file on Device (like autoexec.bat).
+        You can also add files by drag &amp; dropping it.
+        "Reset scripts" will stop all script threads running (if you have started any) without stopping the device.
+        When editing a file, use "Save, Reset (...), and run" file to test new scripts, it will restart scripting every time with a clear state.
+        </p>
         <div class="top">
             <button @click="backup(null, $event)">Read fsblock</button>
             <button @click="restore(null, $event)">Restore fsblock</button>
