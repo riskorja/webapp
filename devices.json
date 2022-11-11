@@ -1626,8 +1626,8 @@
         "7": "PWM;1",
         "8": "PWM;2",
         "6": "PWM;3",
-	"24": "PWM;4",
-	"26": "PWM;5",
+		"24": "PWM;4",
+		"26": "PWM;5"
        },
        "image": "https://obrazki.elektroda.pl/9446665000_1668121903.png",
        "wiki": "https://www.elektroda.com/rtvforum/topic3933025.html"
