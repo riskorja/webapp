@@ -1,12 +1,21 @@
 <template>
     <div>
         <div>
-		Here you can read device flash directly. RF config is Beken internal configuration memory and Config is our configuration structure.<br>
-		Here you can also recover your device from "MAC ends with 00 00 00 and is unable to change" bug. Button 'Restore RF config' will restore RF partition for T and N and set a random MAC address, but this also requires rebooting device later.<br>
-		
-        <button @click="rf(null, $event)">Read RF Config</button>
-        <button @click="config(null, $event)">Read Config</button>
-        <button @click="restore_rf(null, $event)">Restore RF Config (T and N, not fully tested, dont click)</button>
+            Here you can read device flash directly. RF config is Beken internal configuration memory and Config is our configuration structure.<br>
+            Here you can also recover your device from "MAC ends with 00 00 00 and is unable to change" bug. Button 'Restore RF config' will restore RF partition for T and N and set a random MAC address, but this also requires rebooting device later.<br>
+            
+            <button @click="rf(null, $event)">Read RF Config</button>
+            <button @click="config(null, $event)">Read Config</button>
+            <button @click="flashvars(null, $event)">Read FlashVars</button>
+            <br/>
+            
+            <button @click="restore_rf(null, $event)">Restore RF Config (T and N, not fully tested, dont click)</button>
+            <br/>
+            <a :href="rfurl" download="rfdata">Download RF block</a>
+            <br/>
+            <a :href="configurl" download="configdata">Download Config block</a>
+            <br/>
+            <a :href="flashvarsurl" download="flashvarsdata">Download Flash Vars block</a>
         </div>
         <div v-html="display" class="display"></div>
     </div>
@@ -24,6 +33,9 @@
         build:'unknown',
         chipset:'unknown',
         status:'nothing going on',
+        rfurl: '',
+        configurl: '',
+        flashvarsurl: '',
       }
     },
     methods:{
@@ -34,6 +46,9 @@
                 .then(res => {
                     this.build = res.build;
                     this.chipset = res.chipset;     //Set chipset to fixed value for testing
+                    this.rfurl = window.device+'/api/flash/'+this.getRFAddress();
+                    this.configurl = window.device+'/api/flash/'+this.getConfigAddress();
+                    this.flashvarsurl = window.device+'/api/flash/'+this.getFlashVarsAddress();
                 })
                 .catch(err => {
                     this.error = err.toString();
@@ -47,7 +62,7 @@
             if(this.chipset === "BK7231N") {
 				return '1d0000-1000';
 			}
-            console.log('getConfigAddress is not implemented for '+this.chipset);
+            console.log('getRFAddress is not implemented for '+this.chipset);
 			return '1e0000-1000';
         },
         getConfigAddress(){
@@ -56,6 +71,17 @@
 			}
             if(this.chipset === "BK7231N") {
 				return '1d1000-1000';
+			}
+            console.log('getConfigAddress is not implemented for '+this.chipset);
+			return '1e1000-1000';
+        },
+        getFlashVarsAddress(){
+            // "NET info" + len(0x1000) + 0x1000
+            if(this.chipset === "BK7231T") {
+				return '1e3000-2000';
+			}
+            if(this.chipset === "BK7231N") {
+				return '0x1D3000-2000';
 			}
             console.log('getConfigAddress is not implemented for '+this.chipset);
 			return '1e1000-1000';
@@ -78,6 +104,21 @@
         config(cb){
             this.status += '<br/>reading config...';
             let url = window.device+'/api/flash/'+this.getConfigAddress();
+            console.log('Will use URL '+url);
+            fetch(url)
+                .then(response => response.arrayBuffer())
+                .then(buffer => {
+                    this.configdata = buffer; 
+                    console.log('received '+buffer.byteLength);
+                    this.status += '..got rf config...';
+                    this.dump(buffer);
+                    if(cb) cb();
+                })
+                .catch(err => console.error(err)); // Never forget the final catch!
+        },
+        flashvars(cb){
+            this.status += '<br/>reading flashvars...';
+            let url = window.device+'/api/flash/'+this.getFlashVarsAddress();
             console.log('Will use URL '+url);
             fetch(url)
                 .then(response => response.arrayBuffer())
@@ -193,6 +234,11 @@
     },
     mounted (){
         this.msg = 'fred';
+
+        this.rfurl = window.device+'/api/flash/'+this.getRFAddress();
+        this.configurl = window.device+'/api/flash/'+this.getConfigAddress();
+        this.flashvarsurl = window.device+'/api/flash/'+this.getFlashVarsAddress();
+
         console.log('mounted ota');
         this.getinfo();
     }

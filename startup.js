@@ -25,16 +25,17 @@ window.onload = ()=>{
     document.body.appendChild(appdiv);
     let comp = document.createElement('my-component');
     appdiv.appendChild(comp);
+    let unique = '?rand='+Math.random();
     
     window.components = [
-        { name:'device', path: window.root+'vue/device.vue' },
-        { name:'ota', path: window.root+'vue/ota.vue' },
-        { name:'filesystem', path: window.root+'vue/filesystem.vue' },
-        { name:'info', path: window.root+'vue/info.vue' },
-        { name:'flash', path: window.root+'vue/flash.vue' },
-        { name:'control', path: window.root+'vue/control.vue' },
-        { name:'logs', path: window.root+'vue/logs.vue' },
-        { name:'myComponent', path: window.root+'vue/myComponent.vue' },
+        { name:'device', path: window.root+'vue/device.vue'+unique },
+        { name:'ota', path: window.root+'vue/ota.vue'+unique },
+        { name:'filesystem', path: window.root+'vue/filesystem.vue'+unique },
+        { name:'info', path: window.root+'vue/info.vue'+unique },
+        { name:'flash', path: window.root+'vue/flash.vue'+unique },
+        { name:'control', path: window.root+'vue/control.vue'+unique },
+        { name:'logs', path: window.root+'vue/logs.vue'+unique },
+        { name:'myComponent', path: window.root+'vue/myComponent.vue'+unique },
     ];
 
     let numcomponents = 0;
