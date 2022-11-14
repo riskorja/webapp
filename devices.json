@@ -1339,6 +1339,20 @@
       "product": ""
     },
     {
+      "vendor": "Shenzhen Neo Electronic Co., LTD.",
+      "bDetailed": "1",
+      "name": "NAS-SC01W-1 1 gang switch and NAS-SC01W-3 3 gang",
+      "model": "",
+      "chip": "ESP8266",
+      "board": "ESP8266-MZ-V1",
+      "pins": {
+      },
+      "keywords": ["switch","Allegro","S47B9BB","BS813A"," NAS-SC01W-2"],
+      "image": "https://obrazki.elektroda.pl/1281349600_1666869882.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3933329&highlight=",
+      "product": ""
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Hiking DDS238-2 Smart Meter",
@@ -1570,6 +1584,30 @@
       },
       "image": "https://obrazki.elektroda.pl/5474775300_1665245227_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3925050.html"
+    },
+    {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "LSC 200 LED Multicolored Smart Lights ",
+      "chip": "BK7231N",
+      "board": "onboard",
+      "keywords": ["led","GP-SWXXXDCXXXX(EU)-1C,IP20 SERIES,GP-SWXXXDCXXXX-IP44(EU)-1C,IP44 SERIES","strip"],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/6598669200_1668208780.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3933313.html"
+    },
+    {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "TW-03/W600 3 Gang Smart Switch ",
+      "chip": "W600",
+      "board": "TW03",
+      "keywords": ["switch","relay","W600"],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/1358567700_1666926697.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3929601.html"
     },
     {
       "vendor": "Generic",
