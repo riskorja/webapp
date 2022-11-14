@@ -471,6 +471,24 @@
     },
     {
       "vendor": "Gosund",
+      "bDetailed": "1",
+      "name": "Gosund Smart Led Strip - RGB 5V",
+      "chip": "BK7231T",
+      "board": "unknown",
+      "pins": {
+        "7": "Btn;0",
+        "8": "Btn_NextColor;0",
+        "9": "PWM;1",
+        "14": "Btn_NextDimmer;0",
+        "24": "PWM;2",
+        "26": "PWM;0"
+      },
+      "keywords": ["RGB","LED","USB","mic"],
+      "image": "https://obrazki.elektroda.pl/6736823700_1666866013.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3932026.html"
+    },
+    {
+      "vendor": "Gosund",
       "bDetailed": "0",
       "name": "Gosund Smart Plug SP1-C",
       "chip": "BK7231T",
