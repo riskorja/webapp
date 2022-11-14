@@ -1599,6 +1599,48 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3927070.html"
     },
     {
+      "vendor": "Moes",
+      "bDetailed": "1",
+      "name": " Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
+      "chip": "BK7231T",
+      "board": "WBCL5",
+      "pins": {
+        "24": "BP1658CJ_DAT;1",
+        "26": "BP1658CJ_CLK;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4494838500_1667519452.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3931229.html"
+    },
+    {
+      "vendor": "Neo LITE",
+      "bDetailed": "1",
+      "name": "6W RGBCCT E14 LED candle bulb (Immax Neo LITE) ",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "pins": {
+        "24": "BP1658CJ_DAT;1",
+        "26": "BP1658CJ_CLK;1"
+      },
+      "image": "https://obrazki.elektroda.pl/7091753200_1668123839.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3933033.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Tuya E14 Lamp RGB+CW+WW - 9w [Belon BL2028N] (BK7231N) ",
+      "chip": "BK7231N",
+      "board": "FL_M95_V1",
+      "pins": {
+        "26": "PWM;2",
+        "24": "PWM;1",
+        "6": "PWM;4",
+        "8": "PWM;5",
+        "7": "PWM;3"
+      },
+      "image": "https://obrazki.elektroda.pl/1472879400_1668015934.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3932699.html"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "1",
       "name": "LSC Smart connect Smart LED MOOD LIGHT 970743 USB",
@@ -1614,6 +1656,21 @@
       },
       "image": "https://obrazki.elektroda.pl/7011755600_1663840884_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html"
+    },
+    {
+      "vendor": "Aubess",
+      "bDetailed": "0",
+      "name": "Aubess WiFi Smart IR Controller",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "7": "IRSend;1",
+        "8": "IRRecv;1",
+        "24": "LED_n;1"
+       },
+       "image": "https://obrazki.elektroda.pl/4645750300_1668258739.jpg",
+       "wiki": "https://www.elektroda.com/rtvforum/topic3933390.html"
     },
     {
       "vendor": "LSC",
