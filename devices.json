@@ -500,6 +500,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Tuya Temperature & Humidity monitor [BK7231N]",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "LCD", "date", "calendar", "temperature", "humidity"],
+      "image": "https://obrazki.elektroda.pl/2965726800_1668407558.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3933836.html"
+    },
+    {
       "vendor": "Sonoff",
       "bDetailed": "1",
       "name": "B05-BL-A60 RGBCW E27 Bulb",
