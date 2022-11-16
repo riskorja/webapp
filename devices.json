@@ -1745,6 +1745,21 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html"
     },
     {
+      "vendor": "VKSELE",
+      "bDetailed": "1",
+      "name": "VKSELE (EARU?) 2P DIN-rail relay/energy meter",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "Relay;1",
+        "24": "Button;1",
+        "14": "LED_n;1"
+       },
+       "image": "https://obrazki.elektroda.pl/7786470300_1668498503.png",
+       "wiki": "https://www.elektroda.com/rtvforum/topic3934142.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart IR Controller",
