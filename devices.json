@@ -491,7 +491,7 @@
       "vendor": "Gosund",
       "bDetailed": "0",
       "name": "Gosund Smart Plug SP1-C",
-      "chip": "BK7231T",
+      "chip": "F8088",
       "board": "MW013_V02",
       "pins": {
       },
