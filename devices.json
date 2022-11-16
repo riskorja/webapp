@@ -1745,6 +1745,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html"
     },
     {
+      "vendor": "Meross",
+      "bDetailed": "1",
+      "name": "Meross Wi-Fi Smart Plug & energy monitor",
+      "model": "",
+      "chip": "RTL8710CF",
+      "board": "",
+      "pins": {
+       },
+       "image": "https://obrazki.elektroda.pl/8840216200_1668409633.png",
+       "wiki": "https://www.elektroda.com/rtvforum/topic3933842.html"
+    },
+    {
       "vendor": "VKSELE",
       "bDetailed": "1",
       "name": "VKSELE (EARU?) 2P DIN-rail relay/energy meter",
