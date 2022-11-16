@@ -488,6 +488,25 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3932026.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "LSPS5 Wall Switch No-Neutral - 1 or 2 or 3 gang",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "6": "WiFi_Led;0",
+        "7": "Relay;1",
+        "8": "Relay;2",
+        "9": "Relay;3",
+        "14": "Btn;1",
+        "24": "Btn;3",
+        "26": "Btn;2"
+      },
+      "keywords": ["relay","wall switch","no neutral"],
+      "image": "https://obrazki.elektroda.pl/4519621800_1668572293.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3934363.html"
+    },
+    {
       "vendor": "Gosund",
       "bDetailed": "0",
       "name": "Gosund Smart Plug SP1-C",
