@@ -1298,6 +1298,7 @@
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
       "chip": "BK7231N",
+      "board": "CB3S",
       "pins": {
 
       },
