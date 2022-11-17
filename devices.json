@@ -569,6 +569,34 @@
     {
       "vendor": "Nous",
       "bDetailed": "1",
+      "name": "Bulb P4 E14 RGBCW (BK7231N + BP5758)",
+      "chip": "BK7231N",
+      "board": "EB01-B",
+      "pins": {
+        "26": "BP5758D_CLK;0",
+        "24": "BP5758D_DAT;0"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/8219818100_1664010430.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3923992&highlight="
+    },
+    {
+      "vendor": "Nous",
+      "bDetailed": "1",
+      "name": "Bulb P8 GU10 RGBCW (BK7231N + BP5758)",
+      "chip": "BK7231N",
+      "board": "EB01-B",
+      "pins": {
+        "26": "BP5758D_CLK;0",
+        "24": "BP5758D_DAT;0"
+      },
+      "keywords": ["RGBCW"],
+      "image": "https://obrazki.elektroda.pl/9188059200_1668416800.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3934503.html"
+    },
+    {
+      "vendor": "Nous",
+      "bDetailed": "1",
       "name": "Bulb P3-A60-RGB-CCT (CB2L + BP5758)",
       "chip": "BK7231N",
       "board": "CB2L",
