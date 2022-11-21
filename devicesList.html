@@ -186,6 +186,92 @@ function processJSON(json) {
 function refreshForFilters() {
 	refreshJSON(g_database);
 }
+//
+// TODO ! ! ! Create our own boards.json and use it here
+//
+function findDocsURLForBoard(board) {
+	if(board == "WB3S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wb3s-module-datasheet?id=K9dx20n6hz5n4";
+	}
+	if(board == "WB2S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wb2s-module-datasheet?id=K9ghecl7kc479";
+	}
+	if(board == "WB2L") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wb2l-datasheet?id=K9duegc9bualu";
+	}
+	if(board == "CB3S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cb3s?id=Kai94mec0s076";
+	}
+	if(board == "CB2S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cb2s-module-datasheet?id=Kafgfsa2aaypq";
+	}
+	if(board == "CB2L") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cb2l-module-datasheet?id=Kai2eku1m3pyl";
+	}
+	if(board == "TYWE3S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wifie3smodule?id=K9605ua1cx9tv";
+	}
+	if(board == "TYWE2S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wifie2smodule?id=K9605u79tgxug";
+	}
+	if(board == "WBLC5") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wblc5-module-datasheet?id=K9duilns1f3gi";
+	}
+	if(board == "WBR2") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/wbr2-module-mcu-serial-communication-instructions?id=K9pffkcjk7q5f";
+	}
+	if(board == "CBLC9") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cblc9-module-datasheet?id=Ka42cqnj9r0i5";
+	}
+	if(board == "TYZS5") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/tyzs5-zigbee-module-datasheet?id=K97gu1imy1m3u";
+	}
+	if(board == "CBU") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cbu-module-datasheet?id=Ka07pykl5dk4u";
+	}
+	if(board == "Z2S") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/zs2s-datasheet?id=K97s05sctcqvy";
+	}
+	if(board == "CBLC5") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cblc5-module-datasheet?id=Ka07iqyusq1wm";
+	}
+	if(board == "QQQ") 
+	{
+		return "httQQQug";
+	}
+	
+	return "";
+}
+function generateChipStr(chip, board) {
+	var chipStr = chip;
+	if(board == null || board.length == 0) {
+	
+	} else {
+		var chipUrl = findDocsURLForBoard(board);
+		chipStr += " ";
+		if(chipUrl != null && chipUrl.length > 0) {
+			chipStr += "(<a href='"+chipUrl+"' target='_blank'>" + board + "</a>)";
+		} else {
+			chipStr += "(" + board + ")";
+		}
+	}
+	return chipStr;
+}
 function refreshJSON(json) {
  //var s = "";
   var filter_BK7231T = document.getElementById("filter_BK7231T").checked;
@@ -213,13 +299,7 @@ function refreshJSON(json) {
 		var keywords = json.devices[i].keywords;
 		var vendor = json.devices[i].vendor;
 		
-		var chipStr = chip;
-		if(board == null || board.length == 0) {
-		
-		} else {
-			chipStr += " ";
-			chipStr += "(" + board + ")";
-		}
+		var chipStr = generateChipStr(chip,board);
 		if(vendor == null)
 		{
 			vendor = "";
