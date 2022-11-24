@@ -2037,6 +2037,22 @@
     },
 
     {
+      "vendor": "Athom",
+      "bDetailed": "1",
+      "name": "Athom Garage Door Opener Kit",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "7": "Relay;0",
+        "8": "dInput;1",
+        "24": "LED;0",
+        "26": "Button;0"
+      },
+      "image": "https://obrazki.elektroda.pl/8079066400_1668839293.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3936372&highlight="
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "1",
       "name": "Generic Tuya WIFI Smart Socket (LSPA7) with WB2S and BL0937",
