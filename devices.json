@@ -2039,6 +2039,25 @@
     {
       "vendor": "Generic",
       "bDetailed": "1",
+      "name": "Generic Tuya WIFI Smart Socket (LSPA7) with WB2S and BL0937",
+      "model": "LSPA7",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "WifiLED_n;0",
+        "7": "BL0937CF;0",
+        "8": "BL0937CF1;0",
+        "10": "Button;0",
+        "24": "BL0937SEL;1",
+        "26": "Relay;0"
+      },
+      "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
+    },
+
+    {
+      "vendor": "Generic",
+      "bDetailed": "1",
       "name": "Generic Tuya WIFI Smart Socket (LSPA8) with WB2S and BL0937",
       "model": "LSPA8",
       "chip": "BK7231T",
