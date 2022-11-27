@@ -706,7 +706,7 @@
       "keywords": ["UCS1912S ","plants"],
       "image": "https://obrazki.elektroda.pl/3800183000_1667396617.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3930834.html",
-      "vendor": "https://www.aliexpress.com/item/1005004319893210.html"
+      "product": "https://www.aliexpress.com/item/1005004319893210.html"
     },
     {
       "vendor": "CoRui",
@@ -2037,6 +2037,32 @@
       "flag": 4
     },
 
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "0",
+      "name": "Sonoff Basic",
+      "model": "",
+      "chip": "ESP8266",
+      "board": "",
+      "keywords": ["","",""],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/2910926800_1518905721.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=17045414#17045414"
+    },
+    {
+      "vendor": "Shelly",
+      "bDetailed": "0",
+      "name": "Shelly 1",
+      "model": "",
+      "chip": "ESP8266",
+      "board": "",
+      "keywords": ["","",""],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/7343020000_1583097791.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3665693.html"
+    },
     {
       "vendor": "Globe",
       "bDetailed": "0",
