@@ -2038,6 +2038,22 @@
     },
 
     {
+      "vendor": "Globe",
+      "bDetailed": "0",
+      "name": "Globe smart plug",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": ["","",""],
+      "pins": {
+        "7": "LED_n;0",
+        "24": "Relay;0",
+        "26": "Button;0"
+      },
+      "image": "https://obrazki.elektroda.pl/1458529500_1669511082.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20305460#20305460"
+    },
+    {
       "vendor": "Cree",
       "bDetailed": "0",
       "name": "Cree A21 100W RGBCW bulb",
