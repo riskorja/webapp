@@ -2037,6 +2037,32 @@
     },
 
     {
+      "vendor": "Cree",
+      "bDetailed": "0",
+      "name": "Cree A21 100W RGBCW bulb",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "",
+      "keywords": ["","",""],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/4344755200_1669217790.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3936264.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "[TAC2121C] Tuya smart DIN-rail relay/energy meter [BK7231N] ",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": ["V9911","FM24C64","SC02B"],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/7413420300_1669283711_org.webp",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3936455.html"
+    },
+    {
       "vendor": "Athom",
       "bDetailed": "1",
       "name": "Athom Garage Door Opener Kit",
