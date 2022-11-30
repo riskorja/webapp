@@ -1249,6 +1249,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3918605.html"
     },
     {
+      "vendor": "Bunnings",
+      "name": "[BK7231T] Deta Grid Connect Smart Double Gang Touch Light Switch (6912HA)",
+      "chip": "BK7231T",
+      "bDetailed": "0",
+      "board": "WB3S",
+      "pins": {
+        "6": "Relay;1",
+        "9": "WifiLED;1",
+        "14": "Button;1",
+        "24": "Button;2",
+        "26": "Relay;2"
+      },
+      "keywords": ["Bunnings","2gang"],
+      "image": "https://obrazki.elektroda.pl/4522969700_1669703361.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3937714.html"
+    },
+    {
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: BPPLUG/WIFI/WP/2 (N version)",
       "chip": "BK7231N",
