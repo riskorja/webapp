@@ -31,6 +31,7 @@
                     <select v-model="loglevel">
                         <option v-for="(item,index) of loglevelnames" :value="index" :key="index">{{item}}</option>
                     </select>
+                     NOTE: If you are getting 'command unknown', remember that some commands are only added when a driver is started, and some drivers requires device reboot to start.
                 </td>
             </tr>
             <tr>
