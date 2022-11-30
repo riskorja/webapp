@@ -206,6 +206,20 @@
     },
 	
     {
+      "vendor": "Action",
+      "bDetailed": "0",
+      "name": "LSC Smart GU10-RGB",
+      "chip": "BK7231T",
+	  "board": "on board",
+      "pins": {
+        "24": "SM2135_DAT;1",
+        "26": "SM2135_CLK;2"
+      },
+      "keywords": ["RGB","4.9W", "380LUMEN", "",""],
+      "image": "https://obrazki.elektroda.pl/8233780500_1669559812.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3937272.html"
+    },
+    {
       "vendor": "Feit",
       "bDetailed": "1",
       "name": "SHOP/4/HO/CCT/AG",
@@ -2094,6 +2108,37 @@
       },
       "image": "https://obrazki.elektroda.pl/7343020000_1583097791.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3665693.html"
+    },
+    {
+      "vendor": "Teknikkdeler",
+      "bDetailed": "1",
+      "name": "Dual smart plug outdoor 16A IP44 BK7231T ECF-SOP02 ",
+      "model": "ECF-SOP02",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": ["teknikkdeler","",""],
+      "pins": {
+        "6": "Button;1;2",
+        "7": "Relay;1",
+        "10": "LED;1",
+        "24": "Relay;2",
+        "26": "LED;2"
+      },
+      "image": "https://obrazki.elektroda.pl/2929601400_1669794035.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20308133"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya Motion Sensor",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "on board",
+      "keywords": ["","",""],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/4406067200_1669709109.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20310728"
     },
     {
       "vendor": "Globe",
