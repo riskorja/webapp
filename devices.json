@@ -2159,12 +2159,17 @@
     {
       "vendor": "Cree",
       "bDetailed": "0",
-      "name": "Cree A21 100W RGBCW bulb",
-      "model": "",
+      "name": "Cree A21 100W RGBCW bulb 2ANDL-WB8P CMA21-100W-AL-9ACK",
+      "model": "2ANDL-WB8P",
       "chip": "BK7231T",
-      "board": "",
+      "board": "WB8P",
       "keywords": ["","",""],
       "pins": {
+        "7": "PWM;4",
+        "8": "PWM;5",
+        "9": "PWM;2",
+        "24": "PWM;1",
+        "26": "PWM;3"
       },
       "image": "https://obrazki.elektroda.pl/4344755200_1669217790.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3936264.html"
