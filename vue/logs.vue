@@ -225,6 +225,8 @@
     margin: 0 10px;
     font-family: 'Courier New', Courier, monospace;
     resize: none;
+	width: 100%;
+	height: calc(100% - 160px);
 }
 .container .logging-settings{
     height: 150px;
