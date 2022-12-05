@@ -34,6 +34,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3924817.html"
     },
     {
+      "vendor": "Genio",
+      "bDetailed": "1",
+      "name": "Genio Galaxy Smart Lamp RGB - BK7231T - Teardown + Guide ",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "PWM;5",
+        "7": "WifiLED_n;0",
+        "8": "PWM_n;4",
+        "9": "PWM_n;1",
+        "14": "Btn;0",
+        "24": "PWM_n;2",
+        "26": "PWM_n;3"
+      },
+      "keywords": ["laser","motor","LED","RGB","",""],
+      "image": "https://obrazki.elektroda.pl/9234524600_1670165373.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939064.html",
+      "product": ""
+    },
+    {
       "vendor": "Magic Home",
       "bDetailed": "1",
       "name": "LED RGB IR Strip",
@@ -1499,7 +1520,7 @@
     {
       "vendor": "Shenzhen Neo Electronic Co., LTD.",
       "bDetailed": "1",
-      "name": "NAS-SC01W-1 1 gang switch and NAS-SC01W-3 3 gang",
+      "name": "Neo NAS-SC01W-1 1 gang switch and NAS-SC01W-3 3 gang",
       "model": "",
       "chip": "ESP8266",
       "board": "ESP8266-MZ-V1",
@@ -1508,6 +1529,20 @@
       "keywords": ["switch","Allegro","S47B9BB","BS813A"," NAS-SC01W-2"],
       "image": "https://obrazki.elektroda.pl/1281349600_1666869882.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3933329&highlight=",
+      "product": ""
+    },
+    {
+      "vendor": "Shenzhen Neo Electronic Co., LTD.",
+      "bDetailed": "1",
+      "name": "WiFi Dimmer Neo NAS-DM01W",
+      "model": "",
+      "chip": "ESP8266",
+      "board": "ESP8266-MZ-V1",
+      "pins": {
+      },
+      "keywords": ["dimmer","Allegro","TuyaMCU","NAS-DM01W0-T-V4 20190530","BS813A","SB10 F8G A0TISK 1938"],
+      "image": "https://obrazki.elektroda.pl/4662547400_1669645361.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3938163.html",
       "product": ""
     },
     {
@@ -2222,6 +2257,53 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
 
+    {
+      "vendor": "Amazon",
+      "bDetailed": "0",
+      "name": "AOFO smart power strip - WB2S ",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "Relay;5",
+        "7": "Relay;4",
+        "8": "Relay;3",
+        "10": "WiFi_LED_n;1",
+        "11": "Btn_Tgl_All;1",
+        "24": "Relay;1",
+        "26": "Relay;2"
+      },
+      "keywords": ["Amazon"],
+      "image": "https://obrazki.elektroda.pl/8091557100_1670152640.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3938978.html"
+    },
+    {
+      "vendor": "Amazon",
+      "bDetailed": "0",
+      "name": "BTF-Lighting FCOB CCT LED Strip Light ",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "7": "PWM;0",
+        "8": "PWM;1"
+      },
+      "keywords": ["Amazon ", "CCT","CW","cool warm", "3 buttons"],
+      "image": "https://obrazki.elektroda.pl/2957914300_1670199688.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939159.html"
+    },
+    {
+      "vendor": "LVWIT",
+      "bDetailed": "0",
+      "name": "LVWIT 5W 350Lm RGBCW Bulb - SM2135 LED Controller",
+      "chip": "BK7231T",
+      "board": "WBLC9",
+      "pins": {
+        "9": "SM2135_DAT;1",
+        "7": "SM2135_CLK;2"
+      },
+      "keywords": ["SM2135Eh"],
+      "image": "https://obrazki.elektroda.pl/2173725100_1670010174.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3938630.html"
+    },
     {
       "vendor": "Generic",
       "bDetailed": "1",
