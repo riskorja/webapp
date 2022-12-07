@@ -2258,6 +2258,33 @@
     },
 
     {
+      "vendor": "Setti+",
+      "bDetailed": "0",
+      "name": "Setti+ SP301 Power Plug With Power Monitoring BL0942",
+      "chip": "BK7231N",
+      "board": "",
+      "pins": {
+        "9": "Button;0",
+        "6": "WifiLED_n;0",
+        "26": "Relay;0"
+      },
+      "keywords": ["BL0942","NAS-WR01W6-T V7"],
+      "image": "https://obrazki.elektroda.pl/2287627300_1670410100.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20322891#20322891"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya 3Gang Smart Home Light Switch WiFi+RF433",
+      "chip": "ESP8266",
+      "board": "TYWE3S",
+      "pins": {
+      },
+      "keywords": ["eBay","RF433"],
+      "image": "https://obrazki.elektroda.pl/8928934700_1670381769.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3939685.html"
+    },
+    {
       "vendor": "Amazon",
       "bDetailed": "0",
       "name": "AOFO smart power strip - WB2S ",
