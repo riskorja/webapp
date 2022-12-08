@@ -9,7 +9,7 @@
             <button @click="flashvars(null, $event)">Read FlashVars</button>
             <br/>
             
-            <button @click="restore_rf(null, $event)">Restore RF Config (T and N, not fully tested, dont click)</button>
+            <button @click="restore_rf(null, $event)">Restore RF Config (N & T)</button>
             <br/>
             <a :href="rfurl" download="rfdata">Download RF block</a>
             <br/>
