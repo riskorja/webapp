@@ -55,6 +55,8 @@
       <label for="deviceCommand" style="width:75px; display: inline-block;">Command:</label>&nbsp;<input id="deviceCommand" v-model="deviceCommand" placeholder="Startup command"/><br/>
 
       <button @click="savePins">Save Pins</button>
+      <br/>
+	  NOTE: You might need to reboot your device in order to apply all changes.
     </div>
   </div>
 </template>
