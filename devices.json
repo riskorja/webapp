@@ -2256,7 +2256,21 @@
       "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
-
+    {
+      "vendor": "Merkury",
+      "bDetailed": "0",
+      "name": "Merkury WiFi power plug Mi-WW218-199WW 2AJ3WEBECZW03",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "Button;0",
+        "8": "LED_n;0",
+        "24": "Relay;0"
+      },
+      "keywords": ["Intertek","FCC ID 2AJ3WEBECZW03"],
+      "image": "https://obrazki.elektroda.pl/5833693400_1670464635.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939972.html"
+    },
     {
       "vendor": "Setti+",
       "bDetailed": "0",
