@@ -2275,6 +2275,22 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Mini Universal IR Remote M-18 CBU/BK7231N",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "8": "IRrecv;0",
+        "7": "IRsend;0",
+        "24": "LED;0",
+        "26": "Button;0"
+      },
+      "keywords": ["IR","aliexpress"],
+      "image": "https://obrazki.elektroda.pl/7391587500_1670580555.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3940249.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya 3Gang Smart Home Light Switch WiFi+RF433",
       "chip": "ESP8266",
       "board": "TYWE3S",
