@@ -2257,6 +2257,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
     {
+      "vendor": "Kogan",
+      "bDetailed": "0",
+      "name": "Kogan Smart Plug with Energy Meter (KASPEMHA)",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "WifiLED_n;0",
+        "7": "BL0937CF;0",
+        "8": "BL0937CF1;0",
+        "10": "Button;0",
+        "24": "BL0937SEL;1",
+        "26": "Relay;0"
+      },
+      "keywords": ["BL0937","Power metering", "uses Generic Tuya WIFI Smart Socket (LSPA8) profile"],
+      "image": "https://obrazki.elektroda.pl/1530383600_1670474695.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939980.html"
+    },
+    {
       "vendor": "Merkury",
       "bDetailed": "0",
       "name": "Merkury WiFi power plug Mi-WW218-199WW 2AJ3WEBECZW03",
