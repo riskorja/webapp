@@ -624,6 +624,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3930515.html"
     },
     {
+      "vendor": "Aubess",
+      "bDetailed": "0", 
+      "name": "Aubess 2gang Mini Smart Switch BK7231N/CB2S (aka FL_M99_V3?)",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "Relay;0",
+        "7": "Relay;1",
+        "10": "TglChanOnTgl;0",
+        "11": "TglChanOnTgl;1",
+        "24": "WifiLED;0",
+        "26": "Button;0"
+      },
+      "keywords": ["CBS2s aka FL_M99_V3","2 gang","relay","Aliexpress"],
+      "image": "https://obrazki.elektroda.pl/3059836100_1670485829.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939997.html"
+    },
+    {
       "vendor": "MoesHouse",
       "bDetailed": "1",
       "name": "EDM-01AA-EU Dimmer",
