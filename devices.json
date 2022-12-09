@@ -612,6 +612,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3930355.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya Smart IR NAS-IR02W6 v3",
+      "chip": "BK7231T",
+      "board": "on PCB",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["","IR",""],
+      "image": "https://obrazki.elektroda.pl/2129193900_1670533906.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3940178.html"
+    },
+    {
       "vendor": "EARU",
       "bDetailed": "0",
       "name": "[BK7231N - CBU] EARU Electric RDCBC/TJ-2P DIN-rail relay/energy meter",
