@@ -612,6 +612,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3930355.html"
     },
     {
+      "vendor": "EARU",
+      "bDetailed": "0",
+      "name": "[BK7231N - CBU] EARU Electric RDCBC/TJ-2P DIN-rail relay/energy meter",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "9": "WifiLED;0",
+        "16": "Relay_n;0",
+        "24": "Relay;0",
+        "26": "Button;0",
+        "28": "LED;0"
+      },
+      "command": "backlog startDriver BL0942;",
+      "keywords": ["BL0942","DIN rail","Tuya APP 1P + N "],
+      "image": "https://obrazki.elektroda.pl/2514279200_1670499417.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3940050.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "1",
       "name": "Aubess DIY Smart Switch (BL2028N version)",
