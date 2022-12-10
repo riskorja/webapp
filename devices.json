@@ -614,6 +614,19 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Moes mmWave Radar Sensor Z-HPSW101",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["","",""],
+      "image": "https://obrazki.elektroda.pl/5381746700_1670470614.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3939979.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya Smart IR NAS-IR02W6 v3",
       "chip": "BK7231T",
       "board": "on PCB",
