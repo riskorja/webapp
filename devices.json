@@ -612,6 +612,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3930355.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "1",
+      "name": "LSC Smart Outdoor Spotlights (3pcs) 170lm ",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "pins": {
+        "8": "PWM;5",
+        "7": "PWM;2",
+        "6": "PWM;1",
+        "26": "PWM;3",
+        "24": "PWM;4"
+      },
+      "command": "",
+      "keywords": ["8712879154488","Action","24V"],
+      "image": "https://obrazki.elektroda.pl/3479602900_1670838359.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3941003.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Moes mmWave Radar Sensor Z-HPSW101",
