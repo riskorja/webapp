@@ -632,10 +632,28 @@
     {
       "vendor": "LSC",
       "bDetailed": "0",
+      "name": "LSC Smart Filament LED 350lumen Extra Warm White E27",
+      "chip": "BK7231T",
+      "board": "WBLC5",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["Action","",""],
+      "image": "https://obrazki.elektroda.pl/5659192700_1670838739.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3941004.html"
+    },
+    {
+      "vendor": "LSC",
+      "bDetailed": "0",
       "name": "LSC Outdoor Spotlight WB2S",
       "chip": "BK7231T",
       "board": "WB2S ",
       "pins": {
+        "6": "PWM;2",
+        "7": "PWM;1",
+        "8": "PWM;3",
+        "24": "PWM;4",
+        "26": "PWM;5"
       },
       "command": "",
       "keywords": ["Action","",""],
