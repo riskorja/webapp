@@ -630,6 +630,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941003.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "LSC Outdoor Spotlight WB2S",
+      "chip": "BK7231T",
+      "board": "WB2S ",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["Action","",""],
+      "image": "https://obrazki.elektroda.pl/1031604500_1670798586.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3940938.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Moes mmWave Radar Sensor Z-HPSW101",
