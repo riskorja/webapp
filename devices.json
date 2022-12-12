@@ -1942,6 +1942,18 @@
     },
     {
       "vendor": "Moes",
+      "bDetailed": "0",
+      "name": "2 Gang MOES WB2S BK7231T - Aliexpress",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "Aliexpress","2 gang"],
+      "image": "https://obrazki.elektroda.pl/1220395600_1670708109.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3940683.html"
+    },
+    {
+      "vendor": "Moes",
       "bDetailed": "1",
       "name": " Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
       "chip": "BK7231T",
