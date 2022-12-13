@@ -2413,6 +2413,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3939972.html"
     },
     {
+      "vendor": "Neo",
+      "bDetailed": "0",
+      "name": "Neo Power Plug 16A (old ESP version)",
+      "chip": "ESP8266",
+      "board": "",
+      "pins": {
+      },
+      "keywords": ["BL0937","NAS-0GCZ-16A-B V6 20181113","NEO COOLCAM NAS WR01W"],
+      "image": "https://obrazki.elektroda.pl/9638821000_1670917831.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3941251&highlight="
+    },
+    {
       "vendor": "Setti+",
       "bDetailed": "0",
       "name": "Setti+ SP301 Power Plug With Power Monitoring BL0942",
