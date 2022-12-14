@@ -1031,6 +1031,19 @@
     },
 
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "LSPA9 (W600) Power metering plug BL0937 version",
+      "model": "LSPA9",
+      "chip": "W600",
+      "board": "TW-02",
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/9373738100_1670252064.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20319760#20319760",
+      "command": "backlog startDriver BL0937; PREF 1.2; VREF 0.124868; IREF 0.010548"
+    },
+    {
       "vendor": "NAS",
       "bDetailed": "1",
       "name": "NAS-WR07W Power Metering Plug (BK7231T + BL0937)",
