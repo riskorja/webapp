@@ -1392,6 +1392,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
     },
     {
+      "vendor": "Airam",
+      "name": "Airam Smart A60 827-865 RGB 806lm E27 OP",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "",
+      "pins": {
+        "6": "PWM;2",
+        "7": "PWM;1",
+        "8": "PWM;3",
+        "24": "PWM;4",
+        "26": "PWM;5"
+      },
+      "image": "https://obrazki.elektroda.pl/4354739500_1649883247.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19977811#19977811"
+    },
+    {
       "vendor": "Globe",
       "name": "Globe Electric Smart Ambient Light Wifi rgbcw 50239",
       "chip": "BK7231T",
