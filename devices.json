@@ -692,6 +692,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3939979.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (C3BS) (CH573F) (BL0924) ",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["TuyaMCU","BL0924","LCD"],
+      "image": "https://obrazki.elektroda.pl/6768510300_1671107680.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3941692.html"
+    },
+    {
       "vendor": "Sumart",
       "bDetailed": "0",
       "name": "BSD48 Sumart power metering plug UK",
