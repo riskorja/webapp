@@ -692,6 +692,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3939979.html"
     },
     {
+      "vendor": "Sumart",
+      "bDetailed": "0",
+      "name": "BSD48 Sumart power metering plug UK",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["","BL0397",""],
+      "image": "https://obrazki.elektroda.pl/7419993500_1671534985.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3942936.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Tuya Smart IR NAS-IR02W6 v3",
