@@ -694,7 +694,20 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (C3BS) (CH573F) (BL0924) ",
+      "name": "Tuya wifi ceiling lamp dimmable KZB2436-36W",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "command": "",
+      "keywords": ["","",""],
+      "image": "https://obrazki.elektroda.pl/7210299000_1671563024.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3943037.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (C3BS) (CH573F) (BL0924)",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
