@@ -692,6 +692,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3939979.html"
     },
     {
+      "vendor": "HomeKit",
+      "bDetailed": "0",
+      "name": "WHDZ03 Smart Plug with Energy Monitoring BK7231N - Need help configuring",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "BL0937CF1;1",
+        "7": "BL0937CF;1",
+        "8": "WiFiLED;1",
+        "11": "Button;1",
+        "24": "BL0937SEL;1",
+        "26": "Relay;1"
+      },
+      "command": "",
+      "keywords": ["BL0937","",""],
+      "image": "https://obrazki.elektroda.pl/9675892200_1671577072.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3943090.html"
+    },
+    {
       "vendor": "Lenovo",
       "bDetailed": "0",
       "name": "Lenovo Smart LED Lightstrip SE-243SC RGBWW",
