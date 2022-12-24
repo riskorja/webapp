@@ -699,6 +699,37 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941220.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "[BK7231T/WB2S] Smart Led Moon 18W 1260lm CCT",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "PWM;2",
+        "7": "PWM;1"
+      },
+      "command": "",
+      "keywords": ["Allegro","",""],
+      "image": "https://obrazki.elektroda.pl/6473861200_1671863061.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3943775.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "[BK7231T/WB3L] Spectrum Nymphea 24W 1840lm CCT",
+      "chip": "BK7231T",
+      "board": "WB3L",
+      "pins": {
+        "24": "PWM_n;1",
+        "26": "PWM;0"
+      },
+      "command": "",
+      "keywords": ["SpectrumSmart","SLI031033CCT",""],
+      "image": "https://obrazki.elektroda.pl/5190882900_1671862774.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3943773.html",
+	  "flag": 4352
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "0",
       "name": "LSC Outdoor Spotlight WB2S",
