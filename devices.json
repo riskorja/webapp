@@ -660,6 +660,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20350582#20350582"
     },
     {
+      "vendor": "Kruitvat",
+      "bDetailed": "1",
+      "name": "[BK7231T / WB2S] Kruitvat Smart Plug SH 63.126 Dual (with Energy Meter) ",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "BL0937SEL;1",
+        "7": "BL0937CF1;1",
+        "8": "BL0937CF;1",
+        "10": "Btn;1",
+        "11": "WifiLED_n;1",
+        "23": "Btn;2",
+        "24": "Rel;1",
+        "26": "Rel;2"
+      },
+      "command": "",
+      "keywords": ["Kruitvat","SmartHome","Dual","BL0937"],
+      "image": "https://obrazki.elektroda.pl/9833312300_1671800446.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20350582#20350582"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
