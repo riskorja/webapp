@@ -643,6 +643,23 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3941004.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "1",
+      "name": "[BK7231T] Action LCS Smart Plug (without Energy Meter) 2578685 [WARNING BAD CB2S LABEL?]",
+      "chip": "BK7231T",
+      "board": "CB2S",
+      "pins": {
+        "6": "LED_n;1",
+        "7": "Btn;1",
+        "8": "Rel_1;1",
+        "26": "Wifi;1"
+      },
+      "command": "",
+      "keywords": ["Action","2578685","strange CB2S with BK7231T"],
+      "image": "https://obrazki.elektroda.pl/6071956500_1671809976.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20350582#20350582"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
