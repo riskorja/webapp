@@ -1931,6 +1931,9 @@
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {
+        "7": "IRSend;0",
+        "8": "IRRecv;0",
+        "24": "WifiLED;0"
       },
       "keywords": ["IR","38kHz","Remote","USB"],
       "image": "https://obrazki.elektroda.pl/8432832000_1663500597_thumb.jpg",
