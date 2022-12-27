@@ -99,7 +99,7 @@
         },
 
         /* Check if the ArrayBuffer contains magic number 0xa0ffff9f (tls_fwup_img_header_check) */
-        isW600Compatible(arrayBuffer){
+        isWinnerMicroImage(arrayBuffer){
             let view = new DataView(arrayBuffer);
             if (view.byteLength < 4) return false;
             console.log(view);
@@ -149,8 +149,8 @@
                     this.invalidOTASelected = !this.fileNameMatchesChipset(file.name);
                 }
             }
-            else if (this.chipset === "W600"){
-                this.invalidOTASelected =!this.isW600Compatible(result);
+            else if (this.chipset === "W600" || this.chipset === "W800"){
+                this.invalidOTASelected = !this.isWinnerMicroImage(result);
             }
             else{
                 //At this point W800 is the only other chipset with has OTA images e.g. OpenW800_1.12.40_ota.img
