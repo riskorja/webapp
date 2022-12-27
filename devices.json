@@ -13,15 +13,15 @@
         "2":  "Button;2",
         "3":  "Button;3",
         "4":  "Button;4",
-        "14": "Button;5"
-        "17": "Button;6"
-        "20": "Button;7"
-        "21": "Button;8"
+        "14": "Button;5",
+        "17": "Button;6",
+        "20": "Button;7",
+        "21": "Button;8",
         "22": "Button;9"
       },
       "keywords": ["", ""],
       "image": "https://user-images.githubusercontent.com/14217781/209668900-bb520a07-8e79-45ce-a03a-ca0936ad0034.jpg",
-      "wiki": ""
+      "wiki": "",
       "product": "https://world.taobao.com/item/691740234866.htm"
     },
     {
@@ -34,11 +34,11 @@
       "pins": {
         "20": "Relay;1",
         "4":  "Button;1",
-        "22": "WifiLED_n;1",
+        "22": "WifiLED_n;1"
       },
       "keywords": ["switch","relay","KR05"],
       "image": "https://user-images.githubusercontent.com/14217781/209668900-bb520a07-8e79-45ce-a03a-ca0936ad0034.jpg",
-      "wiki": ""
+      "wiki": "",
       "product": "https://aliexpress.com/item/1005004996247436.html"
     },
     {
@@ -53,11 +53,11 @@
         "20": "Button;1",
         "17": "Relay;2",
         "4":  "Button;2",
-        "14": "WifiLED_n;1",
+        "14": "WifiLED_n;1"
       },
       "keywords": ["switch","relay","KR0548"],
       "image": "https://user-images.githubusercontent.com/14217781/209668935-4cb93644-7656-4b5e-a41b-515674f8ce0e.jpg",
-      "wiki": ""
+      "wiki": "",
       "product": "https://aliexpress.com/item/1005004920914830.html"
     },
     {
