@@ -98,6 +98,14 @@
             return view.getUint8(0) === 82 && view.getUint8(1) === 66 && view.getUint8(2) === 76;
         },
 
+        /* Check if the ArrayBuffer contains magic number 0xa0ffff9f (tls_fwup_img_header_check) */
+        isWinnerMicroImage(arrayBuffer){
+            let view = new DataView(arrayBuffer);
+            if (view.byteLength < 4) return false;
+            console.log(view);
+            return view.getUint8(0) === 0x9f && view.getUint8(1) === 0xff && view.getUint8(2) === 0xff && view.getUint8(3) === 0xa0;
+        },
+
         remoteotafilechange(){
 
         },
@@ -126,6 +134,7 @@
             this.otadata = null;    //Reset otadata
             
             var result = event.target.result;   //ArrayBuffer
+            console.log('chipset=' + this.chipset);
             console.log("Checking ota data");
             console.log(result);
             console.log('otadata len:' + result.byteLength);
@@ -139,6 +148,9 @@
                     //Prevent BK7231N from being used in BK7231T
                     this.invalidOTASelected = !this.fileNameMatchesChipset(file.name);
                 }
+            }
+            else if (this.chipset === "W600" || this.chipset === "W800"){
+                this.invalidOTASelected = !this.isWinnerMicroImage(result);
             }
             else{
                 //At this point W800 is the only other chipset with has OTA images e.g. OpenW800_1.12.40_ota.img
