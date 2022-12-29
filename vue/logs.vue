@@ -9,14 +9,16 @@
                 </td>
                 <td>
                     <button class="logging" :class="{paused:paused}"  @click="paused = !paused">{{paused?"Resume":"Pause"}}</button>
-                    <button class="feature" @click="clear">Clear</button>
+                    <button class="feature" style="width: 100px" @click="clear">Clear History</button>
+                    <button class="feature" style="width: 125px" @click="selectAllFeatures">Select All Features</button>
+                    <button class="feature" style="width: 125px" @click="clearAllFeatures">Clear All Features</button>
                 </td>
             </tr>
             <tr>
                 <td style="width: 80px">
                     <label>Log Features:</label>
                 </td>
-                <td>
+                <td id="logFeaturesParent">
                     <div class="feature" v-for="(item) in sortedLogFeatureNames" :key="item">
                         <input class="checkbox" type="checkbox" :id="item.title" :name="item.title" v-model="logfeatures[item.index]" @click="setfeature(item.index, $event)">
                         <label :for="item.title">{{item.title}}</label>
@@ -158,7 +160,27 @@
         clear(){
             this.logs = '';
         },
-
+		toggleSet(elm, checked) {
+		  if (checked != elm.checked) {
+			elm.click();
+		  }
+		},
+        setAllFeatures(state){
+            console.log("Will set all feature checkboxes to " +state);
+			let par = document.getElementById("logFeaturesParent");
+			for(let child=par.firstChild; child!==null; child=child.nextSibling) {
+				let cb = child.firstChild;
+				this.toggleSet(cb,state);
+			}
+        },
+        clearAllFeatures(){
+            console.log("clearAllFeatures");
+            this.setAllFeatures(false);
+        },
+        selectAllFeatures(){
+            console.log("selectAllFeatures");
+            this.setAllFeatures(true);
+        },
         showlogs(){
             let url = window.device+'/lograw';
             if (!this.paused){
