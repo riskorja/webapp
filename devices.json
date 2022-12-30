@@ -244,6 +244,22 @@
     },
 	
     {
+      "vendor": "Kuled",
+      "bDetailed": "0",
+      "name": "KS-602S 120V Intertek Kuled K36 Switch",
+      "chip": "BK7231N",
+	  "board": "on board",
+      "pins": {
+        "17": "Relay;1",
+        "24": "LED;1",
+        "26": "Button;1"
+      },
+      "keywords": ["switch","4 pack", "Amazon", "Kuled",""],
+      "image": "https://obrazki.elektroda.pl/4515301600_1672190165.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3944647.html",
+      "command": ""
+    },
+    {
       "vendor": "Action",
       "bDetailed": "0",
       "name": "LSC Smart GU10-RGB",
