@@ -242,7 +242,26 @@
       "image": "https://obrazki.elektroda.pl/9055969600_1657790488_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3906898.html"
     },
-	
+    {
+      "vendor": "Arlec",
+      "bDetailed": "0",
+      "name": "Arlec Grid Connect PC191 Smart Plug-In Socket with Energy Meter",
+      "chip": "BK7231T",
+	  "board": "WB2S",
+      "pins": {
+        "6": "Relay;1",
+        "7": "BL0937CF;1",
+        "8": "BL0937CF1;1",
+        "10": "WifiLED_n;1",
+        "11": "Btn;1",
+        "24": "BL0937SEL;1",
+        "26": "LED;1"
+      },
+      "keywords": ["switch","4 pack", "Bunnings Australia", "BL0937","two relays, cuts off both N and L"],
+      "image": "https://obrazki.elektroda.pl/2567152300_1672151363.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3944452.html",
+      "command": ""
+    },
     {
       "vendor": "Kuled",
       "bDetailed": "0",
