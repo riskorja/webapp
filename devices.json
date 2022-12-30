@@ -255,7 +255,9 @@
       },
       "keywords": ["RGB","4.9W", "380LUMEN", "",""],
       "image": "https://obrazki.elektroda.pl/8233780500_1669559812.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic3937272.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3937272.html",
+      "command": "SM2135_Map 2 1 0 4 3",
+      "flag": 16
     },
     {
       "vendor": "Feit",
