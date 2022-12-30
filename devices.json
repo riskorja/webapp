@@ -2142,7 +2142,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "PZIOT-E01 AC Guide DIN Rail Module Single Phase Energy Meter 6 In 1",
-      "model": "PZIOT-E01
+      "model": "PZIOT-E01",
       "chip": "BK7231N",
       "board": "CBU",
       "keywords": ["BL0937 in SPI mode", "SPI", "power monitoring", "BL0937", "non-contact metering"],
@@ -2654,11 +2654,11 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "[TAC2121C] Tuya smart DIN-rail relay/energy meter [BK7231N] ",
+      "name": "[TAC2121C] Tuya smart DIN-rail relay/energy meter [TuyaMCU] [BK7231N]",
       "model": "",
       "chip": "BK7231N",
       "board": "CB3S",
-      "keywords": ["V9911","FM24C64","SC02B"],
+      "keywords": ["TuyaMCU","V9911","FM24C64","SC02B"],
       "pins": {
       },
       "image": "https://obrazki.elektroda.pl/7413420300_1669283711_org.webp",
