@@ -151,6 +151,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3906289.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya Smart Valve Controller (water switch) 12V 1A",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "1": "WifiLED_n;0",
+        "6": "Relay;0",
+        "24": "Btn;0"
+      },
+      "keywords": ["water","valve","LED","","",""],
+      "image": "https://obrazki.elektroda.pl/2641112500_1672335614.webp",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3945101.html",
+      "product": ""
+    },
+    {
       "vendor": "MoesHouse",
       "bDetailed": "1",
       "name": "MoesHouse DIY Smart WiFi Light LED Dimmer Switch Smart Life",
