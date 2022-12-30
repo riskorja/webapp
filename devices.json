@@ -144,6 +144,7 @@
       "bDetailed": "0",
       "name": "IoT Lamp Holder",
       "chip": "BL602",
+      "board": "SM-028_V1.3",
       "pins": {
       },
       "keywords": ["", ""],
@@ -1618,6 +1619,7 @@
       "bDetailed": "0",
       "name": "MINI R3 Smart Switch",
       "model": "MiniR3",
+      "board": "SM-028_V1.3",
       "chip": "BL602",
       "pins": {
         "1": "WifiLED_n;1",
