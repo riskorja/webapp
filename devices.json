@@ -2009,6 +2009,26 @@
       "product": ""
     },
     {
+      "vendor": "Elivco",
+      "bDetailed": "0",
+      "name": "[BL602] Elivco smart plug with energy monitor BL0937 RMC004",
+      "model": "RMC004",
+      "chip": "BL602",
+      "board": "SM-028_V1.3",
+      "keywords": ["Elivco", "plug", "power monitoring", "BL0937"],
+      "pins": {
+        "3": "BL0937CF1;0",
+        "14": "BL0937CF;0",
+        "20": "LED_n;1",
+        "22": "Button;1",
+        "21": "BL0937SEL;0",
+        "2": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/1556106400_1672313255.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20359721#20359721",
+      "product": ""
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
