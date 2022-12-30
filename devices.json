@@ -2139,6 +2139,20 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "PZIOT-E01 AC Guide DIN Rail Module Single Phase Energy Meter 6 In 1",
+      "model": "PZIOT-E01
+      "chip": "BK7231N",
+      "board": "CBU",
+      "keywords": ["BL0937 in SPI mode", "SPI", "power monitoring", "BL0937", "non-contact metering"],
+      "pins": {
+      },
+      "image": "https://obrazki.elektroda.pl/6383495600_1671622052.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3943151.html",
+      "product": ""
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Smart Plug",
