@@ -1656,8 +1656,9 @@
       "board": "CB2S",
       "pins": {
         "8": "LED_n;1",
+        "23": "Button;1",
         "24": "TglChanOnTgl;1",
-        "26": "Rel;1"
+        "26": "Relay;1"
       },
       "keywords": ["BL0942","power metering","Power Monitor Switch"],
       "image": "https://obrazki.elektroda.pl/5997065600_1667509176.jpg",
