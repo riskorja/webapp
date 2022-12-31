@@ -416,7 +416,12 @@ function refreshJSON(json) {
 		var img = document.createElement('img');
 		
 		var a = document.createElement('a');
-		a.href = wiki;
+		if(wiki.length > 0) {
+			a.href = wiki;
+		} else {
+			a.href = "#";
+			a.onclick = function() {alert('Sorry, the contributor didnt add link to Elektroda. If you have this device, please take some photos and it to our forums, and we will update this database later.');};
+		}
 		a.target = "blank";
 		a.innerHTML = name;
 		td1.appendChild(img);
