@@ -190,6 +190,15 @@ function processJSON(json) {
 function refreshForFilters() {
 	refreshJSON(g_database);
 }
+function findDocsURLForChip(chip) {
+
+	if(chip == "BL602") 
+	{
+		return "http://download.bl602.fun/BL602_%E5%AE%98%E6%96%B9%E8%8A%AF%E7%89%87%E8%B5%84%E6%96%99.pdf";
+	}
+	
+	return "";
+}
 //
 // TODO ! ! ! Create our own boards.json and use it here
 //
@@ -254,6 +263,18 @@ function findDocsURLForBoard(board) {
 	{
 		return "https://developer.tuya.com/en/docs/iot/cblc5-module-datasheet?id=Ka07iqyusq1wm";
 	}
+	if(board == "SM-028_V1.3") 
+	{
+		return "https://www.elektroda.com/rtvforum/viewtopic.php?t=3945435&highlight=";
+	}
+	if(board == "WB2L_M1") 
+	{
+		return "https://www.elektroda.com/rtvforum/topic3903356.html";
+	}
+	if(board == "QQQ") 
+	{
+		return "httQQQug";
+	}
 	if(board == "QQQ") 
 	{
 		return "httQQQug";
@@ -262,14 +283,20 @@ function findDocsURLForBoard(board) {
 	return "";
 }
 function generateChipStr(chip, board) {
-	var chipStr = chip;
+	var chipURL = findDocsURLForChip(chip);
+	var chipStr;
+	if(chipURL != null && chipURL.length > 0) {
+		chipStr = "<a href='"+chipURL+"' target='_blank'>" + chip + "</a>";
+	} else {
+		chipStr = chip;
+	}
 	if(board == null || board.length == 0) {
 	
 	} else {
-		var chipUrl = findDocsURLForBoard(board);
+		var boardURL = findDocsURLForBoard(board);
 		chipStr += " ";
-		if(chipUrl != null && chipUrl.length > 0) {
-			chipStr += "(<a href='"+chipUrl+"' target='_blank'>" + board + "</a>)";
+		if(boardURL != null && boardURL.length > 0) {
+			chipStr += "(<a href='"+boardURL+"' target='_blank'>" + board + "</a>)";
 		} else {
 			chipStr += "(" + board + ")";
 		}
