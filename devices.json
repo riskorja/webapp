@@ -2249,7 +2249,7 @@
     {
       "vendor": "Aubess",
       "bDetailed": "0",
-      "name": "Smart Plug",
+      "name": "Smart Plug (Aubess LSPA9 clone)",
       "model": "Tuya WIFI Smart Socket",
       "chip": "BK7231N",
       "board": "CB2S",
@@ -2263,7 +2263,7 @@
         "26": "Relay;1"
       },
       "image": "https://obrazki.elektroda.pl/1064078600_1665558139.png",
-      "wiki": "",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20364254#20364254",
       "product": "https://www.aubess.net/products/aubess-tuya-wifi-smart-socket-16a-work-with-alexa-google-home-yandex"
     },
     {
