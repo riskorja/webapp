@@ -162,7 +162,10 @@
                 if (!this.releases.length){
                   this.getReleases();
                 }
-                this.getPeers();
+                //Only if chip supplied supportsSSDP=true or did not supply it at all (backward compatibility)
+                if (res.supportsSSDP === undefined || res.supportsSSDP === 1){
+                  this.getPeers();
+                }
             })
             .catch(err => {
               this.error = err.toString();
