@@ -5,20 +5,26 @@
             <p>Build: {{build}}</p>
         </div>
         <div>
-            <button :disabled="!otadata" @click="sequence(null, $event)">Start safe OTA (keep LittleFS data)</button>
-            <br/>
-            <button :disabled="!otadata" @click="startota(null, $event)">Start quick OTA (delete all LittleFS data)</button>
-            <br/>
-            <br/>
-            <button @click="backup(null, $event)">Read fsblock</button>
-            <button @click="reboot(null, $event)">Reboot</button>
-            <button @click="restore(null, $event)">Restore fsblock</button>
-            <select v-model="defaultaction">
-                <option value=''>Do nothing</option>
-                <option value='ota'>OTA Only</option>
-                <option value='sequence'>Backup/OTA/Restore</option>
-            </select>
-            <span>Selected: {{ defaultaction }}</span>
+            <span v-if="supportsLittleFS">
+                <button :disabled="!otadata" @click="sequence(null, $event)">Start safe OTA (keep LittleFS data)</button>
+                <br/>
+                <button :disabled="!otadata" @click="startota(null, $event)">Start quick OTA (delete all LittleFS data)</button>
+                <br/>
+                <br/>
+                <button @click="backup(null, $event)">Read fsblock</button>
+                <button @click="reboot(null, $event)">Reboot</button>
+                <button @click="restore(null, $event)">Restore fsblock</button>
+                <select v-model="defaultaction">
+                    <option value=''>Do nothing</option>
+                    <option value='ota'>OTA Only</option>
+                    <option value='sequence'>Backup/OTA/Restore</option>
+                </select>
+                <span>Selected: {{ defaultaction }}</span>
+            </span>
+            <span v-else>
+                <button :disabled="!otadata" @click="startota(null, $event)">Start OTA</button>
+                <button @click="reboot(null, $event)">Reboot</button>
+            </span>
             <br/>
             <br/>
             <span>Select remote OTA file to download to PC:</span>
@@ -62,6 +68,7 @@
         releases: [],
         options: [],
         selectedfile: '',
+        supportsLittleFS: false,
       }
     },
     methods:{
@@ -82,6 +89,12 @@
 
                     if (this.chipset){
                         this.otaFileExtension = this.chipSetUsesRBL() ? ".rbl" : ".img";
+                        
+                        //These chips don't support litte FS
+                        if (",W600,W800,XR809,BL602".indexOf(`,${this.chipset},`) !== -1)
+                        {
+                            this.supportsLittleFS = false;
+                        }
                     }
                 })
                 .catch(err => {
