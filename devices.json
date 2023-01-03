@@ -260,6 +260,18 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
+      "name": "PJ-MGW1103 - CT-clamp Energy Meter",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "BL0942"],
+      "image": "https://obrazki.elektroda.pl/5761098200_1672711832.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3946128.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "SmartSwitch WL-SW01_16 SW01 16A",
       "chip": "BK7231T",
       "board": "WB2S",
