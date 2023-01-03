@@ -2233,6 +2233,27 @@
       "product": ""
     },
     {
+      "vendor": "MEAKISS",
+      "bDetailed": "1",
+      "name": "Tuya Smart Dual GPO Wall Socket",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": ["2CH", "", ""],
+      "pins": {
+        "6": "LED_n;1",
+        "7": "Btn;1",
+        "8": "AlwaysLow;0",
+        "9": "Btn;0",
+        "14": "Rel;1",
+        "24": "LED_n;0",
+        "26": "Rel;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5367287900_1672547459.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3945664.html",
+      "product": "https://www.aliexpress.com/item/1005004119428520.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Temperature and Humidity Sensor Battery Powered SHT30",
