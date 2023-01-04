@@ -2555,7 +2555,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart E27 806lm CW - BK7231T 3000272",
+      "name": "LSC Smart E27 806lm CW - BK7231T 3000272 (BK directly board version)",
       "chip": "BK7231T",
       "board": "on PCB",
       "pins": {
@@ -2564,6 +2564,19 @@
       },
       "image": "https://obrazki.elektroda.pl/7541980800_1660163916_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3911757.html"
+    },
+    {
+      "vendor": "LSC",
+      "bDetailed": "1",
+      "name": "LSC Smart E27 806lm CW - BK7231T 3000272 970715 v1.1 LED (WB2L version)",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "pins": {
+        "7": "PWM;5",
+        "8": "PWM;4"
+      },
+      "image": "https://obrazki.elektroda.pl/1644159900_1672770514.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3946334&highlight="
     },
     {
       "vendor": "LSC",
