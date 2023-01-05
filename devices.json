@@ -3020,7 +3020,31 @@
       "image": "https://www.hama.com/bilder/00176/abx/00176584abx.png",
       "wiki": "",
       "product": "https://www.hama.com/00176584/hama-wlan-led-lamp-e27-10w-dimmable-bulb-for-voice-app-control-white"
-    }	  
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Wifi Switch 4 Gang",
+      "model": "WSM16-4-WIFI",
+      "chip": "BL7231N",
+      "board": "CBU",
+      "pins": {
+        "6": "Btn;2",
+        "7": "Btn;3",
+        "8": "Btn;4",
+        "9": "WifiLED;0",
+        "10": "Relay;2",
+        "16": "Relay;4",
+        "17": "Relay;3",
+        "20": "Relay;1",
+        "24": "Btn_Tgl_All;1",
+        "26": "Btn;1"
+      },
+      "keywords": ["switch","4 gang","relay","wsm16-4"],
+      "image": "https://obrazki.elektroda.pl/4276694700_1672934762.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3946831.html",
+      "product": "https://www.aliexpress.com/item/1005004891248509.html"
+    }
 	  
   ]
 }
