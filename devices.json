@@ -3023,7 +3023,7 @@
     },
     {
       "vendor": "Tuya",
-      "bDetailed": "0",
+      "bDetailed": "1",
       "name": "Smart Wifi Switch 4 Gang",
       "model": "WSM16-4-WIFI",
       "chip": "BL7231N",
@@ -3041,7 +3041,7 @@
         "26": "Btn;1"
       },
       "keywords": ["switch","4 gang","relay","wsm16-4"],
-      "image": "https://obrazki.elektroda.pl/4276694700_1672934762.jpg",
+      "image": "https://obrazki.elektroda.pl/4938331800_1672938700.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3946831.html",
       "product": "https://www.aliexpress.com/item/1005004891248509.html"
     }
