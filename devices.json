@@ -3044,6 +3044,27 @@
       "image": "https://obrazki.elektroda.pl/4938331800_1672938700.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3946831.html",
       "product": "https://www.aliexpress.com/item/1005004891248509.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Moes Smart Switch Module Wi-Fi 4 Gang",
+      "model": "MS-104D",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "6": "Relay;4",
+        "7": "Btn;3",
+        "9": "Btn;1",
+        "15": "Btn;2",
+        "16": "Btn;4",
+        "17": "Relay;2",
+        "24": "Relay;1",
+        "26": "Relay;3"
+      },
+      "keywords": ["switch","4 gang","relay", "MS-104D", "tuya", "CBU"],
+      "image": "https://obrazki.elektroda.pl/3925433800_1673027879.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20371671#20371671"
     }
 	  
   ]
