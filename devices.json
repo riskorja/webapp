@@ -386,6 +386,24 @@
       "command": ""
     },
     {
+      "vendor": "CLOUDY BAY",
+      "bDetailed": "0",
+      "name": "CLOUDY BAY 6inch Smart Wifi LED Recessed Lights, RGBCW ",
+      "chip": "BK7231T",
+	  "board": "WB3S",
+      "pins": {
+        "6": "PWM;5",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;2",
+        "26": "PWM;3"
+      },
+      "keywords": ["RGBCW", "",""],
+      "image": "https://obrazki.elektroda.pl/3838032600_1673085131.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3947278.html",
+      "command": ""
+    },
+    {
       "vendor": "Action",
       "bDetailed": "0",
       "name": "LSC Smart GU10-RGBCW",
