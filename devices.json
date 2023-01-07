@@ -437,7 +437,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart Ceiling Light RGBCW - CB2S (BK7231N)",
+      "name": "LSC Smart Ceiling Light RGBCW - 3007213 - CB2S (BK7231N)",
       "chip": "BK7231N",
 	  "board": "CB2S",
       "pins": {
@@ -822,7 +822,7 @@
         "24": "PWM;4"
       },
       "command": "",
-      "keywords": ["8712879154488","Action","24V"],
+      "keywords": ["8712879154488","Action","24V","3009188"],
       "image": "https://obrazki.elektroda.pl/3479602900_1670838359.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941003.html"
     },
@@ -2573,7 +2573,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "Smart Led Light Strip RGBCW",
+      "name": "Smart Led Light Strip RGBCW 3000342",
       "model": "970752 v1.0",
       "chip": "BK7231T",
       "board": "onboard",
@@ -2612,7 +2612,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart E27 806lm CW - BK7231T 3000272 (BK directly board version)",
+      "name": "LSC Smart E27 806lm CW - BK7231T 3000272 970716 (BK directly board version)",
       "chip": "BK7231T",
       "board": "on PCB",
       "pins": {
@@ -2648,6 +2648,18 @@
       "keywords": ["BP5758D", "Action Store"],
       "image": "https://obrazki.elektroda.pl/6775932100_1665943145_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926917.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "AT-Q-SMR1-20 wifi DIN rail RCBO circuit breaker + energy meter ",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+      "keywords": ["breaker", "TuyaMCU","2P","energy metering"],
+      "image": "https://obrazki.elektroda.pl/3704334600_1672760032.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3946256.html"
     },
     {
       "vendor": "LSC",
