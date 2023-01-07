@@ -370,7 +370,25 @@
     {
       "vendor": "Action",
       "bDetailed": "0",
-      "name": "LSC Smart GU10-RGB",
+      "name": "LSC Smart GU10-RGB 3004919 970706 v1.1",
+      "chip": "BK7231T",
+	  "board": "unknown",
+      "pins": {
+        "7": "PWM;5",
+        "8": "PWM;1",
+        "9": "PWM;2",
+        "24": "PWM;3",
+        "26": "PWM;4"
+      },
+      "keywords": ["RGBCW", "",""],
+      "image": "https://obrazki.elektroda.pl/4887763500_1673085589.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372474#20372474",
+      "command": ""
+    },
+    {
+      "vendor": "Action",
+      "bDetailed": "0",
+      "name": "LSC Smart GU10-RGBCW",
       "chip": "BK7231T",
 	  "board": "on board",
       "pins": {
