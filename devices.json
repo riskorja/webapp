@@ -437,7 +437,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart Ceiling Light RGBCW - 3007213 - CB2S (BK7231N)",
+      "name": "LSC Smart Ceiling Light RGBCW - 3007213 - CB2S (BK7231N) (review 1)",
       "chip": "BK7231N",
 	  "board": "CB2S",
       "pins": {
@@ -447,9 +447,26 @@
         "24": "PWM;4",
         "26": "PWM;5"
       },
-      "keywords": ["RGBCW"],
+      "keywords": ["RGBCW","Action"],
       "image": "https://obrazki.elektroda.pl/2495987200_1659094487_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3909154.html"
+    },
+    {
+      "vendor": "LSC",
+      "bDetailed": "1",
+      "name": "LSC Smart Ceiling Light RGBCW - 3007213 - CB2S (BK7231N) (review 2)",
+      "chip": "BK7231N",
+	  "board": "CB2S",
+      "pins": {
+        "6": "PWM;1",
+        "7": "PWM;2",
+        "8": "PWM;3",
+        "24": "PWM;4",
+        "26": "PWM;5"
+      },
+      "keywords": ["RGBCW","Action"],
+      "image": "https://obrazki.elektroda.pl/1301171200_1673036209.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372825"
     },
     {
       "vendor": "Tuya",
