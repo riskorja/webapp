@@ -874,6 +874,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3944507.html"
     },
     {
+      "vendor": "Arlec",
+      "bDetailed": "0",
+      "name": "Arlec PCTH01HA - Bunnings - CB3S BK7231N",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "6": "LED;1",
+        "7": "Btn;1",
+        "8": "Rel;1",
+        "9": "SCL;1",
+        "14": "SDA;1",
+        "23": "BL0937SEL;1",
+        "26": "BL0937CF1;1",
+        "24": "BL0937CF;1"
+      },
+      "command": "",
+      "keywords": ["Bunnings","Arlec","I2C","CHT8305"],
+      "image": "https://obrazki.elektroda.pl/7711518000_1673036094.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3947236.html"
+    },
+    {
       "vendor": "Kruitvat",
       "bDetailed": "1",
       "name": "[BK7231T / WB2S] Kruitvat Smart Plug SH 63.126 Dual (with Energy Meter) ",
