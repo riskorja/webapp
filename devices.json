@@ -2664,12 +2664,12 @@
     {
       "vendor": "LSC",
       "bDetailed": "0",
-      "name": "LSC Smart Dimmer Switch",
+      "name": "LSC Smart Dimmer Switch 970806 3006033",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
       },
-      "keywords": ["Dimmer", "TuyaMCU","rotary switch","battery", "Action Store"],
+      "keywords": ["Dimmer", "TuyaMCU","rotary switch","battery", "Action Store", "970806", "art no 3006033", "ean 8712879149514"],
       "image": "https://obrazki.elektroda.pl/2139408300_1665942159_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
     },
