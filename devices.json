@@ -1371,7 +1371,7 @@
       "name": "Intertek Treatlife 3-Way smart switch SS02",
       "model": "SS02",
       "chip": "BK7231T",
-      "chip": "WB3S",
+      "board": "WB3S",
       "pins": {
         "8": "LED;1",
         "6": "Button;1",
