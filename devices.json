@@ -1364,6 +1364,22 @@
       "flag": 3
     },
 
+
+    {
+      "vendor": "TreatLife",
+      "bDetailed": "1",
+      "name": "Intertek Treatlife 3-Way smart switch SS02",
+      "model": "SS02",
+      "chip": "BK7231T",
+      "chip": "WB3S",
+      "pins": {
+        "8": "LED;1",
+        "6": "Button;1",
+        "24": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/7792907900_1673029895.jpg",
+      "wiki": ""
+    },
     {
       "vendor": "Nedis",
       "bDetailed": "0",
