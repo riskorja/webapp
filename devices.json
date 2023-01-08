@@ -420,6 +420,22 @@
       "flag": 16
     },
     {
+      "vendor": "Arlec",
+      "bDetailed": "0",
+      "name": "RGBCW Arlec Bunnings GLD130P3HA / GLD130HA B22 1050lm",
+      "chip": "BK7231T",
+	  "board": "WB2L ",
+      "pins": {
+        "24": "SM2135_DAT;0",
+        "26": "SM2135_CLK;0"
+      },
+      "keywords": ["RGBCW","Grid Connect", "1050lm", "Australia", "B22","SM2135"],
+      "image": "https://obrazki.elektroda.pl/2833340500_1673182606.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3947625.html",
+      "command": "SM2135_Map 1 2 0 4 3",
+      "flag": 16
+    },
+    {
       "vendor": "Feit",
       "bDetailed": "1",
       "name": "SHOP/4/HO/CCT/AG",
@@ -1378,7 +1394,7 @@
         "24": "Relay;1"
       },
       "image": "https://obrazki.elektroda.pl/7792907900_1673029895.jpg",
-      "wiki": ""
+      "wiki": "https://www.elektroda.com/rtvforum/topic3947520.html"
     },
     {
       "vendor": "Nedis",
