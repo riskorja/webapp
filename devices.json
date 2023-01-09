@@ -3144,7 +3144,7 @@
       "bDetailed": "1",
       "name": "Smart Wifi Switch 4 Gang",
       "model": "WSM16-4-WIFI",
-      "chip": "BL7231N",
+      "chip": "BK7231N",
       "board": "CBU",
       "pins": {
         "6": "Btn;2",
