@@ -3142,6 +3142,62 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
+      "name": "WiFi & RF433 switch B-line BL-1100522 EPE",
+      "model": "BL-1100522",
+      "chip": "ESP8285",
+      "board": "none",
+      "pins": {
+      },
+      "keywords": ["switch","WIFI-W6B","MB6S","D452","AOD452","LP3667","W14-1AST","allegro"],
+      "image": "https://obrazki.elektroda.pl/5511270700_1673315180.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3948086.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "WiFi & RF433 switch MasterLED Tuya 5093/5486",
+      "model": "MasterLED 5093/5486",
+      "chip": "ESP8285",
+      "board": "none",
+      "pins": {
+      },
+      "keywords": ["switch","WIFI-W6B","OB25133JP","MB6S","LR7843","allegro"],
+      "image": "https://obrazki.elektroda.pl/5473651300_1669231665.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20334149#20334149",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "WiFi switch MasterLED Tuya 9618",
+      "model": "MasterLED 9618",
+      "chip": "ESP8285",
+      "board": "none",
+      "pins": {
+      },
+      "keywords": ["switch","TUYA-DW6B","JL223B","MB6S","OB25183JP","allegro","LR7843","JY3FF-S-DC12V-A-H"],
+      "image": "https://obrazki.elektroda.pl/9091171400_1669233532.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3942295.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "EU Panel 1/2/3 Gang WiFi RF433 Touch Light Switch TUYA/Smart life APP for Alexa Google",
+      "model": "",
+      "chip": "ESP8266",
+      "board": "TYWE3S",
+      "pins": {
+      },
+      "keywords": ["switch","3gang","MB6S","SS29RX1504","ebay"],
+      "image": "https://obrazki.elektroda.pl/4083609600_1672954424.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3946951.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "Smart Wifi Switch 4 Gang",
       "model": "WSM16-4-WIFI",
       "chip": "BK7231N",
