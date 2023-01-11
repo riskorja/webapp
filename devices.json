@@ -368,6 +368,24 @@
       "command": ""
     },
     {
+      "vendor": "Spectrum",
+      "bDetailed": "1",
+      "name": "Spectrum Smart E27 1500 lm 13W WOJ14473 ",
+      "chip": "BK7231T",
+	  "board": "WB2L",
+      "pins": {
+        "6": "PWM;2",
+        "7": "PWM;5",
+        "8": "PWM;5",
+        "24": "PWM;3",
+        "26": "PWM;4"
+      },
+      "keywords": ["RGBCW", "Spectrum","Allegro"],
+      "image": "https://obrazki.elektroda.pl/5073818000_1673451627.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3948374.html",
+      "command": ""
+    },
+    {
       "vendor": "Action",
       "bDetailed": "0",
       "name": "LSC Smart GU10-RGB 3004919 970706 v1.1",
