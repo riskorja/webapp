@@ -1990,7 +1990,7 @@
       "chip": "BK7231T",
 	  "model": "BPPLUG/WIFI/3",
       "bDetailed": "1",
-      "board": WB2S",
+      "board": "WB2S",
       "pins": {
         "10": "LED_n;1",
         "26": "Button;1",
