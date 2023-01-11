@@ -3140,6 +3140,25 @@
       "product": "https://www.hama.com/00176584/hama-wlan-led-lamp-e27-10w-dimmable-bulb-for-voice-app-control-white"
     },
     {
+      "vendor": "Techliner",
+      "bDetailed": "1",
+      "name": "Power 4 sockets with USB strip Techliner BHZ0323F-WIFI",
+      "model": "BHZ0323F-WIFI",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "Rel;3",
+        "8": "LED_n;1",
+        "10": "Btn;1",
+        "24": "Rel;1",
+        "26": "Rel;2"
+      },
+      "keywords": ["NETTO","Allegro"],
+      "image": "https://obrazki.elektroda.pl/9416427200_1672665448.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20363756#20363756",
+      "product": ""
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "WiFi & RF433 switch B-line BL-1100522 EPE",
