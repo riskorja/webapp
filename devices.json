@@ -1985,6 +1985,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3917330.html"
     },
     {
+      "vendor": "Feit",
+      "name": "Feit Smart Plug from Costco BPPLUG/WIFI/3",
+      "chip": "BK7231T",
+	  "model": "BPPLUG/WIFI/3",
+      "bDetailed": "1",
+      "board": WB2S",
+      "pins": {
+        "10": "LED_n;1",
+        "26": "Button;1",
+        "24": "Relay;1"
+      },
+      "keywords": ["FCC ID: SYW-PLUGWIFIG2","IC ID: 20416-PLUGWIFIG2"],
+      "image": "https://obrazki.elektroda.pl/6644869100_1673468725.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3948536.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A",
