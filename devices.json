@@ -3239,6 +3239,28 @@
       "keywords": ["switch","4 gang","relay", "MS-104D", "tuya", "CBU"],
       "image": "https://obrazki.elektroda.pl/3925433800_1673027879.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20371671#20371671"
+    },
+    {
+      "vendor": "Aubess",
+      "bDetailed": "1",
+      "name": "Tuya Wifi Smart Touch Switch 4-Gang with Neutral Wire",
+      "model": "ZN377942-04",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "6": "Relay;4",
+        "7": "Btn;1",
+        "8": "Relay;3",
+        "9": "Relay;1",
+        "10": "Btn;3",
+        "14": "Btn;2",
+        "23": "WifiLED_n",
+        "24": "Btn;4",
+        "26": "Relay;2"
+      },
+      "keywords": ["switch","4 gang","relay", "ZN377942-04", "tuya", "CB3S", "aubess", "touch", "wall switch"],
+      "image": "https://obrazki.elektroda.pl/8097791000_1673365767.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3948202.html"
     }
 	  
   ]
