@@ -1460,6 +1460,23 @@
     },
 
     {
+      "vendor": "Mercury",
+      "bDetailed": "0",
+      "name": "Merkury Smart Wi-Fi Outdoor/Indoor Plug MI-OW101-300W ",
+      "model": "MI-OW101-300W",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "8": "WifiLED_n;1",
+        "7": "Button;1",
+        "6": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/8202472300_1673218616.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3947812.html",
+      "keywords": ["Wal-mart","Geeni","DR-1703A(Re04)"],
+      "command": ""
+    },
+    {
       "vendor": "Nedis",
       "bDetailed": "0",
       "name": "Nedis WIFIP110FWT (BK7231N, BL0942) teardown ",
