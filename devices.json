@@ -3889,6 +3889,27 @@
       ],
       "image": "https://obrazki.elektroda.pl/8097791000_1673365767.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3948202.html"
+    },
+    {
+      "vendor": "BN-LINK",
+      "bDetailed": "1",
+      "name": "BN-LINK Smart Power Strip Compatible with Alexa Google Home, Smart Plug WiFi Outlets Surge Protector with 4 USB 4 Charging Port Multi Plug Extender,15A",
+      "model": "U158WT",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "Relay;1",
+        "8": "Relay;4",
+        "10": "Btn;1",
+        "11": "WifiLED_n",
+        "24": "Relay;2",
+        "26": "Relay;3"
+      },
+      "keywords": [
+        "power strip",
+        "4 gang"
+      ],
+      "image": "https://m.media-amazon.com/images/I/61fuODG9edL._AC_SL1500_.jpg"
     }
   ]
 }
