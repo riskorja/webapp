@@ -87,6 +87,23 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3881416.html"
     },
     {
+      "vendor": "Surplife",
+      "bDetailed": "1",
+      "name": "Surplife APP RGB+WW+CW bulb WiFi+BLE E27",
+      "chip": "BL602",
+      "board": "BL-M5 V1.2",
+      "pins": {
+        "4": "SM2135_DAT;1",
+        "3": "SM2135_CLK;1"
+      },
+      "keywords": [
+        "RGBCW",
+        "E27"
+      ],
+      "image": "https://obrazki.elektroda.pl/2816020600_1673882442.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3949764.html"
+    },
+    {
       "vendor": "HomeMate",
       "bDetailed": "1",
       "name": "HomeMate Wi-Fi + Bluetooth Smart 4 Gang Touch Switch",
@@ -3909,7 +3926,7 @@
         "power strip",
         "4 gang"
       ],
-      "image": "https://m.media-amazon.com/images/I/61fuODG9edL._AC_SL1500_.jpg"
+      "image": "https://obrazki.elektroda.pl/6899255400_1674114230.png"
     }
   ]
 }
