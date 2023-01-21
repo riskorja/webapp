@@ -904,6 +904,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3906295.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "WiFi Smoke Detector",
+      "chip": "BK7231N",
+      "board": "CNU",
+      "pins": {
+        
+      },
+      "keywords": [
+        "TuyaMCU",
+        "YG400A",
+      ],
+      "image": "https://obrazki.elektroda.pl/4865009600_1671093592.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3941698.html"
+    },
+    {
       "vendor": "Feit",
       "bDetailed": "1",
       "name": "Feit OM60/RGB/CA/AG/3 bulb",
@@ -935,7 +951,7 @@
         "X002S52DDD",
         "E26",
         "bulb",
-        "Daybetter Smart Light 2.4GHz Only 4 Pack",
+        "Daybetter Smart Light 2.4GHz Only 4 Pack"
       ],      
 	  "command": "BP5758D_Map 2 1 0 3 4",
       "image": "https://obrazki.elektroda.pl/3078154100_1674258160.jpg",
