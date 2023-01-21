@@ -2662,7 +2662,7 @@
         "alternate CW mode",
         "LED"
       ],
-      "flag": 256
+      "flag": 256,
       "image": "https://obrazki.elektroda.pl/4483867300_1673319939.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20377440#20377440",
       "product": ""
@@ -3495,6 +3495,29 @@
       },
       "image": "https://obrazki.elektroda.pl/1458529500_1669511082.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20305460#20305460"
+    },
+    {
+      "vendor": "Globe",
+      "bDetailed": "1",
+      "name": "Globe Intertek 4\" Smart Recessed Led Lighting Kit RGBCW 50323 5005271 9W 90CRI 120V",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "RGBCW",
+        "LED",
+        ""
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;1",
+        "8": "PWM;2",
+        "24": "PWM;4",
+        "26": "PWM;5"
+      },
+      "flag": 256,
+      "image": "https://obrazki.elektroda.pl/3734766000_1674177547.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3950728.html"
     },
     {
       "vendor": "Cree",
