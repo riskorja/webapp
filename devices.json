@@ -920,6 +920,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3907478.html"
     },
     {
+      "vendor": "DayBetter",
+      "bDetailed": "0",
+      "name": "DayBetter RGBCW 9W E26 800LM 120V DBSWTYBRGB04 B08THDWFBL",
+      "chip": "BK7231t",
+      "board": "",
+      "pins": {
+        "7": "BP5758D_DAT;0",
+        "8": "BP5758D_CLK;0"
+      },
+      "keywords": [
+        "RGBCW",
+        "LED",
+        "X002S52DDD",
+        "E26",
+        "bulb",
+        "Daybetter Smart Light 2.4GHz Only 4 Pack",
+      ],      
+	  "command": "BP5758D_Map 2 1 0 3 4",
+      "image": "https://obrazki.elektroda.pl/3078154100_1674258160.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20396754#20396754"
+    },
+    {
       "vendor": "Nous",
       "bDetailed": "1",
       "name": "Smart Breaker Nous L6",
