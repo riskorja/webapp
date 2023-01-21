@@ -164,6 +164,8 @@
             }
             else if (this.chipset === "W600" || this.chipset === "W800"){
                 this.invalidOTASelected = !this.isWinnerMicroImage(result);
+            } else if (this.chipset === "BL602"){
+                this.invalidOTASelected = 0;
             }
             else{
                 //At this point W800 is the only other chipset with has OTA images e.g. OpenW800_1.12.40_ota.img
