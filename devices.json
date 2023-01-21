@@ -2644,6 +2644,30 @@
       "product": ""
     },
     {
+      "vendor": "BIvolt",
+      "bDetailed": "0",
+      "name": "RGBCW lamp LED Planet - Smart LED 10W 3000-7000+RGB BIvolt",
+      "model": "BIvolt",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "keywords": [
+        "RGBCW",
+        "alternate CW mode",
+        "LED"
+      ],
+      "flag": 256
+      "image": "https://obrazki.elektroda.pl/4483867300_1673319939.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20377440#20377440",
+      "product": ""
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
