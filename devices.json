@@ -695,6 +695,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3944701.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "LSC Smart Power Plug 2.0 970762 Action 2300W",
+      "board": "WB2S",
+      "chip": "BK7231T",
+      "pins": {
+        "7": "LED;1",
+        "24": "Relay;1",
+        "26": "Button;1"
+      },
+      "keywords": [
+        "switch",
+        "relay"
+      ],
+      "image": "https://obrazki.elektroda.pl/3885222900_1674416400.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20399901#20399901"
+    },
+    {
       "vendor": "Intelligent Life",
       "bDetailed": "1",
       "name": "NF101A",
