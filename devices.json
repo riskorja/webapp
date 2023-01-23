@@ -674,6 +674,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3880540.html"
     },
     {
+      "vendor": "Magic Home",
+      "bDetailed": "1",
+      "name": "Magic Home WIFI RGB CTT controller",
+      "chip": "BL602",
+      "board": "on pcb",
+      "pins": {
+        "3": "PWM;2",
+        "4": "PWM;0",
+        "17": "PWM;3",
+        "20": "PWM;4",
+        "21": "PWM;1"
+      },
+      "keywords": [
+        "RGBCW",
+        "LED strip",
+        "ZJ-BWCG-VC-RGBWW V1.1"
+      ],
+      "image": "https://obrazki.elektroda.pl/2348010100_1674407464.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3951447.html"
+    },
+    {
       "vendor": "Globo",
       "bDetailed": "0",
       "name": "[CB3S] Globo Connor 41386-30sh ceiling light 30W with IR remote",
