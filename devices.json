@@ -3207,6 +3207,45 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3932699.html"
     },
     {
+      "vendor": "Mirabella",
+      "bDetailed": "0",
+      "name": "Mirabella Genio 9W E27 800Lumen RGB + CCT Bulb - Part I002944",
+      "chip": "BK7231N",
+      "board": "unknown",
+      "pins": {
+        "26": "PWM;2",
+        "24": "PWM;1",
+        "6": "PWM;4",
+        "8": "PWM;5",
+        "7": "PWM;3"
+      },
+      "keywords": [
+        "RGBCW",
+        "E27",
+        "LED"
+      ],
+      "image": "https://obrazki.elektroda.pl/9131170500_1674460446.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20398516#20398516"
+    },
+    {
+      "vendor": "Mirabella",
+      "bDetailed": "0",
+      "name": "Mirabella Genio 9W 800lm RGB + CCT Bulb (I003293)",
+      "chip": "BK7231N",
+      "board": "unknown",
+      "pins": {
+        "24": "SM2135_DAT;1",
+        "26": "SM2135_CLK;2"
+      },
+      "keywords": [
+        "RGBCW",
+        "E27",
+        "LED"
+      ],
+      "image": "https://obrazki.elektroda.pl/3047590700_1674352430.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20398487#20398487"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "1",
       "name": "LSC Smart connect Smart LED MOOD LIGHT 970743 USB",
