@@ -1436,15 +1436,16 @@
     {
       "vendor": "Lenovo",
       "bDetailed": "0",
-      "name": "Lenovo Smart LED Lightstrip SE-243SC RGBWW",
+      "name": "Lenovo Smart LED Lightstrip SE-243SC / SE-2431C RGBWW",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
         "6": "PWM;4",
         "8": "PWM;5",
-        "14": "PWM;1",
-        "24": "Btn;2",
-        "26": "PWM;3"
+        "9": "PWM;1",
+        "14": "Button;0",
+        "24": "PWM,2",
+	"26": "PWM;3"
       },
       "command": "",
       "keywords": [
