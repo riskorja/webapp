@@ -2097,16 +2097,17 @@
     {
       "vendor": "LSC",
       "bDetailed": "0",
-      "name": "Smart Connect Plug",
+      "name": "Smart Connect Plug 2578677 970764",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "6": "LED;1",
+        "8": "WifiLED;1",
+        "26": "LED;1",
         "7": "Button;1",
-        "26": "Relay;1"
+        "6": "Relay;1"
       },
       "image": "https://obrazki.elektroda.pl/1660030700_1667458131.png",
-      "wiki": ""
+      "wiki": "https://www.elektroda.com/rtvforum/topic3951680.html"
     },
     {
       "vendor": "DS-101",
