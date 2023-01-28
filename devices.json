@@ -4067,6 +4067,30 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Moes Smart Switch Module Wi-Fi 1 Gang (with Buzzer)",
+      "model": "MS-104",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "23": "Btn;1",
+        "24": "Relay;1",
+        "26": "Buzzer;1"
+      },
+      "keywords": [
+        "switch",
+        "1 gang",
+        "relay",
+        "MS-104",
+        "tuya",
+        "CB2S",
+        "buzzer"
+      ],
+      "image": "https://obrazki.elektroda.pl/5714912600_1674841279.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3952781.html"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "Moes Smart Switch Module Wi-Fi 4 Gang",
       "model": "MS-104D",
