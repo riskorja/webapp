@@ -1778,9 +1778,29 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3862336.html"
     },
     {
-      "vendor": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S) ",
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Smart Wi-Fi IR Remote Control from Temu IRC02",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        "6": "Btn;1",
+        "7": "WifiLED;1",
+        "24": "IRRecv;1",
+        "26": "IRSend;1"
+      },
+      "keywords": [
+        "IR",
+        "5V",
+        "USB"
+      ],
+      "image": "https://obrazki.elektroda.pl/9032474200_1674808078.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3952646.html"
+    },
+    {
+      "name": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S) ",
       "bDetailed": "1",
-      "name": "SM-AW502S",
+      "model": "SM-AW502S",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
