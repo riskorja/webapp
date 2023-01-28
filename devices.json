@@ -1798,6 +1798,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3952646.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Klarstein Wonderwall Smart Heater with 2 digit display",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": [
+        "buzzer",
+        "heater",
+        "7 segment display"
+      ],
+      "image": "https://obrazki.elektroda.pl/1957740000_1674667673.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3952083.html"
+    },
+    {
       "name": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S) ",
       "bDetailed": "1",
       "model": "SM-AW502S",
