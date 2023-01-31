@@ -3116,6 +3116,38 @@
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
     },
     {
+      "vendor": "Mirabella",
+      "bDetailed": "0",
+      "name": "Mirabella Genio 9W 700Lumen RGB + CCT Downlight - Part I003247",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "pins": {
+        "7": "BP5758D_DAT;0",
+        "8": "BP5758D_CLK;0"
+      },
+      "keywords": [
+        "bunnings"
+      ],
+      "image": "https://obrazki.elektroda.pl/3205165500_1675155212.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20414347#20414347"
+    },
+    {
+      "vendor": "Mirabella",
+      "bDetailed": "0",
+      "name": "Mirabella Genio 9W 750Lumen, 2700K~6500K RGB + CCT Downlight - Part I004544",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "pins": {
+        "7": "BP5758D_DAT;0",
+        "8": "BP5758D_CLK;0"
+      },
+      "keywords": [
+        "bunnings"
+      ],
+      "image": "https://obrazki.elektroda.pl/6001493500_1675155263.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20414347#20414347"
+    },
+    {
       "vendor": "Daybetter",
       "bDetailed": "1",
       "name": "Daybetter 800 Lumens 120V 9W RGB+2700-6500K bulbs (BK7231N/CB2L/BP5758D)",
