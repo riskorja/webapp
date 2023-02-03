@@ -4021,7 +4021,22 @@
       "image": "https://www.hama.com/bilder/00176/abx/00176584abx.png",
       "wiki": "",
       "product": "https://www.hama.com/00176584/hama-wlan-led-lamp-e27-10w-dimmable-bulb-for-voice-app-control-white"
-    },
+    },  
+    {
+      "bDetailed": "0",
+      "vendor": "Hama",
+      "name": "WiFi LED Filament, E27, 7W",
+      "model": "Hama CW E27 7W Lamp, 00176587",
+      "chip": "BK7231T",
+      "board": "WCL5",
+      "pins": {
+        "24": "PWM;0",
+        "26": "PWM;1"
+      },
+      "image": "https://obrazki.elektroda.pl/6173202200_1675442151.jpg",
+      "wiki": "",
+      "product": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20420773#20420773"
+    },  
     {
       "vendor": "Techliner",
       "bDetailed": "1",
