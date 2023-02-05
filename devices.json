@@ -1335,6 +1335,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3943675.html"
     },
     {
+      "vendor": "Nedis",
+      "bDetailed": "0",
+      "name": "Nedis SmartLife LED Strip | Wi-Fi | RGBCW - WIFILS50CRGBW",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "PWM;5",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;2",
+        "26": "PWM;3"
+      },
+      "command": "",
+      "keywords": [
+        "5412810303106",
+        "WIFILS50CRGBW",
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/1597601100_1675601815.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955128.html",
+      "vendor": "https://nedis.com/en-us/product/lighting/decorative-lighting/led-lights/550690705/smartlife-led-strip-wi-fi-cool-white-rgb-warm-white-smd-500-m-ip65-2700-6500-k-960-lm-android-ios"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
@@ -4034,8 +4057,8 @@
         "26": "PWM;1"
       },
       "image": "https://obrazki.elektroda.pl/6173202200_1675442151.jpg",
-      "wiki": "",
-      "product": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20420773#20420773"
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20420773#20420773",
+      "product": ""
     },  
     {
       "vendor": "Techliner",
