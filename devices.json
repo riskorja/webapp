@@ -2353,6 +2353,21 @@
     },
     {
       "vendor": "Tuya",
+      "name": "Water Leak Detector CB3S (BK7231N) without tuyaMCU",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "CB3S",
+      "pins": {
+        "8": "dInput_NoPullUP;0",
+        "14": "Relay;1",
+        "23": "ADC;11",
+        "24": "dInput;5"
+      },
+      "image": "https://obrazki.elektroda.pl/4220829500_1675512157.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3954826.html"
+    },
+    {
+      "vendor": "Tuya",
       "name": "Tuya Smart High Power Switch for Boiler Water Heater 20A 4400W",
       "chip": "BK7231N",
       "bDetailed": "1",
