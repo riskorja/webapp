@@ -2429,6 +2429,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3918605.html"
     },
     {
+      "vendor": "AVATTO",
+      "name": "AVATTO 4/5/6-Gang Wi-Fi Touch Switch",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "on pcb",
+      "pins": {
+        "6": "Button;1",
+        "7": "Relay;1",
+        "8": "LED;1",
+        "14": "Relay;2",
+        "16": "Button;2",
+        "26": "LED;2",
+        "28": "WifiLED_n;2"
+      },
+      "keywords": [
+        "double switch",
+        "4gang"
+      ],
+      "image": "https://obrazki.elektroda.pl/3465786200_1675538229.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3954947.html"
+    },
+    {
       "vendor": "Bunnings",
       "name": "[BK7231T] Deta Grid Connect Smart Double Gang Touch Light Switch (6912HA)",
       "chip": "BK7231T",
@@ -2600,6 +2622,18 @@
       "pins": {},
       "image": "https://obrazki.elektroda.pl/6511416900_1650973467.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20003017#20003017"
+    },
+    {
+      "vendor": "Melitec",
+      "bDetailed": "0",
+      "name": "Melitec 8251-01-1-CM D110 Ceiling Light 8251_01_1_CM CW (CCT)",
+      "chip": "BK7231N",
+      "board": "unknown",
+      "pins": {},
+      "keywords": ["TuyaMCU", "ceiling lamp", "LightZone Aldi"],
+      "image": "https://obrazki.elektroda.pl/4917305100_1675635684.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20424447#20424447",
+      "command": "backlog startDriver tuyaMCU"
     },
     {
       "vendor": "AVATTO",
