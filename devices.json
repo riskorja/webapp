@@ -4371,5 +4371,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3950763.html",
       "flag": 8
     }
+    {
+      "vendor": "Freshin",
+      "name": "FRESHIN Smart Bulb E27 A60 RGBCW",
+      "chip": "BK7231T",
+      "pins": {
+	"7": "SM2135_DAT",
+	"8": "SM2135_CLK"
+      },
+      "image": "https://obrazki.elektroda.pl/1991161200_1675734721.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3954346.html",
+      "urls":"https://freshin.com/products/smart-light-bulbs-freshin-e27-a60-9w-rgbcw-wifi-light-bulb-dimmable-led-light-2-4ghz-only-compatible-with-alexa-google-home-no-hub-required"
+      "flag": 10,27
+      "command": "SM2135_Map 2 1 0 4 3"
+      "keywords": [
+	"E27",        
+	"RGBW",
+	"9W",
+	"SM2135"
+      ],
+    }	  
   ]
 }
