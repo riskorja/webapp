@@ -39,6 +39,7 @@
 <iframe width="420" height="345" src="https://www.youtube.com/embed/-a5hV1y5aIU"></iframe>
 <iframe width="420" height="345" src="https://www.youtube.com/embed/pkcspey25V4"></iframe>
 <iframe width="420" height="345" src="https://www.youtube.com/embed/x4p3JHXbK1E"></iframe>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/YQdR7r6lXRY"></iframe>
 <br>
 <h6>We have also Polish translations for <a href="https://www.youtube.com/watch?v=7MyfSgxLAOo">RGBCW bulb flashing & soldering tutorial</a> , <a href="https://www.youtube.com/watch?v=0V0kaRVnk18">CB2S Relay flashing</a>, <a href="https://www.youtube.com/watch?v=JCqq-gn-X2c">WB3S wall switch flashing.</a></h6>
 <h5>New tool for BK7231T and BK7231N flashing: <a href="https://github.com/openshwprojects/BK7231GUIFlashTool">BK7231 GUI Flash Tool</a></h5>
@@ -202,7 +203,18 @@ function findDocsURLForChip(chip) {
 	{
 		return "http://download.bl602.fun/BL602_%E5%AE%98%E6%96%B9%E8%8A%AF%E7%89%87%E8%B5%84%E6%96%99.pdf";
 	}
-	
+	if(chip == "BK7231N" || chip == "BK7231T" || chip == "BK7231") 
+	{
+		return "https://www.elektroda.com/rtvforum/topic3951016.html";
+	}
+	if(chip == "EFR32MG13P732F512GM48") 
+	{
+		return "https://www.silabs.com/wireless/zigbee/efr32mg13-series-1-socs/device.efr32mg13p732f512gm48?tab=specs";
+	}
+	if(chip == "JN5169") 
+	{
+		return "https://www.nxp.com/docs/en/data-sheet/JN5169.pdf";
+	}
 	return "";
 }
 //
