@@ -1423,7 +1423,7 @@
       "bDetailed": "0",
       "name": "LSC Outdoor Spotlight WB2S",
       "chip": "BK7231T",
-      "board": "WB2S ",
+      "board": "WB2S",
       "pins": {
         "6": "PWM;2",
         "7": "PWM;1",
