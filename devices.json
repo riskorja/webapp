@@ -568,7 +568,7 @@
       "bDetailed": "0",
       "name": "RGBCW Arlec Bunnings GLD130P3HA / GLD130HA B22 1050lm",
       "chip": "BK7231T",
-      "board": "WB2L ",
+      "board": "WB2L",
       "pins": {
         "24": "SM2135_DAT;0",
         "26": "SM2135_CLK;0"
