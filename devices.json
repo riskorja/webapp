@@ -1001,7 +1001,7 @@
       "vendor": "DayBetter",
       "bDetailed": "0",
       "name": "DayBetter RGBCW 9W E26 800LM 120V DBSWTYBRGB04 B08THDWFBL",
-      "chip": "BK7231t",
+      "chip": "BK7231T",
       "board": "",
       "pins": {
         "7": "BP5758D_DAT;0",
