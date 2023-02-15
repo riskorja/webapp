@@ -2142,19 +2142,27 @@
     {
       "vendor": "Avatar",
       "bDetailed": "0",
-      "name": "5v LED strip",
+      "name": "Avatar ASL04 5v LED strip with IR (TV backlight)",
       "model": "ASL04",
       "chip": "BK7231T",
+      "board": "",
       "pins": {
-        "24": "PWM;1",
+        "6": "PWM;1",
+        "7": "Btn_NextDimmer;1",
         "8": "PWM;2",
-        "6": "PWM;3",
-        "7": "Button;1",
-        "9": "Button;2",
-        "14": "Button;3"
+        "9": "Btn_NextColour;0",
+        "14": "Btn;0",
+        "16": "IRRecv;0",
+        "24": "PWM;0"
       },
-      "image": "https://obrazki.elektroda.pl/9155260200_1665557976.png",
-      "wiki": ""
+      "keywords": [
+        "led",
+        "rgb",
+        "USB"
+      ],
+      "image": "https://obrazki.elektroda.pl/9209822100_1647367687.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19932845#19932845",
+      "flag": 8
     },
     {
       "vendor": "Tuya",
