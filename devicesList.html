@@ -211,11 +211,29 @@ function findDocsURLForChip(chip) {
 	{
 		return "https://www.silabs.com/wireless/zigbee/efr32mg13-series-1-socs/device.efr32mg13p732f512gm48?tab=specs";
 	}
+	if(chip == "EFR32MG21A020F768") 
+	{
+		return "https://www.silabs.com/documents/public/data-sheets/efr32mg21-datasheet.pdf";
+	}
 	if(chip == "JN5169") 
 	{
 		return "https://www.nxp.com/docs/en/data-sheet/JN5169.pdf";
 	}
+	if(chip == "ESP8266" || chip == "ESP8285") 
+	{
+		return "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf";
+	}
+	if(chip == "F8088") 
+	{
+		return "https://www.foneric.com/f8088";
+	}
+	if(chip == "XR809") 
+	{
+		return "http://www.xradiotech.com/product/XR809.php";
+	}
 	return "";
+	
+	
 }
 //
 // TODO ! ! ! Create our own boards.json and use it here
@@ -244,6 +262,10 @@ function findDocsURLForBoard(board) {
 	if(board == "CB2L") 
 	{
 		return "https://developer.tuya.com/en/docs/iot/cb2l-module-datasheet?id=Kai2eku1m3pyl";
+	}
+	if(board == "CB3L") 
+	{
+		return "https://developer.tuya.com/en/docs/iot/cb3l-module-datasheet?id=Kai51ngmrh3qm";
 	}
 	if(board == "TYWE3S") 
 	{
