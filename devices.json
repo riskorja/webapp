@@ -2644,6 +2644,19 @@
       "command": "backlog startDriver tuyaMCU"
     },
     {
+      "vendor": "TreatLife",
+      "bDetailed": "0",
+      "name": "TreatLife 3 Way Smart Dimmer Switch (DS02S)",
+      "model": "DS02S",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "keywords": ["TuyaMCU", "dimmer"],
+      "image": "https://obrazki.elektroda.pl/1452278400_1660223934.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3957849.html",
+      "command": "backlog startDriver tuyaMCU; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 Toggle; linkTuyaMCUOutputToChannel 2 val 2; setChannelType 2 dimmer; tuyaMcu_setDimmerRange 0 1000;"
+    },
+    {
       "vendor": "AVATTO",
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
