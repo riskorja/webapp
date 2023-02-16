@@ -3947,6 +3947,24 @@
     },
     {
       "vendor": "Generic",
+      "bDetailed": "1",
+      "name": "[BK7231N/CB2S] Teardown Tuya Wifi Smart Brazil Switch Plug TY-BRP RMC001",
+      "model": "RMC001",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED_n;0",
+        "10": "Button;0",
+        "24": "BL0937SEL;0",
+        "26": "Relay;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5838127700_1676238188.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3957163.html"
+    },
+    {
+      "vendor": "Generic",
       "bDetailed": "0",
       "name": "TOPGREENER Smart Mini Wi-Fi Plug with Energy Monitoring, TGWF115PQM (C2BS BK7231N)",
       "model": "TGWF115PQM",
