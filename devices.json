@@ -3767,6 +3767,28 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3665693.html"
     },
     {
+      "vendor": "Hiking",
+      "bDetailed": "0",
+      "name": "Tomzn/Hiking MCB238 80A 2P Din Rail wifi MCB",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "keywords": [
+        "",
+        "",
+        ""
+      ],
+      "pins": {
+        "6": "LED_n;1",
+        "8": "BridgeREV;1",
+        "9": "BridgeFWD ;1",
+        "24": "WifiLED_n ;1",
+        "26": "Btn;1"
+      },
+      "image": "https://obrazki.elektroda.pl/2243640600_1676389672.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3957566.html"
+    },
+    {
       "vendor": "Hema",
       "bDetailed": "0",
       "name": "Smart power plug HEMA (Netherlands)",
