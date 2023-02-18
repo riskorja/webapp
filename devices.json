@@ -3625,6 +3625,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
     },
     {
+      "vendor": "Lumiman",
+      "bDetailed": "0",
+      "name": "Lumiman Pro 7.5W Amazon RGBCW LM530-E27",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "pins": {
+        "26": "PWM;1",
+        "24": "PWM;3",
+        "6": "PWM;2",
+        "8": "PWM;4",
+        "7": "PWM;5"
+      },
+      "image": "https://obrazki.elektroda.pl/6602255000_1676721665.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3958420.html",
+      "product": ""
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "E27 A60-Bulb LED RGBCCT 5PWMs",
