@@ -20,6 +20,8 @@
 
     <div class="item" v-if="supportsClientDeviceDB" style="width: 300px;">
       <h4>Devices:</h4>
+	  <p>Here you can apply an existing template (configuration) to your device. The following Templates List is loaded from <a href="https://openbekeniot.github.io/webapp/devicesList.html">here</a>. </p>
+	  <p>If you have any questions, ask on our forum <a href="https://www.elektroda.com/">here</a>. </p>
       Chipset:
       <select v-model="selectedChipset">
         <option v-for="chip in chipsets" :value="chip" :key="chip">{{chip}}</option>
@@ -40,8 +42,9 @@
       </div>
     </div>
 
-    <div class="item">
+    <div class="item" style="width: 300px;">
       <h4>Pin Settings:</h4>
+	  <p>Here you can configure your device. Remember that some pin roles require second channel field, which is only available on native interface right now. Also remember that the expected channel order for LEDs is R G B C W (first channel is Red, second Green, etc...)</p>
       <div v-for="(role, index) in pins.roles" :key="index">
         <span class="pin-index">{{index}}</span>
         <select v-model="pins.roles[index]">
@@ -57,6 +60,22 @@
       <button @click="savePins">Save Pins</button>
       <br/>
 	  NOTE: You might need to reboot your device in order to apply all changes.
+    </div>
+    <div class="item" style="width: 300px;">
+      <h4>Channel Types:</h4>
+	  <p>Channel types/roles are used mostly with TuyaMCU devices. They are for more advanced users. Channel types/roles can be also used while making advanced scriptable devices and for testing.</p>
+	  <p>Setting a type for given channel may cause a special control to appear on main native WWW page. For example, a slider for dimmer channel or a radio selection box for a fan speed channel.</p>
+	  <p>Do not edit unless you know what you're doing.</p>
+      <div v-for="(role, index) in channelTypes.types" :key="index">
+        <span class="channel-index">{{index}}</span>
+        <select v-model="channelTypes.types[index]">
+          <option v-for="(name, index2) in channelTypes.typenames" :value="index2" :key="index2" :selected="(role == index2)">{{name}}</option>
+        </select>
+      </div>
+
+      <br/>
+      <button @click="saveChannelTypes">Save Types</button>
+      <br/>
     </div>
   </div>
 </template>
@@ -80,6 +99,7 @@
         supportsClientDeviceDB: false,
 
         pins:{ rolenames:[], roles:[], channels:[] },
+        channelTypes:{ typenames:[], types:[] },
         deviceFlag:"",
         deviceCommand: "",
 
@@ -200,6 +220,19 @@
             }); // Never forget the final catch!
 
       },
+      getChannelTypes(){
+        let url = window.device+'/api/channelTypes';
+        fetch(url)
+            .then(response => response.json())
+            .then(res => {
+              this.channelTypes = res;
+            })
+            .catch(err => {
+              this.error = err.toString();
+              console.error(err)
+            }); // Never forget the final catch!
+
+      },
       savePins() {
         let tosave = {};
 
@@ -247,6 +280,30 @@
             }); // Never forget the final catch!
 
         console.log('would save',this.pins);
+      },
+      saveChannelTypes() {
+        let tosave = {};
+
+        for (let i = 0; i < this.channelTypes.types.length; i++){
+          this.channelTypes.types[i] = +this.channelTypes.types[i];
+        }
+        tosave.types = this.channelTypes.types;
+
+        let url = window.device+'/api/channelTypes';
+        fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(tosave),
+            })
+            .then(response => response.json())
+            .then(res => {
+              this.error = JSON.stringify(res);
+            })
+            .catch(err => {
+              this.error = err.toString();
+              console.error(err)
+            }); // Never forget the final catch!
+
+        console.log('would save',this.channelTypes);
       },
       getRoleIndex(role){
         return this.pinRoleNames.indexOf(role);
@@ -319,6 +376,7 @@
         this.msg = 'fred';
         console.log('mounted controller');
         this.getPins();
+        this.getChannelTypes();
         this.getinfo();
         this.getDevices();
         this.interval = setInterval(()=>{
