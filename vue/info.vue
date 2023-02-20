@@ -16,6 +16,10 @@
       <p>Chipset: {{chipset}}</p>
       <p>Version: {{currentversion}} <span v-html="lateststr"></span></p>
       <p v-if="error">Error: {{error}}</p>
+      <h4>Export Current Template</h4>
+      <p>Please fill all fields before submitting.</p>
+	  <textarea id="deviceTemplate"  placeholder="qqq" style="vertical-align: top; width: 300px; height:500px"></textarea>
+
     </div>
 
     <div class="item" v-if="supportsClientDeviceDB" style="width: 300px;">
@@ -102,6 +106,7 @@
         channelTypes:{ typenames:[], types:[] },
         deviceFlag:"",
         deviceCommand: "",
+        deviceTemplate: "",
 
         error:'',
         interval: null,
@@ -186,6 +191,7 @@
                 if (res.supportsSSDP === undefined || res.supportsSSDP === 1){
                   this.getPeers();
                 }
+				this.refreshTemplate();
             })
             .catch(err => {
               this.error = err.toString();
@@ -206,13 +212,52 @@
             }
           });
       },
-
+	  refreshTemplate() {
+		const device = {
+		  vendor: 'Tuya',
+		  bDetailed: '0',
+		  name: 'Full Device Name Here',
+		  model: 'enter short model name here',
+		  chip: 'BK7231T',
+		  board: 'TODO',
+		  keywords : [
+				"TODO",
+				"TODO",
+				"TODO"
+			  ],
+		  pins : {
+			  },
+		  image: 'https://obrazki.elektroda.pl/YOUR_IMAGE.jpg',
+		  wiki: 'https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html',
+		};
+		device.chip = this.chipset;
+		//device.pins = 
+        for (let i = 0; i < this.pins.channels.length; i++){
+			if(this.pins.roles[i] == 0)
+			{
+				continue;
+			}
+			if(this.pins.roles[i] == undefined)
+			{
+				continue;
+			}
+			let rName = this.pins.rolenames[this.pins.roles[i]];
+			let ch1 = this.pins.channels[i];
+			//let obj = { "5", "Relay;1" };
+			device.pins[i] = rName+";"+ch1;
+        }
+		deviceTemplate = JSON.stringify(device, null, 2);
+		// fix for not working textArea for me?
+		let ar = document.getElementById("deviceTemplate");
+		ar.value = deviceTemplate;
+	  },
       getPins(){
         let url = window.device+'/api/pins';
         fetch(url)
             .then(response => response.json())
             .then(res => {
               this.pins = res;
+			  this.refreshTemplate();
             })
             .catch(err => {
               this.error = err.toString();
@@ -226,6 +271,7 @@
             .then(response => response.json())
             .then(res => {
               this.channelTypes = res;
+			  this.refreshTemplate();
             })
             .catch(err => {
               this.error = err.toString();
