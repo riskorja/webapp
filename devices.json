@@ -1268,8 +1268,8 @@
       "pins": {
         "6": "LED_n;1",
         "7": "Btn;1",
-        "8": "Rel_1;1",
-        "26": "Wifi;1"
+        "8": "Rel;1",
+        "26": "WifiLED_n;1"
       },
       "command": "",
       "keywords": [
@@ -1279,6 +1279,27 @@
       ],
       "image": "https://obrazki.elektroda.pl/6071956500_1671809976.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20350582#20350582"
+    },
+    {
+      "vendor": "Calex",
+      "bDetailed": "0",
+      "name": "CALEX Smart Powerplug EU plus 16A",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "6": "Rel;1",
+        "7": "Btn;1",
+        "8": "LED_n;1",
+        "26": "WifiLED_n;1"
+      },
+      "command": "",
+      "keywords": [
+        "Amazon",
+        "Calex Holland",
+        "WF02GE"
+      ],
+      "image": "https://obrazki.elektroda.pl/7448941600_1676914280.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20450224#20450224"
     },
     {
       "vendor": "LSC",
