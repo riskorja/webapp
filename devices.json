@@ -3455,6 +3455,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20398516#20398516"
     },
     {
+      "vendor": "Ledeply",
+      "bDetailed": "0",
+      "name": "Ledeply Smart Bulb 5W A15 RGBCW",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "pins": {
+        "7": "SM2235_DAT;1",
+        "26": "SM2235_CLK;1"
+      },
+      "command": "SM2235_Map 2 1 0 4 3",
+      "keywords": [
+        "RGBCW",
+        "E12",
+        "SM2335EGH",
+        "LED"
+      ],
+      "image": "https://obrazki.elektroda.pl/6117229000_1677357931.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3960373.html",
+      "vendor": "https://www.amazon.com/dp/B08TBZK6KF?psc=1&ref=ppx_yo2ov_dt_b_product_details"
+    },
+    {
       "vendor": "Globe",
       "bDetailed": "0",
       "name": "Globe 35804 E26 RGBCW LED Bulb",
