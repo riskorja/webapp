@@ -2721,6 +2721,23 @@
       "command": ""
     },
     {
+      "vendor": "Deta Grid",
+      "bDetailed": "0",
+      "name": "Deta Grid Connect Smart Single Gang Touch Light Switch - 6911HA",
+      "model": "6911HA",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "Relay;1",
+        "9": "WifiLED_n;1",
+        "14": "Button;1"
+      },
+      "keywords": ["Bunnings Warehouse", "1 gang"],
+      "image": "https://obrazki.elektroda.pl/4739971700_1677665413.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3961255.html",
+      "command": ""
+    },
+    {
       "vendor": "AVATTO",
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
