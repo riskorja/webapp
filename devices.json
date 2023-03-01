@@ -3553,6 +3553,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20398487#20398487"
     },
     {
+      "vendor": "Mirabella",
+      "bDetailed": "0",
+      "name": "Mirabella Genio 15W ES Par38 I003869",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "8": "SM2135_DAT;1",
+        "7": "SM2135_CLK;2"
+      },
+      "keywords": [
+        "RGBCW",
+        "E27",
+        "LED",
+		"0300692"
+      ],
+      "image": "https://obrazki.elektroda.pl/2107173600_1677623508.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3961001.html"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "1",
       "name": "LSC Smart connect Smart LED MOOD LIGHT 970743 USB",
