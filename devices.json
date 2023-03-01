@@ -3250,7 +3250,7 @@
       ],
       "pins": {
         "7": "SHT3X_SCK;0",
-        "8": "SHT3X_SDA;2",
+        "8": "SHT3X_SDA;2;3",
         "16": "dInput;8",
         "17": "BAT_Relay;5",
         "20": "Btn;6",
