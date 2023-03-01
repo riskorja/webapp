@@ -2698,6 +2698,29 @@
       "command": "backlog startDriver tuyaMCU; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 Toggle; linkTuyaMCUOutputToChannel 2 val 2; setChannelType 2 dimmer; tuyaMcu_setDimmerRange 0 1000;"
     },
     {
+      "vendor": "Deta Grid",
+      "bDetailed": "0",
+      "name": "Deta Grid Connect Smart Quad Gang Touch Light Switch - 6904HA",
+      "model": "6904HA",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "1": "WifiLED_n;1",
+        "6": "Button;3",
+        "7": "Relay;3",
+        "8": "Relay;2",
+        "9": "Button;1",
+        "10": "Button;4",
+        "14": "Button;2",
+        "24": "Relay;4",
+        "26": "Relay;1"
+      },
+      "keywords": ["Bunnings Warehouse", "4 gang"],
+      "image": "https://obrazki.elektroda.pl/9091244500_1677673574.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3961285.html",
+      "command": ""
+    },
+    {
       "vendor": "AVATTO",
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
