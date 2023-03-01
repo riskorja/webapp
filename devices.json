@@ -3250,11 +3250,12 @@
       ],
       "pins": {
         "7": "SHT3X_SCK;0",
-        "8": "SHT3X_SDA;2;3",
+        "8": "SHT3X_SDA;2",
+        "16": "dInput;8",
         "17": "BAT_Relay;5",
-        "20": "dInput_n;0",
+        "20": "Btn;6",
         "23": "BAT_ADC;4",
-        "26": "WifiLED;1"
+        "26": "WifiLED;0"
       },
       "image": "https://obrazki.elektroda.pl/9205540100_1672573268.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945688.html",
