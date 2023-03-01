@@ -2738,6 +2738,24 @@
       "command": ""
     },
     {
+      "vendor": "KMC",
+      "bDetailed": "1",
+      "name": "KMC 30153 smart mini plug 15A 125VAC 60Hz (LSPA7 clone)",
+      "model": "6911HA",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "26": "Relay;1",
+        "8": "WifiLED_n;1",
+        "11": "Button;1"
+      },
+      "keywords": ["Amazon", "Model 30153"],
+      "image": "https://obrazki.elektroda.pl/6649524200_1677273368.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3960117.html",
+      "product": "https://kmc.co/products/smart-plug-mini",
+      "command": ""
+    },
+    {
       "vendor": "AVATTO",
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
