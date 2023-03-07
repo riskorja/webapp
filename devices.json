@@ -2361,7 +2361,7 @@
     {
       "vendor": "Enbrighten",
       "bDetailed": "1",
-      "name": "WiFi Switch",
+      "name": "WiFi Switch QOB-WFD4103",
       "model": "WFD4103",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -2373,6 +2373,22 @@
       "image": "https://obrazki.elektroda.pl/1036592500_1659877616.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3911041.html#20133554",
       "product": "https://enbrightenme.com/enbrighten-indoor-plug-in-mini-wifi-smart-switch-2-pack-white"
+    },
+    {
+      "vendor": "Enbrighten",
+      "bDetailed": "0",
+      "name": "WiFi Switch QOB-WFD4105 WFD4105E Intertek Enbrighten",
+      "model": "WFD4105E",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "7": "LED_n;1",
+        "24": "Relay;1",
+        "26": "Button;1"
+      },
+      "image": "https://obrazki.elektroda.pl/6459822600_1678141558.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20473496#20473496",
+      "product": ""
     },
     {
       "vendor": "Sonoff",
