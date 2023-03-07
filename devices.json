@@ -2359,6 +2359,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3911356.html"
     },
     {
+      "vendor": "Feit Electric",
+      "bDetailed": "0",
+      "name": "Costco ART. 1528978 BPPLUG/SMART/3 3-Pack Smart Plugs",
+      "model": "1528978",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "8": "LED_n;1",
+        "26": "Relay;1",
+        "6": "Button;1"
+      },
+      "image": "https://obrazki.elektroda.pl/2951877900_1678136252.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20473339#20473339",
+      "product": "https://www.costco.com/feit-electric-wi-fi-smart-plug%2C-3-pack.product.100825589.html"
+    },
+    {
       "vendor": "Enbrighten",
       "bDetailed": "1",
       "name": "WiFi Switch QOB-WFD4103",
