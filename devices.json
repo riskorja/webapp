@@ -3297,14 +3297,34 @@
       "pins": {
         "7": "SHT3X_SCK;0",
         "8": "SHT3X_SDA;2;3",
-        "17": "Rel;5",
-        "20": "dInput_n;0",
-        "23": "ADC;4",
-        "26": "LED;1"
+        "16": "dInput;8",
+        "17": "BAT_Relay;5",
+        "20": "Btn;6",
+        "23": "BAT_ADC;4",
+        "26": "WifiLED;0"
       },
       "image": "https://obrazki.elektroda.pl/9205540100_1672573268.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945688.html",
       "product": ""
+    },
+    {
+      "vendor": "Antela",
+      "bDetailed": "0",
+      "name": "Antela - smart bulb E27 RGB BAW534 9W",
+      "model": "E27 RGB BAW534 9W",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "keywords": [
+       "Antela",
+       "smartbulb",
+       "E27"
+      ],
+      "pins": {
+        "7": "BP5758D_CLK;1",
+        "8": "BP5758D_DAT;2"
+      },
+      "image": "https://obrazki.elektroda.pl/4585838600_1677699602_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20464986"
     },
     {
       "vendor": "Tuya",
