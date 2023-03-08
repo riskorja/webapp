@@ -1952,16 +1952,36 @@
     {
       "vendor": "Nedis",
       "bDetailed": "0",
-      "name": "WIFIPO120FWT SmartPlug 16A",
+      "name": "WIFIPO120FWT SmartPlug 16A (BL0937, WB2S)",
       "model": "WIFIPO120FWT",
       "chip": "BK7231T",
       "pins": {
         "6": "LED;1",
+        "7": "BL0937CF;1",
+        "8": "BL0937CF1;1",
         "10": "Button;1",
-        "26": "Relay_n;1"
+        "24": "BL0937SEL;1",
+        "26": "Relay;1"
       },
       "image": "https://obrazki.elektroda.pl/7110486000_1665557486.png",
-      "wiki": ""
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20476142#20476142"
+    },
+    {
+      "vendor": "Nedis",
+      "bDetailed": "0",
+      "name": "WIFIPO120FWT SmartPlug 16A (BL0937, CB2S)",
+      "model": "WIFIPO120FWT",
+      "chip": "BK7231T",
+      "pins": {
+        "8": "LED;1",
+        "7": "BL0937CF;1",
+        "6": "BL0937CF1;1",
+        "10": "Button;1",
+        "24": "BL0937SEL;1",
+        "26": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/8185748400_1678293210.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20476142#20476142"
     },
     {
       "vendor": "Nedis",
