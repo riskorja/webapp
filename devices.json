@@ -2617,6 +2617,20 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20383870#20383870"
     },
     {
+      "vendor": "Colorock",
+      "bDetailed": "0",
+      "name": "Colorock 1-Gang WiFi Switch CR-MINI-V2 LED200W",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "8": "LED_n;1",
+        "11": "Button;1",
+        "24": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/6098342400_1678041387.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3962375.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A",
