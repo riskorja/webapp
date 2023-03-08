@@ -1955,6 +1955,7 @@
       "name": "WIFIPO120FWT SmartPlug 16A (BL0937, WB2S)",
       "model": "WIFIPO120FWT",
       "chip": "BK7231T",
+      "board": "WB2S",
       "pins": {
         "6": "LED;1",
         "7": "BL0937CF;1",
@@ -1971,7 +1972,8 @@
       "bDetailed": "0",
       "name": "WIFIPO120FWT SmartPlug 16A (BL0937, CB2S)",
       "model": "WIFIPO120FWT",
-      "chip": "BK7231T",
+      "chip": "BK7231N",
+      "board": "CB2S",
       "pins": {
         "8": "LED;1",
         "7": "BL0937CF;1",
