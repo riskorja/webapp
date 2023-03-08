@@ -2456,6 +2456,19 @@
     },
     {
       "vendor": "Tuya",
+      "name": "AOFO Smart Power Strip C733 TuyaMCU",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "CB2S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "USB", ""],
+      "command": "backlog startDriver tuyaMCU"
+      "image": "https://obrazki.elektroda.pl/4590097600_1678111618.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3962386.html"
+    },
+    {
+      "vendor": "Tuya",
       "name": "Water Leak Detector CB3S (BK7231N) without tuyaMCU",
       "chip": "BK7231N",
       "bDetailed": "0",
