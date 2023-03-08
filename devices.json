@@ -2463,7 +2463,7 @@
       "pins": {
       },
       "keywords": ["TuyaMCU", "USB", ""],
-      "command": "backlog startDriver tuyaMCU"
+      "command": "backlog startDriver tuyaMCU",
       "image": "https://obrazki.elektroda.pl/4590097600_1678111618.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3962386.html"
     },
