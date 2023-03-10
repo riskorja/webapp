@@ -1640,7 +1640,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "[BK7231N - CB2S] RR620W 2 gang switch module with BL0942 energy meter",
+      "name": "RR620W 2 gang switch module with BL0942 energy meter",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
@@ -1655,7 +1655,8 @@
       "keywords": [
         "BL0942",
         "Allegro",
-        "2 gang"
+        "2 gang",
+        "LoraTap"
       ],
       "image": "https://obrazki.elektroda.pl/9642873200_1673890666.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3949851.html"
