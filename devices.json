@@ -1638,6 +1638,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3940178.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "[BK7231N - CB2S] RR620W 2 gang switch module with BL0942 energy meter",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "26": "WifiLED;0",
+        "7": "Relay;0",
+        "24": "Relay;1",
+        "23": "Btn_Tgl_All;0",
+        "6": "TglChanOnTgl;0",
+        "8": "TglChanOnTgl;1"
+      },
+      "command": "backlog startDriver BL0942;",
+      "keywords": [
+        "BL0942",
+        "Allegro",
+        "2 gang"
+      ],
+      "image": "https://obrazki.elektroda.pl/9642873200_1673890666.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3949851.html"
+    },
+    {
       "vendor": "EARU",
       "bDetailed": "0",
       "name": "[BK7231N - CBU] EARU Electric RDCBC/TJ-2P DIN-rail relay/energy meter",
