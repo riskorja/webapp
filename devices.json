@@ -1637,6 +1637,32 @@
       "image": "https://obrazki.elektroda.pl/2129193900_1670533906.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3940178.html"
     },
+	{
+	  "vendor": "Generic",
+	  "bDetailed": "0",
+	  "name": "WiFi Smart Power Strip SM-SO301K",
+	  "model": "SM-SO301K",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [
+		"Mains Power Strip",
+		"USB Power Supply",
+		"4 Gang"
+	  ],
+	  "pins": {
+		"6": "Rel_n;2",
+		"7": "Btn_Tgl_All;0",
+		"8": "Rel_n;1",
+		"10": "Rel_n;6",
+		"14": "Rel;5",
+		"21": "WifiLED;0",
+		"23": "Rel_n;1",
+		"24": "Rel_n;3",
+		"26": "Rel_n;4"
+	  },
+	  "image": "https://obrazki.elektroda.pl/4535041600_1678464108_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3963570.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
