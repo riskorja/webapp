@@ -2022,9 +2022,10 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
-        "8": "LED;1",
         "6": "Button;1",
-        "24": "Relay;1"
+        "8": "LED;2",
+        "24": "Relay;1",
+		"26": "dInput_n;2"
       },
       "image": "https://obrazki.elektroda.pl/7792907900_1673029895.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3947520.html"
