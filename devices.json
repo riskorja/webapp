@@ -2015,6 +2015,28 @@
       "flag": 3
     },
 	{
+	  "vendor": "Mirabella",
+	  "bDetailed": "0",
+	  "name": "Mirabella Genio Plug with Energy Monitoring",
+	  "model": "I004526",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [
+		"BL0937",
+		"Energy metering"
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;1",
+		"7": "BL0937CF;1",
+		"8": "LED_n;1",
+		"10": "Btn;1",
+		"24": "BL0937SEL;1",
+		"26": "Rel;1"
+	  },
+	  "image": "https://obrazki.elektroda.pl/6254650800_1678613252.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3963968.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Tuya/SmartLife Alarm PIR Motion Sensor CT61W",
