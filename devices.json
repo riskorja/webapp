@@ -2015,9 +2015,31 @@
       "flag": 3
     },
 	{
+		"vendor": "Mirabella",
+		"bDetailed": "0",
+		"name": "Mirabella Genio Double Plug I004527",
+		"model": "I004527",
+		"chip": "BK7231N",
+		"board": "CB2S",
+		"keywords": [
+			"double",
+			"dual socket",
+			"strip"
+		],
+		"pins": {
+			"6": "Rel;2",
+			"7": "Rel;1",
+			"8": "Btn;1",
+			"24": "WifiLED;1",
+			"26": "Btn;2"
+		},
+		"image": "https://obrazki.elektroda.pl/6034962000_1678638695.png",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3963928.html"
+	},
+	{
 	  "vendor": "Mirabella",
 	  "bDetailed": "0",
-	  "name": "Mirabella Genio Plug with Energy Monitoring",
+	  "name": "Mirabella Genio Plug with Energy Monitoring I004526",
 	  "model": "I004526",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
