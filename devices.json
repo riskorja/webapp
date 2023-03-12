@@ -2014,6 +2014,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20123466#20123466",
       "flag": 3
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Tuya/SmartLife Alarm PIR Motion Sensor CT61W",
+	  "model": "CT61W",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [
+		"PIR",
+		"USB",
+		"Battery"
+	  ],
+	  "pins": {
+		"6": "dInput;1"
+	  },
+	  "image": "https://obrazki.elektroda.pl/4102204600_1678623425.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3963837.html"
+	},
     {
       "vendor": "TreatLife",
       "bDetailed": "1",
