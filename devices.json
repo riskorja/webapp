@@ -2599,6 +2599,19 @@
     },
     {
       "vendor": "Tuya",
+      "name": "EAMPDW-TY63 2P 63A Leakage Over Under Voltage Protector Relay Device Switch Breaker Energy Power kWh Meter",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "DIN Rail", "Power Metering"],
+      "command": "backlog startDriver tuyaMCU",
+      "image": "https://obrazki.elektroda.pl/4535070600_1678639113.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3959907.html"
+    },
+    {
+      "vendor": "Tuya",
       "name": "AOFO Smart Power Strip C733 TuyaMCU",
       "chip": "BK7231N",
       "bDetailed": "0",
