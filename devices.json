@@ -3198,6 +3198,30 @@
       "product": ""
     },
     {
+      "vendor": "Zemismart",
+      "bDetailed": "0",
+      "name": "Zemismart Light Switch (Neutral Optional) KS_811_3",
+      "model": "KS-811-3",
+      "chip": "BK7231N",
+      "board": "",
+      "pins": {
+        "14": "Relay;3",
+        "16": "Relay;2",
+        "15": "Relay;1",
+        "17": "Button;1",
+        "26": "Button;2",
+        "24": "Button;3",
+        "22": "WifiLED;1"
+	  },
+      "keywords": [
+        "switch",
+        "3 gang"
+      ],
+      "image": "https://zorruno.com/wp-content/uploads/2022/10/2022-07-25-11_08_53-Photo-Google-Photos-edited.png",
+      "wiki": "https://zorruno.com/2022/zemismart-ks-811-with-openbk7231n-openbeken/",
+      "product": "https://www.aliexpress.com/item/4000979779573.html"
+    },
+    {
       "vendor": "Shenzhen Neo Electronic Co., LTD.",
       "bDetailed": "1",
       "name": "Neo NAS-SC01W-1 1 gang switch and NAS-SC01W-3 3 gang",
@@ -4650,6 +4674,24 @@
       },
       "image": "https://obrazki.elektroda.pl/6540960600_1668021484.webp",
       "wiki": "https://www.elektroda.com/rtvforum/topic3932742.html"
+    },
+    {
+      "vendor": "Generic",
+      "bDetailed": "1",
+      "name": "HBSS-0209 Smart socket B2030248 Energy Metering Plug",
+      "model": "HBSS-0209",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "6": "WifiLED_n;0",
+        "7": "BL0937CF;0",
+        "8": "BL0937CF1;0",
+        "10": "Button;0",
+        "24": "BL0937SEL;1",
+        "26": "Relay;0"
+      },
+      "image": "https://obrazki.elektroda.pl/8069179900_1678393767.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3963414.html"
     },
     {
       "bDetailed": "0",
