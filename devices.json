@@ -292,6 +292,32 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Tuya Smart Valve (UJV Ufairy)",
+      "model": "",
+      "chip": "BK7231T",
+      "board": "WB3S",
+	  "pins": {
+		"7": "dInput_NoPullUp;1",
+		"8": "dInput_NoPullUp;2",
+		"14": "Rel;0",
+		"24": "LED;0",
+		"26": "Btn;0"
+	  },
+      "keywords": [
+        "water",
+        "valve",
+        "LED",
+        "Domotique Valve Controller",
+        "31x15x75cm",
+        "GR-W-105"
+      ],
+      "image": "https://obrazki.elektroda.pl/5771107800_1678386680.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3963394.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya Smart Valve Controller (water switch) 12V 1A",
       "model": "",
       "chip": "BK7231T",
@@ -312,6 +338,24 @@
       "image": "https://obrazki.elektroda.pl/2641112500_1672335614.webp",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945101.html",
       "product": ""
+    },
+    {
+      "vendor": "TreatLife",
+      "bDetailed": "0",
+      "name": "Treatlife Intertek DS03 Fan/Light Dimmer Switch 2AFNL-TYWE3S",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "dimmer",
+        "23243-TYWE3S",
+        "2AFNL-TYWE3S",
+        "DS03_MAINBOARD_xingtang_V1.4 2019/11/29",
+		"Nuvoton M031LC2AE"
+      ],
+      "image": "https://obrazki.elektroda.pl/3627590700_1675311164.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3954253.html"
     },
     {
       "vendor": "MoesHouse",
