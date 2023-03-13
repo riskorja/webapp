@@ -2642,6 +2642,20 @@
       "product": "https://sonoff.tech/product/minir3"
     },
     {
+      "vendor": "Smatrul",
+      "name": "Brazil 4x4 Tuya WiFi Smart Light Switch 6 gang",
+      "chip": "BK7231N",
+      "bDetailed": "0",
+      "board": "CB3S",
+      "pins": {
+      },
+      "keywords": ["TuyaMCU", "6 gang", "Brazil"],
+      "command": "backlog startDriver tuyaMCU",
+      "image": "https://obrazki.elektroda.pl/9385233300_1678701203.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3963972.html",
+      "product": "https://www.aliexpress.com/item/1005004136972135.html?spm=a2g0o.order_list.order_list_main.295.59351802kaqxEY"
+    },
+    {
       "vendor": "Tuya",
       "name": "EAMPDW-TY63 2P 63A Leakage Over Under Voltage Protector Relay Device Switch Breaker Energy Power kWh Meter",
       "chip": "BK7231N",
