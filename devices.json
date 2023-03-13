@@ -1327,6 +1327,27 @@
     {
       "vendor": "Calex",
       "bDetailed": "0",
+      "name": "Calex Powerplug UK Plug (900011)",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {
+        "7": "LED_n;1",
+        "6": "Btn;1",
+        "24": "Rel;1",
+        "8": "WifiLED_n;1"
+      },
+      "command": "",
+      "keywords": [
+        "Calex",
+        "900011-1",
+        "UK"
+      ],
+      "image": "https://obrazki.elektroda.pl/5883352900_1678713488.png",
+      "wiki": ""
+    },
+    {
+      "vendor": "Calex",
+      "bDetailed": "0",
       "name": "CALEX Smart Powerplug EU plus 16A Model no. 429198.2",
       "chip": "BK7231N",
       "board": "CB2S",
@@ -2099,7 +2120,7 @@
 		"24": "BL0937SEL;1",
 		"26": "Rel;1"
 	  },
-	  "image": "",
+	  "image": "https://store.fixmobile.gr/sites/fixmobile.gr/files/styles/product_teaser_store/public/field/product-images/1594914_0d.jpg?itok=FTtUVkL4",
 	  "wiki": ""
 	},
 	{
