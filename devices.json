@@ -2081,6 +2081,28 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3963928.html"
 	},
 	{
+	  "vendor": "TeslaSmart",
+	  "bDetailed": "0",
+	  "name": "Tesla Smart Plus TSL SPL-1 Energy Metering",
+	  "model": "TSL-SPL-1",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [
+		"BL0937",
+		"Energy metering"
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;1",
+		"7": "BL0937CF;1",
+		"8": "LED_n;1",
+		"10": "Btn;1",
+		"24": "BL0937SEL;1",
+		"26": "Rel;1"
+	  },
+	  "image": "",
+	  "wiki": ""
+	},
+	{
 	  "vendor": "Mirabella",
 	  "bDetailed": "0",
 	  "name": "Mirabella Genio Plug with Energy Monitoring I004526",
@@ -3200,7 +3222,7 @@
     {
       "vendor": "Zemismart",
       "bDetailed": "0",
-      "name": "Zemismart Light Switch (Neutral Optional) KS_811_3",
+      "name": "Zemismart Light Switch (Neutral Optional) KS-811-3",
       "model": "KS-811-3",
       "chip": "BK7231N",
       "board": "",
