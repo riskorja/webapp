@@ -76,7 +76,8 @@
       "pins": {
         "4": "PWM;0",
         "3": "PWM;1",
-        "21": "PWM;2"
+        "21": "PWM;2",
+        "12": "IRRecv;1"
       },
       "keywords": [
         "RGB",
@@ -721,6 +722,25 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
+      "name": "GU10 FCMila Spotlight LED RGBCW 5PWMs",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "pins": {
+        "6": "PWM;1",
+        "26": "PWM;2",
+        "24": "PWM;3",
+        "7": "PWM;4",
+        "8": "PWM;5"
+      },
+      "keywords": [
+        "RGBCW"
+      ],
+      "image": "https://obrazki.elektroda.pl/1316834800_1650497507.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3956111.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
       "name": "E27 LED RGBCW 5PWMs",
       "chip": "BK7231N",
       "board": "XH-0068A",
@@ -833,14 +853,15 @@
     {
       "vendor": "Calex",
       "bDetailed": "0",
-      "name": "RGBWW LED Dimmer Five Channel PWM",
+      "name": "RGBCW LED Dimmer Five Channel PWM with IR",
       "chip": "BK7231T",
       "pins": {
         "7": "PWM;1",
         "8": "PWM;2",
         "6": "PWM;3",
         "24": "PWM;4",
-        "26": "PWM;5"
+        "26": "PWM;5",
+        "25": "IRRecv;0"
       },
       "image": "",
       "wiki": "https://www.elektroda.com/rtvforum/topic3850712.html#19824097"
@@ -1903,6 +1924,7 @@
       "name": "CCT LED Downlight",
       "model": "ALD029CHA",
       "chip": "BK7231T",
+      "board": "WB3L",
       "pins": {
         "6": "PWM;4",
         "24": "PWM;5"
@@ -1984,6 +2006,7 @@
       "name": "RGB+CCT LED Downlight",
       "model": "ALD092RHA",
       "chip": "BK7231T",
+      "board": "WB3L",
       "pins": {
         "8": "PWM;1",
         "7": "PWM;2",
@@ -2232,13 +2255,16 @@
     {
       "vendor": "Emax",
       "bDetailed": "0",
-      "name": "EDU8774 Home SmartPlug 16A",
+      "name": "EDU8774 Home SmartPlug 16A with BL0937",
       "model": "EDU8774",
       "chip": "BK7231T",
       "pins": {
         "10": "Button;1",
         "24": "LED_n;1",
-        "26": "Relay;1"
+        "26": "Relay;1",
+        "6": "BL0937CF1;1",
+        "7": "BL0937CF;1",
+        "8": "BL0937SEL;1"
       },
       "image": "https://obrazki.elektroda.pl/2645420200_1665557641.png",
       "wiki": ""
