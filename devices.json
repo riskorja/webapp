@@ -720,6 +720,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372825"
     },
     {
+      "vendor": "Aigostar",
+      "bDetailed": "1",
+      "name": "Aigostar Smart 18872 18W RGB+CCT",
+      "chip": "EMW3072",
+      "board": "EMW3072",
+      "pins": {
+      },
+      "keywords": [
+        "RGBCW",
+		"plafon",
+		"Allegro"
+      ],
+      "image": "https://obrazki.elektroda.pl/2450612900_1675163765.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20426469#20426469"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "GU10 FCMila Spotlight LED RGBCW 5PWMs",
@@ -1508,6 +1524,48 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Milio Plafon LED 24W RGB+CCT IP20 Tuya 1600LM MI0014",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "7": "PWM;3",
+        "6": "PWM;4"
+      },
+      "command": "",
+      "keywords": [
+        "sklep-KAAR",
+        "Plafon",
+        "Allegro",
+        "Berge"
+      ],
+      "image": "https://obrazki.elektroda.pl/3808177800_1676015026.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3956388.html",
+	  "product":"https://allegro.pl/oferta/lampa-plafon-led-24w-rgb-cct-smart-tuya-natynkowy-12146063374"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Ceiling lamp CCT 18W WiFi Kobi Smart LED Moon Tuya",
+      "chip": "BK7231T",
+      "board": "WB3L",
+      "pins": {
+        "7": "PWM;3",
+        "6": "PWM;4"
+      },
+      "command": "",
+      "keywords": [
+        "KSMN18CTWA",
+        "Plafon",
+        "Allegro",
+        "Extramarket_pl"
+      ],
+      "image": "https://obrazki.elektroda.pl/2570460500_1675144884.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3956918.html",
+	  "product":"https://allegro.pl/oferta/plafon-sufitowy-led-tuya-wifi-18w-ze-sciemniaczem-12709325490"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "0",
       "name": "[BK7231T/WB2S] Smart Led Moon 18W 1260lm CCT",
       "chip": "BK7231T",
@@ -1519,7 +1577,7 @@
       "command": "",
       "keywords": [
         "Allegro",
-        "",
+        "plafon",
         ""
       ],
       "image": "https://obrazki.elektroda.pl/6473861200_1671863061.jpg",
@@ -1852,20 +1910,25 @@
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929151&highlight="
     },
     {
-      "vendor": "Nous",
+      "vendor": "Ledlumen",
       "bDetailed": "1",
-      "name": "Bulb P4 E14 RGBCW (BK7231N + BP5758)",
+      "name": "Ceiling lamp 350x55mm Ledlumen 251090511 CLP-12 36W 4052lm",
       "chip": "BK7231N",
-      "board": "EB01-B",
+      "board": "CB2L",
       "pins": {
-        "26": "BP5758D_CLK;0",
-        "24": "BP5758D_DAT;0"
+        "7": "BP5758D_CLK;0",
+        "8": "BP5758D_DAT;0"
       },
       "keywords": [
-        "RGBCW"
+        "RGBCW",
+        "Allegro",
+        "251090511",
+        "RGBCW",
+        "Plafon"
       ],
-      "image": "https://obrazki.elektroda.pl/8219818100_1664010430.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3923992&highlight="
+      "image": "https://obrazki.elektroda.pl/8484566100_1676478197.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3964754.html",
+      "product": "https://allegro.pl/oferta/plafon-led-36w-4052lm-rgb-cct-wifi-tuya-smart-life-13125642453"
     },
     {
       "vendor": "Nous",
