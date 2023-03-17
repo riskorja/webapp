@@ -5138,12 +5138,12 @@
       ]
     },
     {
-      "vendor": “FEIT”,
+      "vendor": "FEIT",
       "bDetailed": "0",
-      "name": “Smart “LED Light Strip”,
-      "model": “FETAPE/RGBW/CNTRSC”,
+      "name": "Smart LED Light Strip",
+      "model": "FETAPE/RGBW/CNTRSC",
       "chip": "BK7231N",
-      "board": “LST04-BKN1”,
+      "board": "LST04-BKN1",
       "keywords": [
         "RGBW",
         "Strip",
