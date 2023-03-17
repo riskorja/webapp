@@ -1,5 +1,7 @@
 <template>
     <div>
+    <h3>Basic device status and debug channel values display</h3>
+    <p>Here you can operate on raw channel values. You can also set RAW pwm values, without LED driver. PLEASE REMEMBER that this page is not a correct LED RGB/CW controller. Please use main WWW page for that.</p>
         <div>
           <!--<span v-for="item in channels" v-bind:key="item">{{item}}:{{channels[item]}} </span>-->
           <div v-for="(item, key) in channels" v-bind:key="item">
@@ -300,8 +302,9 @@
             } 
           }
         }
-        this.pwmChannels.sort();
 
+if(false)
+{       this.pwmChannels.sort();
         switch(this.pwmChannels.length){
           case 1:
             this.show_cw = true;
@@ -354,6 +357,8 @@
             break;
         }
 
+}
+ 
       },
 
       change(v,i,p){

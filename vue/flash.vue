@@ -251,4 +251,16 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
 }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item {
+    padding: 0 15px;
+  }
+  .pin-index {
+    display: inline-block;
+    width: 20px;
+  }
 </style>

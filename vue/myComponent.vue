@@ -7,6 +7,7 @@
       <button :class="'tablinks '+Statusclass" @click="open($event, 'Status')">Status</button>
       <button :class="'tablinks '+OTAclass" @click="open($event, 'OTA')">OTA</button>
       <button :class="'tablinks '+Flashclass" @click="open($event, 'Flash')">Flash</button>
+      <button :class="'tablinks '+Toolsclass" @click="open($event, 'Tools')">Tools</button>
       <button :class="'tablinks '+Filesystemclass" @click="open($event, 'Filesystem')">Filesystem</button>
       <button :class="'tablinks '+Aboutclass" @click="open($event, 'About')">About</button>
     </div>
@@ -39,6 +40,10 @@
       <h3>OTA</h3>
       <ota-controller></ota-controller>
     </div>
+    <div class="tabcontent" v-if="tab === 'Tools'">
+      <h3>Tools (WORK IN PROGRESS, SOME BUTTONS MAY NOT BE READY)</h3>
+      <tools-controller></tools-controller>
+    </div>
     <div class="tabcontent" v-if="tab === 'Flash'">
       <h3>Flash</h3>
       <flash-controller></flash-controller>
@@ -60,6 +65,7 @@
     'flash-controller': window.getComponent('flash'),
     'control-controller': window.getComponent('control'),
     'logs-controller': window.getComponent('logs'),
+    'tools-controller': window.getComponent('tools'),
   },
       
     data: ()=>{
@@ -75,6 +81,7 @@
         OTAclass: '',
         Filesystemclass: '',
         Flashclass: '',
+        Toolsclass: '',
 
       }
     },
@@ -87,6 +94,7 @@
             this.Configclass = '';
             this.Statusclass = '';
             this.OTAclass = '';
+            this.Toolsclass = '';
             this.Filesystemclass = '';
             this.Flashclass = '';
 
