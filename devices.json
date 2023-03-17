@@ -5156,6 +5156,8 @@
         "9": "PWM;0",
         "26": "Btn_SmartLED;0"
       },
+      "command": "backlog CTRange 154 370; scheduleHADiscovery 10",
+      "product": "https://www.feit.com/products/16-ft-rgbw-color-changing-smart-wi-fi-led-strip-light-tape16-rgbw-rp",
       "image": "https://obrazki.elektroda.pl/7879920800_1678042069.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     }
