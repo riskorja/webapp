@@ -1048,7 +1048,7 @@
       "bDetailed": "0",
       "name": "WiFi Smoke Detector",
       "chip": "BK7231N",
-      "board": "CNU",
+      "board": "CBU",
       "pins": {
         
       },
@@ -1930,6 +1930,27 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3964754.html",
       "product": "https://allegro.pl/oferta/plafon-led-36w-4052lm-rgb-cct-wifi-tuya-smart-life-13125642453"
     },
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Lonsonho Tuya X801A-L/LerLink 1 Gang No Neutral Switch (X801A-L) ",
+		"model": "X801A",
+		"chip": "BK7231T",
+		"board": "WB3S",
+		"keywords": [
+			"no neutral",
+			"1 gang",
+			"wall switch"
+		],
+		"pins": {
+			"6": "Btn;0",
+			"11": "WifiLED;0",
+			"24": "Rel;0"
+		},
+		"image": "https://obrazki.elektroda.pl/8726398500_1678987236.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3965108.html",
+		"product": "https://templates.blakadder.com/lerlink_X801A.html"
+	},
     {
       "vendor": "Nous",
       "bDetailed": "1",
