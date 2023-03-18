@@ -3019,6 +3019,21 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20383870#20383870"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Mini Smart Switch 16A 1 Gang Shunshun",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "pins": {
+        "7": "LED_n;1",
+        "10": "Button;1",
+        "26": "TglChanOnTgl;1",
+        "8": "Relay;1"
+      },
+      "image": "https://obrazki.elektroda.pl/9107112400_1679156974.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20496080#20496080"
+    },
+    {
       "vendor": "Colorock",
       "bDetailed": "0",
       "name": "Colorock 1-Gang WiFi Switch CR-MINI-V2 LED200W",
