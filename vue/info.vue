@@ -14,6 +14,7 @@
       <p>MQTT Topic: {{mqtttopic}}</p>
       <p>WEBAPP Url root: {{webapp}}</p>
       <p>Chipset: {{chipset}}</p>
+      <p>Flags: {{flags}}</p>
       <p>Version: {{currentversion}} <span v-html="lateststr"></span></p>
       <p v-if="error">Error: {{error}}</p>
       <h4>Export Current Template</h4>
@@ -100,6 +101,8 @@
         mqtttopic:'unknown',
         webapp:'unknown',
         chipset:'unknown',
+        shortStartupCommand:'',
+        flags:0,
         supportsClientDeviceDB: false,
 
         pins:{ rolenames:[], roles:[], channels:[] },
@@ -145,7 +148,48 @@
 	        "BP5758D_CLK",
           "BP1658CJ_DAT",
 	        "BP1658CJ_CLK",
-        	"PWM_n"
+        	"PWM_n",
+          "IRRecv",
+          "IRSend",
+          "Btn_NextColor",
+          "Btn_NextColor_n",
+          "Btn_NextDimmer",
+          "Btn_NextDimmer_n",
+          "AlwaysHigh",
+          "AlwaysLow",
+          "UCS1912_DIN",
+          "SM16703P_DIN",
+          "Btn_NextTemperature",
+          "Btn_NextTemperature_n",
+          "Btn_ScriptOnly",
+          "Btn_ScriptOnly_n",
+          "DHT11",
+          "DHT12",
+          "DHT21",
+          "DHT22",
+          "CHT8305_SDA",
+          "CHT8305_SCK",
+          "SHT3X_SDA",
+          "SHT3X_SCK",
+          "SoftSDA",
+          "SoftSCL",
+          "SM2235DAT",
+          "SM2235CLK",
+          "BridgeFWD",
+          "BridgeREV",
+          "Btn_SmartLED",
+          "Btn_SmartLED_n",
+          "DoorSnsrWSleep",
+          "DoorSnsrWSleep_nPup",
+          "BAT_ADC",
+          "BAT_Relay",
+          "TM1637_DIO",
+          "TM1637_CLK",
+          "error",
+          "error",
+          "error",
+          "error",
+          "error"
         ],
         releases: [],
         latest: "", // read from github
@@ -180,6 +224,8 @@
                 this.mqtttopic  = res.mqtttopic;
                 this.webapp     = res.webapp;
                 this.chipset    = res.chipset;
+                this.flags      = res.flags;
+                this.shortStartupCommand = res.startcmd;
                 this.supportsClientDeviceDB = res.supportsClientDeviceDB;
 
                 this.currentversion = this.build.split(' ').pop();
@@ -220,6 +266,7 @@
 		  model: 'enter short model name here',
 		  chip: 'BK7231T',
 		  board: 'TODO',
+      flags: 0,
 		  keywords : [
 				"TODO",
 				"TODO",
@@ -227,9 +274,12 @@
 			  ],
 		  pins : {
 			  },
+      command: "",
 		  image: 'https://obrazki.elektroda.pl/YOUR_IMAGE.jpg',
 		  wiki: 'https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html',
 		};
+    device.command = this.shortStartupCommand;
+    device.flags = this.flags;
 		device.chip = this.chipset;
 		//device.pins = 
         for (let i = 0; i < this.pins.channels.length; i++){
