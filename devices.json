@@ -3071,6 +3071,31 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966369.html"
 	},
 	{
+	  "vendor": "Woox",
+	  "bDetailed": "0",
+	  "name": "WOOX R6113 Smart Plug 2961171",
+	  "model": "R6113",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "36246663",
+	  "keywords": [
+		"WOOX",
+		"BL0937",
+		"energy metering"
+	  ],
+	  "pins": {
+		"6": "LED;1",
+		"7": "Btn;0",
+		"8": "Rel;1",
+		"11": "BL0937SEL;0",
+		"24": "BL0937CF1;0",
+		"26": "BL0937CF;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8714341200_1679386306_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3966148.html"
+	},
+	{
 	  "vendor": "Meiq",
 	  "bDetailed": "0",
 	  "name": "IoT Meiq Sonoff Basic R2",
