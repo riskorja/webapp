@@ -5180,6 +5180,7 @@
       "model": "FETAPE/RGBW/CNTRSC",
       "chip": "BK7231N",
       "board": "LST04-BKN1",
+      "flags": "419698176",
       "keywords": [
         "RGBW",
         "Strip",
