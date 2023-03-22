@@ -3070,6 +3070,22 @@
 	  "image": "https://obrazki.elektroda.pl/3672864700_1679455339.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966369.html"
 	},
+	{
+	  "vendor": "Meiq",
+	  "bDetailed": "0",
+	  "name": "IoT Meiq Sonoff Basic R2",
+	  "model": "R2",
+	  "chip": "BL602",
+	  "board": "SM-028W-V1.0",
+	  "keywords": ["INNO---IOT TDQ-V4.0 GJY 2020.2.28", "1 ch", "smart switch"],
+	  "pins": {
+		"12": "Rel;1",
+		"14": "LED_n;1",
+		"20": "Btn;1"
+	  },
+	  "image": "https://obrazki.elektroda.pl/8039925800_1679155989.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3965543.html"
+	},
     {
       "vendor": "Colorock",
       "bDetailed": "0",
