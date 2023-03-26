@@ -1951,6 +1951,32 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3965108.html",
 		"product": "https://templates.blakadder.com/lerlink_X801A.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "WiFi Smart Power Strip",
+	  "model": "IMPITER",
+	  "chip": "BK7231T",
+	  "board": "WB3",
+	  "flags": "1024",
+	  "keywords": [
+		"Mains Power Strip",
+		"USB Power Supply",
+		"4 Gang"
+	  ],
+	  "pins": {
+		"1": "WifiLED_n;0",
+		"6": "Rel;1",
+		"7": "Rel;4",
+		"8": "Btn_Tgl_All;0",
+		"9": "Rel;3",
+		"24": "Rel;2",
+		"26": "Rel;5"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9881821800_1679809090_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3967318.html"
+	},
     {
       "vendor": "Nous",
       "bDetailed": "1",
@@ -3094,6 +3120,42 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/8714341200_1679386306_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966148.html"
+	},
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "LgowithU Smart Water Valve/Steren Valvula Valve (SHOME-150) ",
+		"model": "SHOME-150",
+		"chip": "BK7231T",
+		"board": "WB3S",
+		"flags": "1028",
+		"keywords": [
+			"water",
+			"valve"
+		],
+		"pins": {
+			"1": "WifiLED;0",
+			"6": "Rel;1",
+			"24": "Btn;1"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/6580386900_1679555614.png",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3966581.html"
+	},
+	{
+	  "vendor": "Mirabella",
+	  "bDetailed": "0",
+	  "name": "Genio RGB+CW/WW Downlight I002741",
+	  "model": "I002741",
+	  "chip": "BK7231N",
+	  "board": "CB2L",
+	  "keywords": ["downlight"],
+	  "pins": {
+		"7": "BP5758D_DAT;0",
+		"8": "BP5758D_CLK;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/9105986400_1679524913.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3966567.html"
 	},
 	{
 	  "vendor": "Meiq",
