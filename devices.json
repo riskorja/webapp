@@ -2785,6 +2785,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3911356.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "AP-SMT-Breaker02-1CH EZB-WBZS1H16N-A - 16A Mini Smart Switch 1 Channel",
+      "model": "EZB-WBZS1H16N-A",
+      "chip": "BK7231N",
+      "board": "on board",
+      "pins": {
+        "15": "Rel;1",
+        "14": "TglChanOnTgl;1",
+        "6": "LED;1",
+        "8": "Button;1"
+      },
+      "image": "https://obrazki.elektroda.pl/2081201100_1679748415.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3967141.html"
+    },
+    {
       "vendor": "Feit Electric",
       "bDetailed": "0",
       "name": "Costco ART. 1528978 BPPLUG/SMART/3 3-Pack Smart Plugs",
