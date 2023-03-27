@@ -1501,6 +1501,30 @@
       "product": "https://nedis.com/en-us/product/lighting/decorative-lighting/led-lights/550690705/smartlife-led-strip-wi-fi-cool-white-rgb-warm-white-smd-500-m-ip65-2700-6500-k-960-lm-android-ios"
     },
     {
+      "vendor": "Nedis",
+      "bDetailed": "0",
+      "name": "Nedis SmartLife LED Strip (single PCB) | Wi-Fi | RGBCW - WIFILS50CRGBW",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;4",
+        "8": "PWM;1",
+        "9": "Button_n;0",
+        "24": "PWM;2",
+        "26": "PWM;5"
+      },
+      "command": "",
+      "keywords": [
+        "5412810303106",
+        "WIFILS50CRGBW",
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/1597601100_1675601815.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955128.html",
+      "product": "https://nedis.com/en-us/product/lighting/decorative-lighting/led-lights/550690705/smartlife-led-strip-wi-fi-cool-white-rgb-warm-white-smd-500-m-ip65-2700-6500-k-960-lm-android-ios"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
