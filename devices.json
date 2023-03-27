@@ -2496,6 +2496,20 @@
       "command": "backlog startDriver BL0942;"
     },
     {
+      "vendor": "eWeLink",
+      "bDetailed": "1",
+      "name": "TP15 10A 1Channel Breaker Wifi Switch",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+        "10": "Button;1",
+        "24": "Relay;1",
+        "8": "LED;1"
+      },
+      "image": "https://obrazki.elektroda.pl/3577857400_1679751543.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3967147.html"
+    },
+    {
       "vendor": "QiaChip",
       "bDetailed": "1",
       "name": "QiaChip Smart Switch (N version)",
