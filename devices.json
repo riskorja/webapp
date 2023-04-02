@@ -3496,6 +3496,24 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "C01W/C02W/C03W/C04W WiFi&BT LED Controller TuyaMCU",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": [
+        "TuyaMCU",
+        "RGB",
+        "LED",
+        "strip"
+      ],
+      "image": "https://obrazki.elektroda.pl/7437666200_1680110019.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968216.html",
+      "command": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "S09 LCD Temperature & Humidity & Calendar with IR, 5V USB-powered",
       "chip": "BK7231T",
       "board": "WB3S",
