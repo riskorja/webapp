@@ -3458,6 +3458,18 @@
       "command": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "TuyaMCU TH01 Generic Temperature and Humidity Sensor",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "keywords": ["TuyaMCU", "battery-powered", "AHT20", "weather"],
+      "image": "https://obrazki.elektroda.pl/7226125700_1680177741.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968377.html",
+      "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 temperature_div10; linkTuyaMCUOutputToChannel 2 val 2; setChannelType 2 Humidity;linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
+    },
+    {
       "vendor": "AVATTO",
       "bDetailed": "1",
       "name": "Tuya DS06 Door Sensor",
