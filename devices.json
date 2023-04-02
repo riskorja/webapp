@@ -3890,7 +3890,7 @@
     {
       "vendor": "Elivco",
       "bDetailed": "0",
-      "name": "[BL602] Elivco smart plug with energy monitor BL0937 RMC004",
+      "name": "[BL602] WiFi Elivco smart plug with energy monitor BL0937 RMC004",
       "model": "RMC004",
       "chip": "BL602",
       "board": "SM-028_V1.3",
@@ -3910,6 +3910,24 @@
       },
       "image": "https://obrazki.elektroda.pl/1556106400_1672313255.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20359721#20359721",
+      "product": ""
+    },
+    {
+      "vendor": "Elivco",
+      "bDetailed": "0",
+      "name": "[ZHU2114] Zigbee Elivco smart plug with energy monitor BL0937 RMC004",
+      "model": "RMC004",
+      "chip": "ZHU2114",
+      "board": "ZT2S",
+      "keywords": [
+        "Elivco",
+        "plug",
+        "power monitoring",
+        "zigbee",
+        "BL0937"
+      ],
+      "image": "https://obrazki.elektroda.pl/2676013700_1680344631.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968832.html",
       "product": ""
     },
     {
