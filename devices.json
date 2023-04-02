@@ -4441,6 +4441,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933025.html"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
+      "model": "970752 ??",
+      "chip": "BK7231T",
+      "board": "onboard",
+      "pins": {
+		"6": "PWM;1",
+		"7": "PWM;2",
+		"8": "PWM;3",
+		"9": "PWM;5",
+		"20": "Btn_SmartLED;0",
+		"24": "PWM;4",
+		"26": "IRRecv;0"
+      },
+	  "tags": ["K225P10-V1.1 2022.03.25"],
+      "image": "https://obrazki.elektroda.pl/7947188700_1680260019.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20517656#20517656"
+    },
+    {
       "vendor": "B.K.Licht",
       "bDetailed": "1",
       "name": "BKL1262 - RGBCW GU10 LED B.K.Licht Bulb",
