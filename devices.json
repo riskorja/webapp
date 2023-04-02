@@ -5421,6 +5421,34 @@
       "product": "https://www.feit.com/products/16-ft-rgbw-color-changing-smart-wi-fi-led-strip-light-tape16-rgbw-rp",
       "image": "https://obrazki.elektroda.pl/7879920800_1678042069.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
+    },
+    {
+      "vendor": "Globe Electric",
+      "bDetailed": "0",
+      "name": "Outdoor 2-Outlet Smart Plug",
+      "model": "50151",
+      "chip": "BK7231T",
+      "board": "Onboard",
+      "flags": "1024",
+      "keywords": [
+          "smart plug",
+          "smart outlet",
+          "plug",
+          "outlet",
+          "2 ch",
+          "outdoor",
+          "relay"
+      ],
+      "pins": {
+          "6": "Rel;1",
+          "7": "Rel;2",
+          "10": "LED_n;1",
+          "24": "Btn_Tgl_All;0",
+          "26": "LED_n;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6586379900_1680012287.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3967911.html"
     }
   ]
 }
