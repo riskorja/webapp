@@ -2520,6 +2520,23 @@
       "command": "backlog startDriver BL0942;"
     },
     {
+      "vendor": "QCNX",
+      "bDetailed": "0",
+      "name": "QCNX Plugs with Smartmeter",
+      "chip": "BK7231N",
+      "board": "CB2S",
+	  "pins": {
+		"8": "BL0937CF1;0",
+		"9": "BL0937CF;0",
+		"8": "LED_n;1",
+		"23": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+      "image": "https://obrazki.elektroda.pl/8826969900_1680178659.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968081.html"
+    },
+    {
       "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "TP15 10A 1Channel Breaker Wifi Switch",
@@ -2532,6 +2549,19 @@
       },
       "image": "https://obrazki.elektroda.pl/3577857400_1679751543.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3967147.html"
+    },
+    {
+      "vendor": "Taipow",
+      "bDetailed": "0",
+      "name": "Taipow 30W Plafon Ceiling Lamp RGBCW",
+      "chip": "BL602",
+      "board": "BL-M5 V1.2",
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/7825058400_1680368384.jpg",
+      "product": "https://www.amazon.it/gp/product/B0B689DJVZ/",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968920.html"
     },
     {
       "vendor": "QiaChip",
