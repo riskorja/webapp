@@ -88,6 +88,21 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3881416.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "RGB LED corner lamp KB-1500B",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": [
+        "SM16703P",
+        "KZBSAFAC21"
+      ],
+      "image": "https://obrazki.elektroda.pl/2103806700_1680157604.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3968310.html"
+    },
+    {
       "vendor": "Surplife",
       "bDetailed": "1",
       "name": "Surplife APP RGB+WW+CW bulb WiFi+BLE E27",
