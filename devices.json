@@ -5532,6 +5532,29 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/6586379900_1680012287.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3967911.html"
-    }
+    },
+    {
+    "vendor": "Tuya UNSH",
+    "bDetailed": "0",
+    "name": "DIY Mini Smart Switch",
+    "model": "SS8839-16A-W",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "1024", 
+    "keywords": [
+      "switch",
+      "relay",
+      "2-way"
+    ], 
+    "pins": {
+      "6": "TglChanOnTgl;0",
+      "7": "Rel;0",
+      "23": "Btn;0", 
+      "26": "LED;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7532543100_1680586907.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20524167#20524167"
+  }
   ]
 }
