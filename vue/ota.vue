@@ -88,7 +88,13 @@
                     }
 
                     if (this.chipset){
-                        this.otaFileExtension = this.chipSetUsesRBL() ? ".rbl" : ".img";
+                        if(this.chipset=="BL602") {
+                             this.otaFileExtension = ".bin.xz.ota";
+                        } else if(this.chipSetUsesRBL()) {
+                             this.otaFileExtension = ".rbl";
+                        } else {
+                             this.otaFileExtension = ".img";
+                        }
                         
                         //These chips don't support litte FS
                         if (",W600,W800,XR809,BL602".indexOf(`,${this.chipset},`) !== -1)
