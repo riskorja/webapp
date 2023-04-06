@@ -5532,6 +5532,46 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/6586379900_1680012287.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3967911.html"
-    }
+    },
+    {
+      "vendor": "Laser",
+      "bDetailed": "1",
+      "name": "Laser 10W Smart RGB Bulb B22",
+      "model": "LSH-B22RGB10W",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "keywords": [
+        "RGBCW"
+      ],
+      "pins": {
+        "6": "PWM;1",
+        "7": "PWM;4",
+        "8": "PWM;3",
+        "24": "PWM;2",
+        "26": "PWM;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5743401700_1680463883.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3969247.html"
+    },
+    {
+      "vendor": "Connect",
+      "bDetailed": "1",
+      "name": "Connect 10W Smart RGB Bulb B22",
+      "model": "CSH-B22RGB10W",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "keywords": [
+        "RGBCW"
+      ],
+      "pins": {
+        "6": "PWM;1",
+        "7": "PWM;4",
+        "8": "PWM;3",
+        "24": "PWM;2",
+        "26": "PWM;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5743401700_1680463883.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3969247.html"
+    },
   ]
 }
