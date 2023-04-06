@@ -317,6 +317,8 @@
 
                 let prefix;
                 let ext;
+                // you can use it for testing
+				//this.chipset = "BL602";
                 switch(this.chipset){
                     case 'BK7231T':
                         prefix = 'OpenBK7231T_';
@@ -332,7 +334,7 @@
                         break;
                     case 'BL602':
                         prefix = 'OpenBL602_';
-                        postfix = '.bin';
+                        postfix = '_OTA.bin.xz.ota';
                         break;
                     case 'W800': //OpenW800_1.14.116_ota.img
                         prefix = 'OpenW800_';
