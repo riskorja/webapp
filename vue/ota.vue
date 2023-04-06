@@ -125,6 +125,12 @@
             return view.getUint8(0) === 0x9f && view.getUint8(1) === 0xff && view.getUint8(2) === 0xff && view.getUint8(3) === 0xa0;
         },
 
+        isBL602Image(arrayBuffer){
+            let view = new DataView(arrayBuffer);
+            if (view.byteLength < 8) return false;
+            console.log(view);
+            return view.getUint8(0) === 0x42 && view.getUint8(1) === 0x4C && view.getUint8(2) === 0x36 && view.getUint8(3) === 0x30 && view.getUint8(4) === 0x58 && view.getUint8(5) === 0x5F && view.getUint8(6) === 0x4F;
+        },
         remoteotafilechange(){
 
         },
@@ -171,7 +177,7 @@
             else if (this.chipset === "W600" || this.chipset === "W800"){
                 this.invalidOTASelected = !this.isWinnerMicroImage(result);
             } else if (this.chipset === "BL602"){
-                this.invalidOTASelected = 0;
+                this.invalidOTASelected = !this.isBL602Image(result);
             }
             else{
                 //At this point W800 is the only other chipset with has OTA images e.g. OpenW800_1.12.40_ota.img
