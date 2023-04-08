@@ -5586,6 +5586,34 @@
       "image": "https://obrazki.elektroda.pl/4267164700_1680621794.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3969717.html",
       "product": ""
-    }
+    },
+	{
+		"vendor": "DETA",
+		"bDetailed": "0",
+		"name": "Deta Grid Connect Smart Double Touch Power Point With Dual USB",
+		"model": "6920HA",
+		"chip": "BK7231T",
+		"board": "WB2S",
+		"flags": "1088",
+		"keywords": [
+			"Bunnings",
+			"2gang",
+			"USB",
+			"Australia",
+			"Energy metering",
+			"CSE7766"
+		],
+		"pins": {
+		"6": "Rel;1",
+		"7": "Btn;1",
+		"8": "WifiLED_n;2",
+		"24": "Btn;2",
+		"26": "Rel;2"
+		},
+		"command": "backlog startDriver CSE7766; SetupEnergyStats 1 30 120 0",
+		"image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+		"wiki": "https://obrazki.elektroda.pl/4099372500_1680966189.png",
+		"product": "https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780"
+	}
   ]
 }
