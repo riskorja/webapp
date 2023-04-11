@@ -5614,6 +5614,31 @@
 		"image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
 		"wiki": "https://obrazki.elektroda.pl/4099372500_1680966189.png",
 		"product": "https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780"
+	},
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Tuya Wifi Curtain Module",
+		"model": "Wifi Curtain Module",
+		"chip": "BK7231N",
+		"board": "CB2S",
+		"flags": "1024",
+		"keywords": [
+			"Curtain module",
+			"2 gang",
+			"switch"
+		],
+		"pins": {
+		"7": "Btn;1",
+		"8": "Btn;2",
+		"10": "WifiLED_n;0",
+		"24": "Rel;1",
+		"26": "Rel;2",
+		"28": "Btn_n;0"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/5709759800_1681245233.png",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3971239.html"
 	}
   ]
 }
