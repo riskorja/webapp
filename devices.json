@@ -2237,19 +2237,47 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3931868.html"
     },
     {
-      "vendor": "CasaLife",
+      "vendor": "CasaLife (Aldi)",
       "bDetailed": "1",
       "name": "CCT LED Downlight",
       "model": "SMART-AL2017-TGTS",
       "chip": "BK7231T",
       "board": "WB2L",
+      "flags": "256",
+      "keywords": [
+        "CCT",
+        "LED",
+        "DOWNLIGHT"
+      ],
       "pins": {
-        "7": "PWM;0",
+        "7": "PWM_n;0",
         "8": "PWM;1"
       },
       "image": "https://obrazki.elektroda.pl/4181235400_1659263189.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20123466#20123466",
-      "flag": 3
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20123466#20123466"
+    },
+    {
+      "vendor": "CasaLife (Aldi)",
+      "bDetailed": "1",
+      "name": "RGB LED Downlight",
+      "model": "SMART-AL2017-RGB-TGTS",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "256",
+      "keywords": [
+        "RGBCW",
+        "LED",
+        "DOWNLIGHT"
+      ],
+      "pins": {
+        "6": "PWM;2",
+        "7": "PWM_n;3",
+        "8": "PWM;4",
+        "24": "PWM;1",
+        "26": "PWM;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5840190100_1681212000.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3971124.html"
     },
 	{
 		"vendor": "Mirabella",
