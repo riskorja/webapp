@@ -5638,6 +5638,33 @@
 		"command": "",
 		"image": "https://obrazki.elektroda.pl/5709759800_1681245233.png",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3971239.html"
+	},
+	{
+		"vendor": "Arlec",
+		"bDetailed": "0",
+		"name": "PB88UHA Smart Connect Outlet Power Strip 4x with USB and USB C",
+		"model": "PB88UHA",
+		"chip": "BK7231T",
+		"board": "WB2S",
+		"flags": "0",
+		"keywords": [
+			"USB",
+			"4 gang",
+			"strip",
+			"bunnings"
+		],
+		  "pins": {
+			"6": "Rel;3",
+			"7": "Rel;2",
+			"8": "Rel;1",
+			"10": "Btn;0",
+			"11": "WifiLED_n;0",
+			"24": "Rel;4"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/8066823700_1681273160.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3971266.html",
+		"product": "https://www.bunnings.com.au/arlec-grid-connect-smart-4-outlet-powerboard-with-usb-charger_p0074829"
 	}
   ]
 }
