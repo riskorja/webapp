@@ -5626,7 +5626,8 @@
 		"keywords": [
 			"Curtain module",
 			"2 gang",
-			"switch"
+			"switch",
+			"DL-0602S"
 		],
 		"pins": {
 		"7": "Btn;1",
@@ -5637,7 +5638,8 @@
 		},
 		"command": "",
 		"image": "https://obrazki.elektroda.pl/5709759800_1681245233.png",
-		"wiki": "https://www.elektroda.com/rtvforum/topic3971239.html"
+		"wiki": "https://www.elektroda.com/rtvforum/topic3971239.html",
+		"product":"https://www.tomtop.com/p-s6563-6.html"
 	},
 	{
 		"vendor": "Arlec",
@@ -5686,6 +5688,45 @@
 		"command": "",
 		"image": "https://obrazki.elektroda.pl/2853109500_1681248512.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
+	},
+	{
+		"vendor": "eWeLink",
+		"bDetailed": "0",
+		"name": "Smart Switch Remote Control No Neutral Wire 220V 1 gang",
+		"model": "",
+		"chip": "SDV-002_V1.2",
+		"board": "BL602",
+		"flags": "0",
+		"keywords": [
+			"Bouffalo lab"
+		],
+		  "pins": {
+
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/2853109500_1681248512.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
+	},
+	{
+		"vendor": "eWeLink",
+		"bDetailed": "0",
+		"name": "EARU ELECTRIC WiFi DIN Mount Circuit Breaker",
+		"model": "",
+		"chip": "PFS-B",
+		"board": "ESP8285",
+		"flags": "0",
+		"keywords": [
+			"SC92F7351",
+			"CSE7759",
+			"ESP8285",
+			"DIN"
+		],
+		  "pins": {
+
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/2041437300_1680860410.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3970248.html"
 	}
   ]
 }
