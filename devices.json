@@ -5665,6 +5665,27 @@
 		"image": "https://obrazki.elektroda.pl/8066823700_1681273160.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3971266.html",
 		"product": "https://www.bunnings.com.au/arlec-grid-connect-smart-4-outlet-powerboard-with-usb-charger_p0074829"
+	},
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Display for Temperature/Pressure/Humidity, USB powered, 5V",
+		"model": "",
+		"chip": "BK7231N",
+		"board": "CBU",
+		"flags": "0",
+		"keywords": [
+			"CHT8305",
+			"GN6932",
+			"7-segment",
+			"5V"
+		],
+		  "pins": {
+
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/2853109500_1681248512.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
 	}
   ]
 }
