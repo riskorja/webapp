@@ -2237,19 +2237,47 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3931868.html"
     },
     {
-      "vendor": "CasaLife",
+      "vendor": "CasaLife (Aldi)",
       "bDetailed": "1",
       "name": "CCT LED Downlight",
       "model": "SMART-AL2017-TGTS",
       "chip": "BK7231T",
       "board": "WB2L",
+      "flags": "256",
+      "keywords": [
+        "CCT",
+        "LED",
+        "DOWNLIGHT"
+      ],
       "pins": {
-        "7": "PWM;0",
+        "7": "PWM_n;0",
         "8": "PWM;1"
       },
       "image": "https://obrazki.elektroda.pl/4181235400_1659263189.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20123466#20123466",
-      "flag": 3
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20123466#20123466"
+    },
+    {
+      "vendor": "CasaLife (Aldi)",
+      "bDetailed": "1",
+      "name": "RGB LED Downlight",
+      "model": "SMART-AL2017-RGB-TGTS",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "256",
+      "keywords": [
+        "RGBCW",
+        "LED",
+        "DOWNLIGHT"
+      ],
+      "pins": {
+        "6": "PWM;2",
+        "7": "PWM_n;3",
+        "8": "PWM;4",
+        "24": "PWM;1",
+        "26": "PWM;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5840190100_1681212000.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3971124.html"
     },
 	{
 		"vendor": "Mirabella",
@@ -5611,8 +5639,8 @@
 		"26": "Rel;2"
 		},
 		"command": "backlog startDriver CSE7766; SetupEnergyStats 1 30 120 0",
-		"image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
-		"wiki": "https://obrazki.elektroda.pl/4099372500_1680966189.png",
+		"image": "https://obrazki.elektroda.pl/4099372500_1680966189.png",
+		"wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20092981#20092981",
 		"product": "https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780"
 	},
 	{
@@ -5750,6 +5778,29 @@
 		  "command": "",
 		  "image": "https://obrazki.elektroda.pl/7622004500_1681456492.jpg",
 		  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20538893#20538893"
-		}
+		},
+	{
+	  "vendor": "Tuya UNSH",
+	  "bDetailed": "0",
+	  "name": "Mini Smart Switch",
+	  "model": "SS8839-16A-W",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "flags": "1024",
+	  "keywords": [
+	    "switch",
+	    "relay",
+	    "2-way"
+	  ],
+	  "pins": {
+	    "6": "TglChanOnTgl;0",
+	    "7": "Rel;0",
+	    "23": "Btn;0",
+	    "26": "LED;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7693204100_1681383448.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20524167"
+	}  
   ]
 }
